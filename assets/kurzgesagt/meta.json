@@ -1,0 +1,28 @@
+{
+ "slug": "kurzgesagt",
+ "name": "Kurzgesagt",
+ "family": "artem-animation-skills",
+ "description": "Kurzgesagt style flat-vector space explainer: deep navy-purple space with twinkling stars, flat planets lit from one side with a dark crescent and a soft glow, bright rounded label tags and a white caption low in the frame. The built-in scene stacks all seven planets, to scale, between Earth and the Moon at its farthest.",
+ "best_use_cases": [
+  "Space and scale explainers",
+  "Science facts with a payoff",
+  "To-scale comparisons"
+ ],
+ "style": "Flat-vector space",
+ "voice": "Kokoro af_heart",
+ "orientation": "portrait",
+ "stills": [
+  "assets/kurzgesagt/still-1.jpg",
+  "assets/kurzgesagt/still-2.jpg",
+  "assets/kurzgesagt/still-3.jpg",
+  "assets/kurzgesagt/still-4.jpg",
+  "assets/kurzgesagt/still-5.jpg",
+  "assets/kurzgesagt/still-6.jpg"
+ ],
+ "video": "assets/kurzgesagt/demo.mp4",
+ "duration_s": 10.0,
+ "resolution": "1080x1920",
+ "fps": 30,
+ "video_bytes": 1647145,
+ "stills_bytes": 539298
+}

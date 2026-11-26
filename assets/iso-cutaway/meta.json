@@ -1,0 +1,28 @@
+{
+  "slug": "iso-cutaway",
+  "name": "Iso Cutaway",
+  "family": "nafay-style-library",
+  "description": "An isometric cutaway building in Three.js with an orthographic camera: floors like a doll house, warm wall colours, tiny people, and a sky that goes from night blue to morning warm as a clock chip runs.",
+  "best_use_cases": [
+    "A day in one place, floor by floor",
+    "How a building works inside",
+    "Time passing in a single location"
+  ],
+  "style": "3D",
+  "voice": "Kokoro af_heart",
+  "orientation": "portrait",
+  "stills": [
+    "assets/iso-cutaway/still-1.jpg",
+    "assets/iso-cutaway/still-2.jpg",
+    "assets/iso-cutaway/still-3.jpg",
+    "assets/iso-cutaway/still-4.jpg",
+    "assets/iso-cutaway/still-5.jpg",
+    "assets/iso-cutaway/still-6.jpg"
+  ],
+  "video": "assets/iso-cutaway/demo.mp4",
+  "duration_s": 15.0,
+  "resolution": "720x1280",
+  "fps": 24.0,
+  "video_bytes": 4112978,
+  "stills_bytes": 374749
+}

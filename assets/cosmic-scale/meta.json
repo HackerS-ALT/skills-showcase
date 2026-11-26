@@ -1,0 +1,28 @@
+{
+ "slug": "cosmic-scale",
+ "name": "Cosmic Scale",
+ "family": "3D",
+ "description": "Planets and stars at their true relative sizes in a deep starfield, built in Three.js with textures painted in code, and a camera that pulls back in big log-scale moves to reveal the scale.",
+ "best_use_cases": [
+  "Scale comparisons",
+  "Space and astronomy explainers",
+  "Showing how big things really are"
+ ],
+ "style": "3D in Three.js: every body uses its true radius relative to the others, surfaces painted in code, the camera moves on a log scale so each pull-back feels like the same size of jump, with thin labels carrying the real size.",
+ "voice": "Kokoro af_heart",
+ "orientation": "portrait",
+ "stills": [
+  "assets/cosmic-scale/still-1.jpg",
+  "assets/cosmic-scale/still-2.jpg",
+  "assets/cosmic-scale/still-3.jpg",
+  "assets/cosmic-scale/still-4.jpg",
+  "assets/cosmic-scale/still-5.jpg",
+  "assets/cosmic-scale/still-6.jpg"
+ ],
+ "video": "assets/cosmic-scale/demo.mp4",
+ "duration_s": 15.0,
+ "resolution": "720x1280",
+ "fps": 30,
+ "video_bytes": 3997656,
+ "stills_bytes": 499286
+}

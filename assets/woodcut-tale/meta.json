@@ -1,0 +1,28 @@
+{
+ "slug": "woodcut-tale",
+ "name": "Woodcut Tale",
+ "family": "nafay-style-library",
+ "description": "A two-colour woodcut print come to life: cream paper, bold black ink shapes with white carved hatching inside them, a red second colour slightly out of register, ink speckle and paper grain, with old-style serif captions in a carved border.",
+ "best_use_cases": [
+  "Fables and folk tales",
+  "Public-domain stories with a moral",
+  "Slow-and-steady parables"
+ ],
+ "style": "Two inks only (black #1a1410, red #b8322a) on cream paper, red layer 3 px out of register, carved hatching inside every inked shape, stiff 8 fps flipbook motion with a tiny jitter, paper-wipe scene changes, IM Fell English captions in a carved double-line border, the moral printed in red small caps.",
+ "voice": "Kokoro af_heart",
+ "orientation": "portrait",
+ "stills": [
+  "assets/woodcut-tale/still-1.jpg",
+  "assets/woodcut-tale/still-2.jpg",
+  "assets/woodcut-tale/still-3.jpg",
+  "assets/woodcut-tale/still-4.jpg",
+  "assets/woodcut-tale/still-5.jpg",
+  "assets/woodcut-tale/still-6.jpg"
+ ],
+ "video": "assets/woodcut-tale/demo.mp4",
+ "duration_s": 15.0,
+ "resolution": "720x1280",
+ "fps": 30,
+ "video_bytes": 17331384,
+ "stills_bytes": 1244193
+}

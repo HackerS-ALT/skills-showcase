@@ -1,0 +1,28 @@
+{
+  "slug": "market-tape",
+  "name": "Market Tape",
+  "family": "Data",
+  "description": "A trading-screen explainer on near-black: a scrolling ticker strip of invented symbols, candlesticks that print one by one with a price tag riding the last close, green and red numbers, and a red flash when it breaks.",
+  "best_use_cases": [
+    "Explaining market moves and crashes (example data, education only)",
+    "Candlestick and price-action explainers",
+    "Why-it-happened loop diagrams"
+  ],
+  "style": "Near-black trading screen; Archivo Black headlines, JetBrains Mono prices; green up, red down; invented tickers only, education-not-advice note on screen.",
+  "voice": "Kokoro af_heart",
+  "orientation": "portrait",
+  "stills": [
+    "assets/market-tape/still-1.jpg",
+    "assets/market-tape/still-2.jpg",
+    "assets/market-tape/still-3.jpg",
+    "assets/market-tape/still-4.jpg",
+    "assets/market-tape/still-5.jpg",
+    "assets/market-tape/still-6.jpg"
+  ],
+  "video": "assets/market-tape/demo.mp4",
+  "duration_s": 14.0,
+  "resolution": "720x1280",
+  "fps": 24,
+  "video_bytes": 1541933,
+  "stills_bytes": 375034
+}

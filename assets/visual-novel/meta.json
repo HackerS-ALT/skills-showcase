@@ -1,0 +1,28 @@
+{
+ "slug": "visual-novel",
+ "name": "Visual Novel",
+ "family": "nafay-style-library",
+ "description": "A visual-novel scene: a soft, blurred painted background, a large original anime-style character bust drawn in code with big glossy eyes, swapping expressions, and a translucent dialogue box with a name tag and typewriter text.",
+ "best_use_cases": [
+  "Dialogue-driven stories",
+  "Character reactions and expressions",
+  "Choice-based endings"
+ ],
+ "style": "Original code-drawn anime bust (layered hair with shine, big eyes with highlights, blush) on a soft blurred painted background; dark translucent dialogue box with pink border and name tag, text typed at ~28 characters a second, expression effects (sweat, sparkles, shock lines), ending on a two-option choice menu. M PLUS Rounded 1c throughout.",
+ "voice": "Kokoro af_heart",
+ "orientation": "portrait",
+ "stills": [
+  "assets/visual-novel/still-1.jpg",
+  "assets/visual-novel/still-2.jpg",
+  "assets/visual-novel/still-3.jpg",
+  "assets/visual-novel/still-4.jpg",
+  "assets/visual-novel/still-5.jpg",
+  "assets/visual-novel/still-6.jpg"
+ ],
+ "video": "assets/visual-novel/demo.mp4",
+ "duration_s": 14.0,
+ "resolution": "720x1280",
+ "fps": 30,
+ "video_bytes": 928778,
+ "stills_bytes": 380586
+}

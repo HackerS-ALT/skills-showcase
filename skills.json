@@ -1,11 +1,12 @@
 {
   "count": 86,
-  "done": 18,
+  "done": 25,
   "skills": [
     {
       "slug": "bio-glow",
       "name": "bio-glow",
       "family": "nafay-style-library",
+      "family_key": "nafay-style-library",
       "status": "text",
       "description": "Inside the body, built in Three.js: glossy red cells drift down a glowing red vessel toward the camera, with fog for depth, a warm bloom, and clean white labels on thin leader lines. The camera travels down the vessel the whole time while one hero cell gets a label and a big glowing counter climbs.",
       "best_use_cases": [
@@ -45,12 +46,14 @@
       "fps": 30,
       "video_bytes": 1555202,
       "stills_bytes": 1095157,
-      "status": "done"
+      "status": "done",
+      "family_key": "nafay-style-library"
     },
     {
       "slug": "breakdown",
       "name": "breakdown",
       "family": "artem-animation-skills",
+      "family_key": "artem-animation-skills",
       "status": "text",
       "description": "A 3D exploded-view animation for a reel: a phone floats on a dark studio backdrop and comes apart layer by layer, glass, screen, frame, board, battery and back, with each part getting a thin leader line and a label. Use for an exploded view, a what-is-inside teardown or a labelled 3D breakdown of a device.",
       "best_use_cases": [
@@ -67,6 +70,7 @@
       "slug": "breaking-desk",
       "name": "breaking-desk",
       "family": "nafay-style-library",
+      "family_key": "nafay-style-library",
       "status": "text",
       "description": "An invented news-desk package over your footage: a LIVE bug with a channel name, a red BREAKING tab, a white headline bar that types itself, a scrolling ticker, a map inset with a pulsing dot, and a clock. The headline types out with a flash and a second headline swaps in with a wipe for the follow-up.",
       "best_use_cases": [
@@ -83,6 +87,7 @@
       "slug": "callout-kit",
       "name": "callout-kit",
       "family": "nafay-style-library",
+      "family_key": "nafay-style-library",
       "status": "text",
       "description": "Hand-drawn annotation tools over your footage: red marker circles that draw themselves, arrows with marker labels, a magnifier box that zooms into a detail with connector lines, a pixelate blur for anything private, and a pulsing spotlight. Each callout draws itself on the beat and clears before the next one.",
       "best_use_cases": [
@@ -99,6 +104,7 @@
       "slug": "cartoon-audio-short",
       "name": "cartoon-audio-short",
       "family": "cartoon-audio-short",
+      "family_key": "cartoon-audio-short",
       "status": "text",
       "description": "Flat 2D bean-head cartoon characters with plum outlines in a colourful 3D world with black ink outlines, painted textures, depth-of-field and gliding cameras. The output is a vertical 1080x1920 cartoon short at 30 fps, exactly as long as the voiceover, with music and SFX at half the voice level.",
       "best_use_cases": [
@@ -115,6 +121,7 @@
       "slug": "chalk-talk",
       "name": "chalk-talk",
       "family": "nafay-style-library",
+      "family_key": "nafay-style-library",
       "status": "text",
       "description": "A teacher at a long green slate: grainy chalk strokes that skip over the board's tooth, colored chalk for emphasis, dust falling from the stick as it writes, faint ghosts of old lessons, a wooden frame and a dusty chalk tray. One continuous lesson along the board, with the camera tracking to the next stretch of slate.",
       "best_use_cases": [
@@ -131,6 +138,7 @@
       "slug": "chat-story",
       "name": "chat-story",
       "family": "nafay-style-library",
+      "family_key": "nafay-style-library",
       "status": "text",
       "description": "A story told through an invented messaging app: a clean header with a gradient avatar and an online dot, teal bubbles for me and white bubbles for them, typing dots before every reply, timestamps, read receipts, and a fictional-story tag. Messages pop in one by one and the thread scrolls up as it fills.",
       "best_use_cases": [
@@ -147,6 +155,7 @@
       "slug": "clay-diorama",
       "name": "clay-diorama",
       "family": "nafay-style-library",
+      "family_key": "nafay-style-library",
       "status": "text",
       "description": "A soft clay miniature world on a round base, built in Three.js: chunky rounded shapes, warm studio light, a slow orbiting camera and a tilt-shift blur, with cream cards explaining each beat. The diorama pops up piece by piece, then the camera orbits while the idea plays out on the little world.",
       "best_use_cases": [
@@ -163,6 +172,7 @@
       "slug": "clean-tech",
       "name": "clean-tech",
       "family": "ai-video-editor",
+      "family_key": "ai-video-editor",
       "status": "text",
       "description": "A calm, bright product-explainer look: cool off-white with a drifting dot grid, crisp words that rise into place, white UI cards with soft shadows, one electric blue accent and mono labels. Short statements rise word by word and ideas become small working diagrams.",
       "best_use_cases": [
@@ -202,28 +212,44 @@
       "fps": 30,
       "video_bytes": 2727240,
       "stills_bytes": 1196773,
-      "status": "done"
+      "status": "done",
+      "family_key": "nafay-style-library"
     },
     {
       "slug": "cosmic-scale",
-      "name": "cosmic-scale",
-      "family": "nafay-style-library",
-      "status": "text",
-      "description": "Planets and stars at their true relative sizes in a deep starfield, built in Three.js with textures painted in code, and a camera that pulls back in big log-scale moves to reveal the scale. It starts close on something familiar, then each beat the camera pulls back by a power of ten.",
+      "name": "Cosmic Scale",
+      "family": "3D",
+      "description": "Planets and stars at their true relative sizes in a deep starfield, built in Three.js with textures painted in code, and a camera that pulls back in big log-scale moves to reveal the scale.",
       "best_use_cases": [
-        "Showing the true scale of planets and stars",
-        "Space size comparisons",
-        "Log-scale zoom-out explainers"
+        "Scale comparisons",
+        "Space and astronomy explainers",
+        "Showing how big things really are"
       ],
-      "style": "Nafay, 3D \u2014 planets at true relative size in a deep starfield, log-scale pull-backs",
+      "style": "3D in Three.js: every body uses its true radius relative to the others, surfaces painted in code, the camera moves on a log scale so each pull-back feels like the same size of jump, with thin labels carrying the real size.",
       "voice": "Kokoro af_heart",
-      "stills": [],
-      "video": ""
+      "orientation": "portrait",
+      "stills": [
+        "assets/cosmic-scale/still-1.jpg",
+        "assets/cosmic-scale/still-2.jpg",
+        "assets/cosmic-scale/still-3.jpg",
+        "assets/cosmic-scale/still-4.jpg",
+        "assets/cosmic-scale/still-5.jpg",
+        "assets/cosmic-scale/still-6.jpg"
+      ],
+      "video": "assets/cosmic-scale/demo.mp4",
+      "duration_s": 15.0,
+      "resolution": "720x1280",
+      "fps": 30,
+      "video_bytes": 3997656,
+      "stills_bytes": 499286,
+      "status": "done",
+      "family_key": "nafay-style-library"
     },
     {
       "slug": "creator-motion-graphics",
       "name": "creator-motion-graphics",
       "family": "nafay-style-library",
+      "family_key": "nafay-style-library",
       "status": "text",
       "description": "The high-energy business-creator edit: huge condensed caps slamming in word by word, a yellow serif accent on the one word that matters, highlighter swipes, hand-drawn circles and arrows, tilted browser and phone mockups, rolling green counters, film grain and light leaks on near-black. Every idea gets its own beat.",
       "best_use_cases": [
@@ -240,6 +266,7 @@
       "slug": "crosshatch",
       "name": "crosshatch",
       "family": "cth-animate",
+      "family_key": "cth-animate",
       "status": "text",
       "description": "A sketchy ink line that boils on 2s, with crosshatch and coloured-pencil shading clipped inside shapes, stipple and paper grain. Warm cream paper and wood by day, and navy inside-the-computer worlds with periwinkle lines and glowing accents.",
       "best_use_cases": [
@@ -256,6 +283,7 @@
       "slug": "cut-paper",
       "name": "cut-paper",
       "family": "cth-animate",
+      "family_key": "cth-animate",
       "status": "text",
       "description": "Torn-edge paper shapes with soft drop shadows, paper grain and crayon in the fills, patterns like stripes, dots and gingham, full-bleed colour worlds and characters with simple faces. Collage-style animation that is playful, warm and busy with small life.",
       "best_use_cases": [
@@ -272,6 +300,7 @@
       "slug": "dan-koe",
       "name": "dan-koe",
       "family": "artem-animation-skills",
+      "family_key": "artem-animation-skills",
       "status": "text",
       "description": "Dan Koe style minimal black-and-white line art for a reel: one white dot on pure black grows into a hairline tree that splits in two at every step, the tips light up, a pulse ring and sparks go off, and one quiet lowercase line swaps to a second. Use for calm black-and-white motion graphics about choices, habits or compounding.",
       "best_use_cases": [
@@ -288,6 +317,7 @@
       "slug": "data-city",
       "name": "data-city",
       "family": "nafay-style-library",
+      "family_key": "nafay-style-library",
       "status": "text",
       "description": "A 3D bar chart that grows like a city skyline at night, built in Three.js: navy towers with lit windows, glowing cyan-to-magenta roofs, a grid floor fading into fog, and values floating above each tower. Towers rise one by one with their values counting up while the camera slowly circles the skyline.",
       "best_use_cases": [
@@ -304,6 +334,7 @@
       "slug": "data-story",
       "name": "data-story",
       "family": "nafay-style-library",
+      "family_key": "nafay-style-library",
       "status": "text",
       "description": "A calm, editorial data explainer: deep ink background, one warm accent per idea in coral, teal or sand, Archivo headlines, IBM Plex Mono numbers and labels, charts that draw themselves to scale, and the source always on screen. Numbers count up, then shrink into a label as the chart arrives.",
       "best_use_cases": [
@@ -343,12 +374,14 @@
       "fps": 20,
       "video_bytes": 7626984,
       "stills_bytes": 359124,
-      "status": "done"
+      "status": "done",
+      "family_key": "nafay-style-library"
     },
     {
       "slug": "deep-dive",
       "name": "deep-dive",
       "family": "faceless-shorts",
+      "family_key": "faceless-shorts",
       "status": "text",
       "description": "Real stylized 3D explainers rendered in three.js: sculpted people in warm sunlit sets, glowing x-ray cutaways and camera journeys through blood vessels, with shallow focus and a camera that never stops moving. Curious, shocking and satisfying.",
       "best_use_cases": [
@@ -388,12 +421,14 @@
       "fps": 20,
       "video_bytes": 9100011,
       "stills_bytes": 362379,
-      "status": "done"
+      "status": "done",
+      "family_key": "nafay-style-library"
     },
     {
       "slug": "evidence-board",
       "name": "evidence-board",
       "family": "nafay-style-library",
+      "family_key": "nafay-style-library",
       "status": "text",
       "description": "A detective corkboard: speckled cork, polaroids with sketched clues, typed index cards, yellow sticky notes, red push pins and red string, with a case-file label taped at the top and a rubber stamp for the verdict. The camera moves across the board clue by clue as red string draws itself from pin to pin.",
       "best_use_cases": [
@@ -410,6 +445,7 @@
       "slug": "exploded-view",
       "name": "exploded-view",
       "family": "nafay-style-library",
+      "family_key": "nafay-style-library",
       "status": "text",
       "description": "A clean studio teardown in Three.js: an object turns slowly on a light grey floor and floats apart into its layers, each part tagged with a numbered mono label on a thin leader line. The closed object turns once, then its layers lift apart one at a time, each named as it moves.",
       "best_use_cases": [
@@ -426,6 +462,7 @@
       "slug": "glass-icons",
       "name": "glass-icons",
       "family": "nafay-style-library",
+      "family_key": "nafay-style-library",
       "status": "text",
       "description": "Glossy translucent 3D app icons in Three.js, floating on a soft mint, sky and peach gradient, each with a white symbol on its face, frosted labels and a crisp black headline. The icons float in from depth into a loose stack, then one at a time an icon swings forward to the centre.",
       "best_use_cases": [
@@ -442,6 +479,7 @@
       "slug": "glitch-pack",
       "name": "glitch-pack",
       "family": "nafay-style-library",
+      "family_key": "nafay-style-library",
       "status": "text",
       "description": "A digital-glitch toolkit: RGB-split titles in Anton, horizontal slice displacement, block noise in red and cyan, scanlines, a SYSTEM REBOOT terminal tag and glitch transitions that tear your footage apart and put it back together. The intro title glitches on and resolves crisp.",
       "best_use_cases": [
@@ -458,6 +496,7 @@
       "slug": "globe-arcs",
       "name": "globe-arcs",
       "family": "nafay-style-library",
+      "family_key": "nafay-style-library",
       "status": "text",
       "description": "A dark navy globe made of glowing cyan dots in Three.js, turning slowly in a starfield, with warm amber route arcs that draw themselves between pins and a soft blue atmosphere glow. The globe turns into view, a pin drops at the start, then each route arcs up off the surface and lands on its destination.",
       "best_use_cases": [
@@ -474,6 +513,7 @@
       "slug": "graph",
       "name": "graph",
       "family": "artem-animation-skills",
+      "family_key": "artem-animation-skills",
       "status": "text",
       "description": "A minimal line-graph animation for a reel: a smooth black line draws itself on white, or white on black, while one big number counts up with the tip, then lands on the final value. Use for a growth chart, a 0 to 100K number animation or an animated stat.",
       "best_use_cases": [
@@ -513,12 +553,14 @@
       "fps": 24.0,
       "video_bytes": 1198833,
       "stills_bytes": 312564,
-      "status": "done"
+      "status": "done",
+      "family_key": "nafay-style-library"
     },
     {
       "slug": "inside-out",
       "name": "inside-out",
       "family": "faceless-shorts",
+      "family_key": "faceless-shorts",
       "status": "text",
       "description": "A simple flat hero with x-ray cutaways into the body, organs and props as clean vector shapes, bold 1-3 word captions with one yellow word, and a cut every 1-3 seconds with the camera always moving. Curious, slightly shocking and satisfying.",
       "best_use_cases": [
@@ -533,35 +575,63 @@
     },
     {
       "slug": "iso-cutaway",
-      "name": "iso-cutaway",
+      "name": "Iso Cutaway",
       "family": "nafay-style-library",
-      "status": "text",
-      "description": "An isometric cutaway building in Three.js with an orthographic camera: floors like a doll house, warm wall colours, tiny people, and a sky that goes from night blue to morning warm as a clock chip runs. A clock chip ticks through the day while each floor lights up in turn.",
+      "description": "An isometric cutaway building in Three.js with an orthographic camera: floors like a doll house, warm wall colours, tiny people, and a sky that goes from night blue to morning warm as a clock chip runs.",
       "best_use_cases": [
-        "A day in a building, floor by floor",
-        "Showing what happens on each level of a place",
-        "Time-passing doll-house explainers"
+        "A day in one place, floor by floor",
+        "How a building works inside",
+        "Time passing in a single location"
       ],
-      "style": "Nafay, 3D \u2014 isometric cutaway building, doll-house floors, day-to-night sky",
+      "style": "3D",
       "voice": "Kokoro af_heart",
-      "stills": [],
-      "video": ""
+      "orientation": "portrait",
+      "stills": [
+        "assets/iso-cutaway/still-1.jpg",
+        "assets/iso-cutaway/still-2.jpg",
+        "assets/iso-cutaway/still-3.jpg",
+        "assets/iso-cutaway/still-4.jpg",
+        "assets/iso-cutaway/still-5.jpg",
+        "assets/iso-cutaway/still-6.jpg"
+      ],
+      "video": "assets/iso-cutaway/demo.mp4",
+      "duration_s": 15.0,
+      "resolution": "720x1280",
+      "fps": 24.0,
+      "video_bytes": 4112978,
+      "stills_bytes": 374749,
+      "status": "done",
+      "family_key": "nafay-style-library"
     },
     {
       "slug": "isometric",
-      "name": "isometric",
+      "name": "Isometric",
       "family": "cth-animate",
-      "status": "text",
-      "description": "Calm, precise product illustration: objects in 2:1 dimetric isometric on a white ground, drawn only with constant hairlines. Grey silhouettes and edges, lighter inner lines, white-filled faces, rounded slabs with visible thickness and one tiny dark accent per frame.",
+      "description": "Calm, precise product illustration: objects in 2:1 dimetric isometric on a white ground, drawn only with constant hairlines. Grey silhouettes and edges, lighter inner and receding lines, faces filled white so nearer objects hide farther lines.",
       "best_use_cases": [
-        "Product and object explainers",
-        "Precise technical illustrations of devices and parts",
-        "Calm, minimal showcase visuals"
+        "Product explainers",
+        "How things are built",
+        "Tech illustrations with one dark accent"
       ],
-      "style": "cth-animate \u2014 isometric line art, constant hairlines on white, one tiny dark accent",
+      "style": "Isometric line art",
       "voice": "Kokoro af_heart",
-      "stills": [],
-      "video": ""
+      "orientation": "portrait",
+      "stills": [
+        "assets/isometric/still-1.jpg",
+        "assets/isometric/still-2.jpg",
+        "assets/isometric/still-3.jpg",
+        "assets/isometric/still-4.jpg",
+        "assets/isometric/still-5.jpg",
+        "assets/isometric/still-6.jpg"
+      ],
+      "video": "assets/isometric/demo.mp4",
+      "duration_s": 10.0,
+      "resolution": "1080x1920",
+      "fps": 30.0,
+      "video_bytes": 1568803,
+      "stills_bytes": 567952,
+      "status": "done",
+      "family_key": "cth-animate"
     },
     {
       "slug": "isotype",
@@ -590,7 +660,8 @@
       "fps": 30.0,
       "video_bytes": 723334,
       "stills_bytes": 410008,
-      "status": "done"
+      "status": "done",
+      "family_key": "nafay-style-library"
     },
     {
       "slug": "karaoke-subs",
@@ -619,28 +690,44 @@
       "fps": 24.0,
       "video_bytes": 593501,
       "stills_bytes": 222974,
-      "status": "done"
+      "status": "done",
+      "family_key": "nafay-style-library"
     },
     {
       "slug": "kurzgesagt",
-      "name": "kurzgesagt",
+      "name": "Kurzgesagt",
       "family": "artem-animation-skills",
-      "status": "text",
-      "description": "A Kurzgesagt style flat-vector space explainer shot: deep navy-purple space with twinkling stars, flat planets lit from one side with a dark crescent and a soft glow, bright rounded label tags and a white caption low in the frame. The built-in scene stacks all seven planets, to scale, between Earth and the Moon at its farthest.",
+      "description": "Kurzgesagt style flat-vector space explainer: deep navy-purple space with twinkling stars, flat planets lit from one side with a dark crescent and a soft glow, bright rounded label tags and a white caption low in the frame. The built-in scene stacks all seven planets, to scale, between Earth and the Moon at its farthest.",
       "best_use_cases": [
-        "Flat-vector space and science explainers",
-        "Planets-to-scale visuals",
-        "Kurzgesagt-style science shots"
+        "Space and scale explainers",
+        "Science facts with a payoff",
+        "To-scale comparisons"
       ],
-      "style": "Artem \u2014 Kurzgesagt flat vector, navy-purple space, flat planets with glow and label tags",
+      "style": "Flat-vector space",
       "voice": "Kokoro af_heart",
-      "stills": [],
-      "video": ""
+      "orientation": "portrait",
+      "stills": [
+        "assets/kurzgesagt/still-1.jpg",
+        "assets/kurzgesagt/still-2.jpg",
+        "assets/kurzgesagt/still-3.jpg",
+        "assets/kurzgesagt/still-4.jpg",
+        "assets/kurzgesagt/still-5.jpg",
+        "assets/kurzgesagt/still-6.jpg"
+      ],
+      "video": "assets/kurzgesagt/demo.mp4",
+      "duration_s": 10.0,
+      "resolution": "1080x1920",
+      "fps": 30,
+      "video_bytes": 1647145,
+      "stills_bytes": 539298,
+      "status": "done",
+      "family_key": "artem-animation-skills"
     },
     {
       "slug": "low-poly",
       "name": "low-poly",
       "family": "artem-animation-skills",
+      "family_key": "artem-animation-skills",
       "status": "text",
       "description": "A PS1 and N64-era low-poly 3D animation in the style of low poly shorts: chunky low-resolution pixels, wobbly vertices, dithering, flat warm lighting and small yellow captions with a thin black outline. The built-in scene is a train platform where a dog sits and waits as a train brakes in and pulls away.",
       "best_use_cases": [
@@ -657,6 +744,7 @@
       "slug": "low-poly-atlas",
       "name": "low-poly-atlas",
       "family": "nafay-style-library",
+      "family_key": "nafay-style-library",
       "status": "text",
       "description": "Faceted low-poly terrain in warm sunset light, built in Three.js: flat-shaded hills, sand coasts and blue water, with roads, routes and campaign arrows drawing themselves across the land. The camera drifts over the land while a route draws itself from a city and a red campaign arrow marches along it.",
       "best_use_cases": [
@@ -696,12 +784,14 @@
       "fps": 24,
       "video_bytes": 735343,
       "stills_bytes": 240432,
-      "status": "done"
+      "status": "done",
+      "family_key": "nafay-style-library"
     },
     {
       "slug": "map-route",
       "name": "map-route",
       "family": "artem-animation-skills",
+      "family_key": "artem-animation-skills",
       "status": "text",
       "description": "A 3D map animation for a reel: a clean white city with parks and a river, a coloured route that draws itself from start to destination while the camera follows, a red pin that drops with a bounce, an ETA card that counts down and a destination card. Use for an animated route, a from-A-to-B map, a journey or a commute.",
       "best_use_cases": [
@@ -741,28 +831,44 @@
       "fps": 24,
       "video_bytes": 661195,
       "stills_bytes": 375115,
-      "status": "done"
+      "status": "done",
+      "family_key": "nafay-style-library"
     },
     {
       "slug": "market-tape",
-      "name": "market-tape",
-      "family": "nafay-style-library",
-      "status": "text",
-      "description": "A trading-screen explainer on near-black: a scrolling ticker strip of invented symbols, candlesticks that print one by one with a price tag riding the last close, green and red numbers, and a red flash when it breaks. Candles print one by one in an uptrend while the price tag climbs, then the trend breaks.",
+      "name": "Market Tape",
+      "family": "Data",
+      "description": "A trading-screen explainer on near-black: a scrolling ticker strip of invented symbols, candlesticks that print one by one with a price tag riding the last close, green and red numbers, and a red flash when it breaks.",
       "best_use_cases": [
-        "Explaining a market rise and crash",
-        "Trading-screen style data stories",
-        "Finance explainers with candlesticks and tickers"
+        "Explaining market moves and crashes (example data, education only)",
+        "Candlestick and price-action explainers",
+        "Why-it-happened loop diagrams"
       ],
-      "style": "Nafay, Data \u2014 near-black trading screen, ticker strip, printing candlesticks",
+      "style": "Near-black trading screen; Archivo Black headlines, JetBrains Mono prices; green up, red down; invented tickers only, education-not-advice note on screen.",
       "voice": "Kokoro af_heart",
-      "stills": [],
-      "video": ""
+      "orientation": "portrait",
+      "stills": [
+        "assets/market-tape/still-1.jpg",
+        "assets/market-tape/still-2.jpg",
+        "assets/market-tape/still-3.jpg",
+        "assets/market-tape/still-4.jpg",
+        "assets/market-tape/still-5.jpg",
+        "assets/market-tape/still-6.jpg"
+      ],
+      "video": "assets/market-tape/demo.mp4",
+      "duration_s": 14.0,
+      "resolution": "720x1280",
+      "fps": 24,
+      "video_bytes": 1541933,
+      "stills_bytes": 375034,
+      "status": "done",
+      "family_key": "nafay-style-library"
     },
     {
       "slug": "math",
       "name": "math",
       "family": "cth-animate",
+      "family_key": "cth-animate",
       "status": "text",
       "description": "A manim-style math explainer look: coloured math on a near-black stage, with serif type written on, axes and graphs swept-drawn, equations transforming into each other and a tracking dot with a live decimal readout. Clean vector strokes where the colour coding does the work.",
       "best_use_cases": [
@@ -779,6 +885,7 @@
       "slug": "math-canvas",
       "name": "math-canvas",
       "family": "nafay-style-library",
+      "family_key": "nafay-style-library",
       "status": "text",
       "description": "A dark slate for maths: an equation written in an elegant italic serif, a yellow box and handwritten note on the key term, and a graph whose curve plots itself to scale with a glowing dot and a live value, beside a dashed comparison line. The equation writes on term by term.",
       "best_use_cases": [
@@ -795,6 +902,7 @@
       "slug": "minecraft",
       "name": "minecraft",
       "family": "artem-animation-skills",
+      "family_key": "artem-animation-skills",
       "status": "text",
       "description": "A Minecraft-style blocky voxel animation: a cottage builds itself block by block on a grassy hill, about 165 blocks dropping in with a bounce, then the chimney slams in with a puff of dust, the windows light up warm, smoke rises and a big pixel-font word lands. Procedural 16x16 pixel textures, blocky trees and flat blocky clouds, rendered with three.js.",
       "best_use_cases": [
@@ -811,6 +919,7 @@
       "slug": "minimalistic-graphics",
       "name": "minimalistic-graphics",
       "family": "artem-animation-skills",
+      "family_key": "artem-animation-skills",
       "status": "text",
       "description": "A minimal black-and-white line-art animation: thin outlined steps rise one by one, a white dot hops up them, and at the top an orbit draws around it and a short second line swaps in. One quiet lowercase line of text sits on top.",
       "best_use_cases": [
@@ -827,6 +936,7 @@
       "slug": "myth-or-fact",
       "name": "myth-or-fact",
       "family": "nafay-style-library",
+      "family_key": "nafay-style-library",
       "status": "text",
       "description": "A clean debunk Short on pale grey: a white statement card with a big quote mark, then a rubber stamp slams down, red MYTH or green FACT, with distressed ink, followed by one line of proof with a check icon. Each round reads like a game, with a short thinking pause inviting a guess.",
       "best_use_cases": [
@@ -866,12 +976,14 @@
       "fps": 30,
       "video_bytes": 1009034,
       "stills_bytes": 526924,
-      "status": "done"
+      "status": "done",
+      "family_key": "nafay-style-library"
     },
     {
       "slug": "night-file",
       "name": "night-file",
       "family": "faceless-shorts",
+      "family_key": "faceless-shorts",
       "status": "text",
       "description": "Quiet, uneasy, investigative 3D: dark places with one light source, faceless people, witnesses near-black with a thin red rim light and the story subject glowing solid red. Typewriter dates and captions, evidence inserts, film grain and a slow camera.",
       "best_use_cases": [
@@ -911,12 +1023,14 @@
       "fps": 30,
       "video_bytes": 1776602,
       "stills_bytes": 414299,
-      "status": "done"
+      "status": "done",
+      "family_key": "nafay-style-library"
     },
     {
       "slug": "paper-atlas",
       "name": "paper-atlas",
       "family": "faceless-shorts",
+      "family_key": "faceless-shorts",
       "status": "text",
       "description": "History told in cut paper: every shape is cut paper on aged parchment with a light paper edge and soft drop shadow, maps with crimson routes, gold date ribbons, wax seals and simple period figures. Storybook, curious and grand.",
       "best_use_cases": [
@@ -956,12 +1070,14 @@
       "fps": 30,
       "video_bytes": 22291459,
       "stills_bytes": 1232326,
-      "status": "done"
+      "status": "done",
+      "family_key": "nafay-style-library"
     },
     {
       "slug": "physics-toybox",
       "name": "physics-toybox",
       "family": "nafay-style-library",
+      "family_key": "nafay-style-library",
       "status": "text",
       "description": "Bright plastic toys in Three.js on a sunny yellow floor: glossy balls, a white ramp and a curving chain of coloured dominoes that grow in size, with crisp shadows and a slow-motion moment on the key hit. A ball rolls down the ramp and starts a chain reaction you can follow beat by beat.",
       "best_use_cases": [
@@ -978,6 +1094,7 @@
       "slug": "pixel",
       "name": "pixel",
       "family": "cth-animate",
+      "family_key": "cth-animate",
       "status": "text",
       "description": "Pixel art drawn at a low internal resolution with whole-pixel primitives in a limited palette, scaled up nearest-neighbour, with hard square pixels, ordered dithering instead of gradients and a built-in bitmap font. Resolution can tell time: an early era is chunkier than a later one.",
       "best_use_cases": [
@@ -994,6 +1111,7 @@
       "slug": "pixel-quest",
       "name": "pixel-quest",
       "family": "nafay-style-library",
+      "family_key": "nafay-style-library",
       "status": "text",
       "description": "Chunky pixel art drawn on a 180 by 320 grid and scaled up 4x: a side-scrolling level with a little hero, sky bands, pixel clouds, brick platforms and gems, under a retro HUD with hearts, an XP bar and a level number, and a dialog box for every tip. The hero walks through the level while the camera scrolls with them.",
       "best_use_cases": [
@@ -1010,6 +1128,7 @@
       "slug": "podcast-clip",
       "name": "podcast-clip",
       "family": "nafay-style-library",
+      "family_key": "nafay-style-library",
       "status": "text",
       "description": "A vertical podcast clip: two stacked rounded speaker panels on black, host on top and guest below, a green ring on whoever is talking, bold captions in the seam with the key words in yellow, an episode tag and a live waveform at the bottom. Captions appear two to four words at a time in the seam.",
       "best_use_cases": [
@@ -1049,7 +1168,8 @@
       "fps": 30,
       "video_bytes": 3036223,
       "stills_bytes": 667488,
-      "status": "done"
+      "status": "done",
+      "family_key": "nafay-style-library"
     },
     {
       "slug": "product-turntable",
@@ -1078,12 +1198,14 @@
       "fps": 30,
       "video_bytes": 2086662,
       "stills_bytes": 421034,
-      "status": "done"
+      "status": "done",
+      "family_key": "nafay-style-library"
     },
     {
       "slug": "punch-captions",
       "name": "punch-captions",
       "family": "nafay-style-library",
+      "family_key": "nafay-style-library",
       "status": "text",
       "description": "High-retention captions over your talking-head clip: one to three words at a time in huge white Anton with a thick black outline, the key word swapped to yellow and tilted, little sticker pops drawn in code, and punch-in zooms on the hits. Captions follow the speech in tiny chunks, each word slamming in.",
       "best_use_cases": [
@@ -1100,6 +1222,7 @@
       "slug": "quiz-countdown",
       "name": "quiz-countdown",
       "family": "nafay-style-library",
+      "family_key": "nafay-style-library",
       "status": "text",
       "description": "A loud trivia Short on a bright orange striped background: a white question card, four answer pills with letter badges, a white timer ring that drains around a big countdown number, then a green reveal with confetti. The question card pops in, the answers slide in one by one, and the ring drains while the number counts down.",
       "best_use_cases": [
@@ -1116,6 +1239,7 @@
       "slug": "quote-cinema",
       "name": "quote-cinema",
       "family": "nafay-style-library",
+      "family_key": "nafay-style-library",
       "status": "text",
       "description": "A quiet cinematic quote card: deep warm black, a slow drifting light leak, heavy film grain and a slow push-in, with a quote that sets word by word in a large serif, one key word in warm italic, and a tracked author line. The frame breathes as the quote fades up one word at a time.",
       "best_use_cases": [
@@ -1132,6 +1256,7 @@
       "slug": "recipe-steps",
       "name": "recipe-steps",
       "family": "nafay-style-library",
+      "family_key": "nafay-style-library",
       "status": "text",
       "description": "A top-down cooking Short on a warm wooden table: food and tools drawn in code from above, bowl, pan and plate, ingredient chips that drop in, a dark step card with a big step number, and a timer ring that drains for each step. The ingredients drop onto the table first, then each step swaps the scene from above.",
       "best_use_cases": [
@@ -1148,6 +1273,7 @@
       "slug": "riso",
       "name": "riso",
       "family": "cth-animate",
+      "family_key": "cth-animate",
       "status": "text",
       "description": "A three-ink risograph print on cream paper: halftone screens at their own angles, overprints instead of mixed colours, plates a few pixels off register and ink dropouts that sparkle in the darks. Flat, bright and a little worn.",
       "best_use_cases": [
@@ -1164,6 +1290,7 @@
       "slug": "rubber-hose-reel",
       "name": "rubber-hose-reel",
       "family": "nafay-style-library",
+      "family_key": "nafay-style-library",
       "status": "text",
       "description": "A 1930s black-and-white cartoon: an original rubber-hose character with noodle limbs, pie-cut eyes and white gloves bouncing on the beat, on a grey painted set, with film flicker, dust, scratches, a gate weave and art-deco title cards. The whole short bounces to the music.",
       "best_use_cases": [
@@ -1180,6 +1307,7 @@
       "slug": "shadow-puppets",
       "name": "shadow-puppets",
       "family": "nafay-style-library",
+      "family_key": "nafay-style-library",
       "status": "text",
       "description": "A shadow-puppet theatre: jointed black silhouette puppets on visible rods, pressed against a warm backlit paper screen that glows and flickers like a flame, with cut-out scenery, a wooden stage frame and fable lines in an elegant serif. Puppets slide in on their rods and act with simple jointed moves.",
       "best_use_cases": [
@@ -1196,6 +1324,7 @@
       "slug": "size-lineup",
       "name": "size-lineup",
       "family": "nafay-style-library",
+      "family_key": "nafay-style-library",
       "status": "text",
       "description": "Things lined up smallest to biggest on an endless pale floor with a grid, built in Three.js, while the camera glides past and pulls back. Each one gets a dimension line and a dark height tag, and the final pull-back shows the whole lineup with the giant at the end.",
       "best_use_cases": [
@@ -1212,6 +1341,7 @@
       "slug": "sketchbook",
       "name": "sketchbook",
       "family": "cth-animate",
+      "family_key": "cth-animate",
       "status": "text",
       "description": "Graphite and one accent colour on a warm sketchbook page, where every line is drawn by hand and boils on 2s. Things get pencilled in, inked over, then coloured with a quick scribble, and hand lettering on the page does the narrating.",
       "best_use_cases": [
@@ -1228,6 +1358,7 @@
       "slug": "software-walkthrough",
       "name": "software-walkthrough",
       "family": "ai-video-editor",
+      "family_key": "ai-video-editor",
       "status": "text",
       "description": "A polished screen-recording tutorial built entirely in code: an app window on a soft gradient desktop, a real-feeling cursor with click ripples, a camera that zooms into what matters, yellow-edged spotlights and numbered step callouts. It shows the clicks, not just the idea.",
       "best_use_cases": [
@@ -1267,12 +1398,14 @@
       "video": "assets/stack-split/demo.mp4",
       "video_bytes": 1120193,
       "voice": "Kokoro af_heart",
-      "status": "done"
+      "status": "done",
+      "family_key": "nafay-style-library"
     },
     {
       "slug": "stick-figure",
       "name": "stick-figure",
       "family": "artem-animation-skills",
+      "family_key": "artem-animation-skills",
       "status": "text",
       "description": "A code-animated stick-figure explainer reel, 9:16 and 30 to 45 seconds, from a question or topic: a bright cartoon world with thick outlines, stick people with big white heads and faces, constant camera motion, whip transitions, 1 to 2 word captions and cartoon sound effects, all timed to the voiceover word by word.",
       "best_use_cases": [
@@ -1289,6 +1422,7 @@
       "slug": "stick-story",
       "name": "stick-story",
       "family": "faceless-shorts",
+      "family_key": "faceless-shorts",
       "status": "text",
       "description": "Black stick people whose big white eyes do the acting, in flat illustrated rooms in day and night versions, with gold numbered step cards and one picture per clause. Tense, clever and a little funny.",
       "best_use_cases": [
@@ -1305,6 +1439,7 @@
       "slug": "sticker-pop",
       "name": "sticker-pop",
       "family": "nafay-style-library",
+      "family_key": "nafay-style-library",
       "status": "text",
       "description": "A cosy scrapbook layer over your vlog: die-cut stickers with thick white borders, a title pill, stars, hearts and a coffee cup, striped washi tape on the corners and a lined paper note with handwriting, all popping in with a wobble. Stickers slap on in rhythm with what you say.",
       "best_use_cases": [
@@ -1321,6 +1456,7 @@
       "slug": "storybook",
       "name": "storybook",
       "family": "nafay-style-library",
+      "family_key": "nafay-style-library",
       "status": "text",
       "description": "A picture book on cream watercolour paper: soft washes that bloom in layer by layer, thin brown ink lines that draw the character, gold ink stars, and an italic serif storyline that appears word by word, with page-turn transitions. Each page paints itself.",
       "best_use_cases": [
@@ -1360,12 +1496,14 @@
       "fps": 24,
       "video_bytes": 523914,
       "stills_bytes": 274445,
-      "status": "done"
+      "status": "done",
+      "family_key": "nafay-style-library"
     },
     {
       "slug": "synth-grid",
       "name": "synth-grid",
       "family": "nafay-style-library",
+      "family_key": "nafay-style-library",
       "status": "text",
       "description": "A retro neon world: a magenta wireframe landscape scrolling toward you in Three.js under a striped sunset sun, purple sky, chrome-gradient titles with a pink glow and a cyan marker script. The grid races toward the camera the whole time.",
       "best_use_cases": [
@@ -1382,6 +1520,7 @@
       "slug": "tactics-board",
       "name": "tactics-board",
       "family": "nafay-style-library",
+      "family_key": "nafay-style-library",
       "status": "text",
       "description": "A top-down pitch with mown stripes and crisp white lines, red and blue numbered player tokens with soft shadows, dashed run arrows that draw themselves, a yellow ball path with numbered passes, and a running clock chip. Players move between real positions as the play unfolds.",
       "best_use_cases": [
@@ -1398,6 +1537,7 @@
       "slug": "tall-tale",
       "name": "tall-tale",
       "family": "faceless-shorts",
+      "family_key": "faceless-shorts",
       "status": "text",
       "description": "Flat 2D cartoon people with thick ink outlines, big round white heads and bean bodies acting inside a sunny, saturated 3D world of small-town streets, shops, meadows and trains. Playful, clever and a little cheeky, with the camera moving in every shot.",
       "best_use_cases": [
@@ -1414,6 +1554,7 @@
       "slug": "terminal",
       "name": "terminal",
       "family": "nafay-style-library",
+      "family_key": "nafay-style-library",
       "status": "text",
       "description": "A glowing green-on-black terminal: typed commands with a block cursor, dim grey output, red and amber warnings, an ASCII progress bar and ASCII box diagrams, with scanlines, a soft phosphor glow and a dark vignette. The story is a terminal session, with a command typing itself and output scrolling out line by line.",
       "best_use_cases": [
@@ -1430,6 +1571,7 @@
       "slug": "tier-list",
       "name": "tier-list",
       "family": "nafay-style-library",
+      "family_key": "nafay-style-library",
       "status": "text",
       "description": "A classic tier-list board on dark charcoal: S to D rows with bright rainbow labels, rounded item tiles with simple icons drawn in code, and a stash of unranked tiles at the bottom that fly up one by one. Each item leaves the stash, hangs for a moment with its name, then arcs into its tier.",
       "best_use_cases": [
@@ -1446,6 +1588,7 @@
       "slug": "timeline-rail",
       "name": "timeline-rail",
       "family": "nafay-style-library",
+      "family_key": "nafay-style-library",
       "status": "text",
       "description": "A deep green page with a cream vertical rail: glowing year nodes, cream event cards with a big gold year and a small drawn icon, and a running year odometer in the corner, as the camera scrolls down through time. As it reaches each year the node lights up and the card drops in.",
       "best_use_cases": [
@@ -1462,6 +1605,7 @@
       "slug": "top-5-countdown",
       "name": "top-5-countdown",
       "family": "nafay-style-library",
+      "family_key": "nafay-style-library",
       "status": "text",
       "description": "A countdown Short on deep navy: a huge outlined rank number slams in beside an illustrated card drawn in code, with the name in tall Anton caps, a mono detail line, and a ladder of rank dots on the side that tracks where you are. Each rank gets its own beat, and number one gets a bigger hit and a glow.",
       "best_use_cases": [
@@ -1501,7 +1645,8 @@
       "fps": 30,
       "video_bytes": 695918,
       "stills_bytes": 456387,
-      "status": "done"
+      "status": "done",
+      "family_key": "nafay-style-library"
     },
     {
       "slug": "vhs-camcorder",
@@ -1530,28 +1675,44 @@
       "fps": 30,
       "video_bytes": 12122019,
       "stills_bytes": 1272120,
-      "status": "done"
+      "status": "done",
+      "family_key": "nafay-style-library"
     },
     {
       "slug": "visual-novel",
-      "name": "visual-novel",
+      "name": "Visual Novel",
       "family": "nafay-style-library",
-      "status": "text",
-      "description": "A visual-novel scene: a soft, blurred painted background, a large original anime-style character bust drawn in code with big glossy eyes, swapping expressions like smile, nervous sweat, shocked and laughing with blush, and a translucent dialogue box with a name tag and typewriter text. The story is told as dialogue.",
+      "description": "A visual-novel scene: a soft, blurred painted background, a large original anime-style character bust drawn in code with big glossy eyes, swapping expressions, and a translucent dialogue box with a name tag and typewriter text.",
       "best_use_cases": [
-        "Visual-novel style dialogue stories",
-        "Anime character conversations with expressions",
-        "Choice-based story Shorts"
+        "Dialogue-driven stories",
+        "Character reactions and expressions",
+        "Choice-based endings"
       ],
-      "style": "Nafay, Character Story \u2014 anime character bust, big glossy eyes, dialogue box, typewriter text",
+      "style": "Original code-drawn anime bust (layered hair with shine, big eyes with highlights, blush) on a soft blurred painted background; dark translucent dialogue box with pink border and name tag, text typed at ~28 characters a second, expression effects (sweat, sparkles, shock lines), ending on a two-option choice menu. M PLUS Rounded 1c throughout.",
       "voice": "Kokoro af_heart",
-      "stills": [],
-      "video": ""
+      "orientation": "portrait",
+      "stills": [
+        "assets/visual-novel/still-1.jpg",
+        "assets/visual-novel/still-2.jpg",
+        "assets/visual-novel/still-3.jpg",
+        "assets/visual-novel/still-4.jpg",
+        "assets/visual-novel/still-5.jpg",
+        "assets/visual-novel/still-6.jpg"
+      ],
+      "video": "assets/visual-novel/demo.mp4",
+      "duration_s": 14.0,
+      "resolution": "720x1280",
+      "fps": 30,
+      "video_bytes": 928778,
+      "stills_bytes": 380586,
+      "status": "done",
+      "family_key": "nafay-style-library"
     },
     {
       "slug": "warm-canvas",
       "name": "warm-canvas",
       "family": "ai-video-editor",
+      "family_key": "ai-video-editor",
       "status": "text",
       "description": "A calm, editorial creator edit built around your own footage: full-frame talking head with clean serif captions, then a warm off-white canvas with a soft swoosh where white cards explain the idea while you shrink into a rounded picture-in-picture. Fraunces headlines in ink and sky blue with quiet UI text and pastel chips.",
       "best_use_cases": [
@@ -1566,24 +1727,39 @@
     },
     {
       "slug": "woodcut-tale",
-      "name": "woodcut-tale",
+      "name": "Woodcut Tale",
       "family": "nafay-style-library",
-      "status": "text",
-      "description": "A two-colour woodcut print come to life: cream paper, bold black ink shapes with white carved hatching inside them, a red second colour slightly out of register, ink speckle and paper grain, with old-style serif captions in a carved border. Each scene is a print, moving at a stiff 8 frames a second like a printed flipbook.",
+      "description": "A two-colour woodcut print come to life: cream paper, bold black ink shapes with white carved hatching inside them, a red second colour slightly out of register, ink speckle and paper grain, with old-style serif captions in a carved border.",
       "best_use_cases": [
-        "Woodcut-style folk tales",
-        "Printed flipbook stories with a moral",
-        "Historical tales in a two-colour print look"
+        "Fables and folk tales",
+        "Public-domain stories with a moral",
+        "Slow-and-steady parables"
       ],
-      "style": "Nafay, Character Story \u2014 two-colour woodcut, black ink with carved hatching, red out of register",
+      "style": "Two inks only (black #1a1410, red #b8322a) on cream paper, red layer 3 px out of register, carved hatching inside every inked shape, stiff 8 fps flipbook motion with a tiny jitter, paper-wipe scene changes, IM Fell English captions in a carved double-line border, the moral printed in red small caps.",
       "voice": "Kokoro af_heart",
-      "stills": [],
-      "video": ""
+      "orientation": "portrait",
+      "stills": [
+        "assets/woodcut-tale/still-1.jpg",
+        "assets/woodcut-tale/still-2.jpg",
+        "assets/woodcut-tale/still-3.jpg",
+        "assets/woodcut-tale/still-4.jpg",
+        "assets/woodcut-tale/still-5.jpg",
+        "assets/woodcut-tale/still-6.jpg"
+      ],
+      "video": "assets/woodcut-tale/demo.mp4",
+      "duration_s": 15.0,
+      "resolution": "720x1280",
+      "fps": 30,
+      "video_bytes": 17331384,
+      "stills_bytes": 1244193,
+      "status": "done",
+      "family_key": "nafay-style-library"
     },
     {
       "slug": "zach-d-films",
       "name": "zach-d-films",
       "family": "artem-animation-skills",
+      "family_key": "artem-animation-skills",
       "status": "text",
       "description": "A 3D cartoon what-if explainer short in the style of Zack D. Films-type videos, entirely in code with three.js: procedural cartoon people, props and effects, a blue studio sky, slow-motion impacts, a red force-ripple overlay, quick whip cuts and 1 to 3 word captions timed to the voiceover.",
       "best_use_cases": [
@@ -1600,6 +1776,7 @@
       "slug": "zine-collage",
       "name": "zine-collage",
       "family": "nafay-style-library",
+      "family_key": "nafay-style-library",
       "status": "text",
       "description": "A DIY zine on kraft paper: torn pink and black paper, halftone cutouts drawn in code, ransom-note letters each in a different font and colour, translucent tape strips and handwritten notes, all slapped on at a jittery 8 frames a second. Pieces are slapped onto the page one after another like someone building a collage live.",
       "best_use_cases": [

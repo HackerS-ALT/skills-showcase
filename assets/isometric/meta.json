@@ -1,0 +1,28 @@
+{
+  "slug": "isometric",
+  "name": "Isometric",
+  "family": "cth-animate",
+  "description": "Calm, precise product illustration: objects in 2:1 dimetric isometric on a white ground, drawn only with constant hairlines. Grey silhouettes and edges, lighter inner and receding lines, faces filled white so nearer objects hide farther lines.",
+  "best_use_cases": [
+    "Product explainers",
+    "How things are built",
+    "Tech illustrations with one dark accent"
+  ],
+  "style": "Isometric line art",
+  "voice": "Kokoro af_heart",
+  "orientation": "portrait",
+  "stills": [
+    "assets/isometric/still-1.jpg",
+    "assets/isometric/still-2.jpg",
+    "assets/isometric/still-3.jpg",
+    "assets/isometric/still-4.jpg",
+    "assets/isometric/still-5.jpg",
+    "assets/isometric/still-6.jpg"
+  ],
+  "video": "assets/isometric/demo.mp4",
+  "duration_s": 10.0,
+  "resolution": "1080x1920",
+  "fps": 30.0,
+  "video_bytes": 1568803,
+  "stills_bytes": 567952
+}
