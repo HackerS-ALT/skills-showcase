@@ -1,8 +1,12 @@
 #!/usr/bin/env bash
 # Showcase watchdog — monitors the 86-skill generation pipeline.
-# - Every 5 min: checks each skill's status/<skill>.json heartbeat; a skill
-#   whose heartbeat is older than 45 min and is not marked done is STALLED:
-#   logs it and touches status/<skill>.stalled for the coordinator to respawn.
+# - Every 5 min: checks each skill's status/<skill>.json heartbeat.
+#   A skill is STALLED only when ALL THREE hold: heartbeat older than
+#   45 min AND no workdir activity in the last 30 min AND no live driver
+#   process mentioning its workdir. Heartbeat age alone is NOT enough —
+#   workers deep in a long render often skip heartbeat writes (27 Nov:
+#   70 false markers from heartbeat age alone after a restart).
+#   Stale markers are auto-cleared when a skill finishes or goes active.
 # - PAUSE GATE DISABLED (user, 27 Nov 2026 ~01:29 IST): all channel work is
 #   paused until the 86 showcase stills are complete, so there is no
 #   long-form render to protect — the showcase keeps rendering past Fri
@@ -36,20 +40,36 @@ while true; do
     fi
   fi
 
-  # --- stall check ---
+  # --- stall check: heartbeat age + workdir/process activity evidence ---
   for f in "$PROJ"/status/*.json; do
     [ -e "$f" ] || continue
     skill=$(basename "$f" .json)
-    [ -f "$PROJ/status/$skill.stalled" ] && continue
     state=$(python3 -c "import json,sys; d=json.load(open('$f')); print(d.get('state',''))" 2>/dev/null)
-    [ "$state" = "done" ] && continue
-    hb=$(python3 -c "import json,sys; d=json.load(open('$f')); print(d.get('heartbeat_epoch',0))" 2>/dev/null)
-    if [ "$hb" -gt 0 ]; then
-      age=$(( now - hb ))
-      if [ "$age" -gt "$STALL_SECS" ]; then
-        touch "$PROJ/status/$skill.stalled"
-        log "STALL: $skill heartbeat ${age}s old (state=$state) — marked for respawn"
+    if [ "$state" = "done" ]; then
+      if [ -f "$PROJ/status/$skill.stalled" ]; then
+        rm -f "$PROJ/status/$skill.stalled"
+        log "CLEAR: $skill done — stale marker removed"
       fi
+      continue
+    fi
+    hb=$(python3 -c "import json,sys; d=json.load(open('$f')); print(d.get('heartbeat_epoch',0))" 2>/dev/null || echo 0)
+    age=$(( now - hb ))
+    # activity evidence: workdir touched in last 30 min, or a live driver process
+    active=0
+    [ -n "$(find "$HOME/.showcase-work/$skill" -newermt '-30 minutes' 2>/dev/null | head -1)" ] && active=1
+    pgrep -f "showcase-work/$skill" >/dev/null 2>&1 && active=1
+    if [ "$active" -eq 1 ]; then
+      if [ -f "$PROJ/status/$skill.stalled" ]; then
+        rm -f "$PROJ/status/$skill.stalled"
+        log "CLEAR: $skill active again — stale marker removed"
+      fi
+      continue
+    fi
+    if [ "$age" -gt "$STALL_SECS" ]; then
+      if [ ! -f "$PROJ/status/$skill.stalled" ]; then
+        log "STALL: $skill heartbeat ${age}s old, no workdir/process activity (state=$state) — marked for respawn"
+      fi
+      touch "$PROJ/status/$skill.stalled"
     fi
   done
 
