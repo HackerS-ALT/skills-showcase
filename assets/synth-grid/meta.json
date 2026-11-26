@@ -1,0 +1,28 @@
+{
+  "slug": "synth-grid",
+  "name": "Synth Grid",
+  "family": "nafay-style-library",
+  "description": "A retro neon world: a magenta wireframe landscape scrolling toward you in Three.js under a striped sunset sun, purple sky, chrome-gradient titles with a pink glow and a cyan marker script.",
+  "best_use_cases": [
+    "Numbered list explainers, one point at a time",
+    "Future and trends topics",
+    "Retro synthwave-styled explainers"
+  ],
+  "style": "3D",
+  "voice": "Kokoro af_heart",
+  "orientation": "portrait",
+  "stills": [
+    "assets/synth-grid/still-1.jpg",
+    "assets/synth-grid/still-2.jpg",
+    "assets/synth-grid/still-3.jpg",
+    "assets/synth-grid/still-4.jpg",
+    "assets/synth-grid/still-5.jpg",
+    "assets/synth-grid/still-6.jpg"
+  ],
+  "video": "assets/synth-grid/demo.mp4",
+  "duration_s": 14.0,
+  "resolution": "720x1280",
+  "fps": 30.0,
+  "video_bytes": 15948262,
+  "stills_bytes": 1413167
+}

@@ -1,0 +1,28 @@
+{
+ "slug": "chat-story",
+ "name": "Chat Story",
+ "family": "Shorts Format",
+ "description": "A story told through an invented messaging app: a clean header with a gradient avatar and an online dot, teal bubbles for \"me\" and white bubbles for them, typing dots before every reply, timestamps, read receipts, and a fictional-story tag.",
+ "best_use_cases": [
+  "Stories told through messages",
+  "Funny fictional chats",
+  "Dialogue-driven Shorts"
+ ],
+ "style": "Invented messaging app \u2014 teal and white bubbles, typing dots before replies, timestamps, read receipts, fictional-story tag",
+ "voice": "Kokoro af_heart",
+ "orientation": "portrait",
+ "stills": [
+  "assets/chat-story/still-1.jpg",
+  "assets/chat-story/still-2.jpg",
+  "assets/chat-story/still-3.jpg",
+  "assets/chat-story/still-4.jpg",
+  "assets/chat-story/still-5.jpg",
+  "assets/chat-story/still-6.jpg"
+ ],
+ "video": "assets/chat-story/demo.mp4",
+ "duration_s": 14.0,
+ "resolution": "720x1280",
+ "fps": 20,
+ "video_bytes": 530245,
+ "stills_bytes": 296158
+}

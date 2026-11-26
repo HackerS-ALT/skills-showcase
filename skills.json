@@ -1,6 +1,6 @@
 {
   "count": 86,
-  "done": 54,
+  "done": 57,
   "skills": [
     {
       "slug": "bio-glow",
@@ -162,20 +162,33 @@
     },
     {
       "slug": "chat-story",
-      "name": "chat-story",
-      "family": "nafay-style-library",
-      "family_key": "nafay-style-library",
-      "status": "text",
-      "description": "A story told through an invented messaging app: a clean header with a gradient avatar and an online dot, teal bubbles for me and white bubbles for them, typing dots before every reply, timestamps, read receipts, and a fictional-story tag. Messages pop in one by one and the thread scrolls up as it fills.",
+      "name": "Chat Story",
+      "family": "Shorts Format",
+      "description": "A story told through an invented messaging app: a clean header with a gradient avatar and an online dot, teal bubbles for \"me\" and white bubbles for them, typing dots before every reply, timestamps, read receipts, and a fictional-story tag.",
       "best_use_cases": [
-        "Stories told as text-message conversations",
-        "Suspenseful chat-thread Shorts with a punchline",
-        "Dialogue-driven stories in a messaging app"
+        "Stories told through messages",
+        "Funny fictional chats",
+        "Dialogue-driven Shorts"
       ],
-      "style": "Nafay, Shorts Format \u2014 invented messaging app, teal and white bubbles, typing dots",
+      "style": "Invented messaging app \u2014 teal and white bubbles, typing dots before replies, timestamps, read receipts, fictional-story tag",
       "voice": "Kokoro af_heart",
-      "stills": [],
-      "video": ""
+      "orientation": "portrait",
+      "stills": [
+        "assets/chat-story/still-1.jpg",
+        "assets/chat-story/still-2.jpg",
+        "assets/chat-story/still-3.jpg",
+        "assets/chat-story/still-4.jpg",
+        "assets/chat-story/still-5.jpg",
+        "assets/chat-story/still-6.jpg"
+      ],
+      "video": "assets/chat-story/demo.mp4",
+      "duration_s": 14.0,
+      "resolution": "720x1280",
+      "fps": 20,
+      "video_bytes": 530245,
+      "stills_bytes": 296158,
+      "status": "done",
+      "family_key": "nafay-style-library"
     },
     {
       "slug": "clay-diorama",
@@ -1826,20 +1839,33 @@
     },
     {
       "slug": "synth-grid",
-      "name": "synth-grid",
+      "name": "Synth Grid",
       "family": "nafay-style-library",
-      "family_key": "nafay-style-library",
-      "status": "text",
-      "description": "A retro neon world: a magenta wireframe landscape scrolling toward you in Three.js under a striped sunset sun, purple sky, chrome-gradient titles with a pink glow and a cyan marker script. The grid races toward the camera the whole time.",
+      "description": "A retro neon world: a magenta wireframe landscape scrolling toward you in Three.js under a striped sunset sun, purple sky, chrome-gradient titles with a pink glow and a cyan marker script.",
       "best_use_cases": [
-        "Retro synthwave explainers",
-        "Neon 80s-style list Shorts",
-        "High-energy retro title sequences"
+        "Numbered list explainers, one point at a time",
+        "Future and trends topics",
+        "Retro synthwave-styled explainers"
       ],
-      "style": "Nafay, 3D \u2014 magenta wireframe landscape, striped sunset sun, chrome titles, purple sky",
+      "style": "3D",
       "voice": "Kokoro af_heart",
-      "stills": [],
-      "video": ""
+      "orientation": "portrait",
+      "stills": [
+        "assets/synth-grid/still-1.jpg",
+        "assets/synth-grid/still-2.jpg",
+        "assets/synth-grid/still-3.jpg",
+        "assets/synth-grid/still-4.jpg",
+        "assets/synth-grid/still-5.jpg",
+        "assets/synth-grid/still-6.jpg"
+      ],
+      "video": "assets/synth-grid/demo.mp4",
+      "duration_s": 14.0,
+      "resolution": "720x1280",
+      "fps": 30.0,
+      "video_bytes": 15948262,
+      "stills_bytes": 1413167,
+      "status": "done",
+      "family_key": "nafay-style-library"
     },
     {
       "slug": "tactics-board",
@@ -1920,20 +1946,33 @@
     },
     {
       "slug": "tier-list",
-      "name": "tier-list",
-      "family": "nafay-style-library",
-      "family_key": "nafay-style-library",
-      "status": "text",
-      "description": "A classic tier-list board on dark charcoal: S to D rows with bright rainbow labels, rounded item tiles with simple icons drawn in code, and a stash of unranked tiles at the bottom that fly up one by one. Each item leaves the stash, hangs for a moment with its name, then arcs into its tier.",
+      "name": "Tier List",
+      "family": "Shorts Format",
+      "description": "A classic tier-list board on dark charcoal: S to D rows with bright rainbow labels, rounded item tiles with simple icons drawn in code, and a stash of unranked tiles at the bottom that fly up one by one. Each item leaves the stash, hangs in the middle with its name so you can react, then arcs into its tier and snaps into place with a squash and a row flash; the last item gets a dramatic pause before it lands, and the outro asks for comments.",
       "best_use_cases": [
-        "Tier-list ranking Shorts",
-        "Ranking items from S to D",
-        "Opinion and debate videos with a board"
+        "Ranking anything from best to worst",
+        "Reaction-style list videos",
+        "Community debate Shorts"
       ],
-      "style": "Nafay, Shorts Format \u2014 dark charcoal tier board, S to D rainbow rows, flying item tiles",
+      "style": "Classic tier-list board on dark charcoal; S to D rows with bright rainbow labels; rounded item tiles with icons drawn in code; unranked stash tiles fly up one by one and snap into place.",
       "voice": "Kokoro af_heart",
-      "stills": [],
-      "video": ""
+      "orientation": "portrait",
+      "stills": [
+        "assets/tier-list/still-1.jpg",
+        "assets/tier-list/still-2.jpg",
+        "assets/tier-list/still-3.jpg",
+        "assets/tier-list/still-4.jpg",
+        "assets/tier-list/still-5.jpg",
+        "assets/tier-list/still-6.jpg"
+      ],
+      "video": "assets/tier-list/demo.mp4",
+      "duration_s": 14.0,
+      "resolution": "720x1280",
+      "fps": 24,
+      "video_bytes": 559078,
+      "stills_bytes": 321089,
+      "status": "done",
+      "family_key": "nafay-style-library"
     },
     {
       "slug": "timeline-rail",

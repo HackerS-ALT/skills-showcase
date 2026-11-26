@@ -1,0 +1,28 @@
+{
+  "slug": "tier-list",
+  "name": "Tier List",
+  "family": "Shorts Format",
+  "description": "A classic tier-list board on dark charcoal: S to D rows with bright rainbow labels, rounded item tiles with simple icons drawn in code, and a stash of unranked tiles at the bottom that fly up one by one. Each item leaves the stash, hangs in the middle with its name so you can react, then arcs into its tier and snaps into place with a squash and a row flash; the last item gets a dramatic pause before it lands, and the outro asks for comments.",
+  "best_use_cases": [
+    "Ranking anything from best to worst",
+    "Reaction-style list videos",
+    "Community debate Shorts"
+  ],
+  "style": "Classic tier-list board on dark charcoal; S to D rows with bright rainbow labels; rounded item tiles with icons drawn in code; unranked stash tiles fly up one by one and snap into place.",
+  "voice": "Kokoro af_heart",
+  "orientation": "portrait",
+  "stills": [
+    "assets/tier-list/still-1.jpg",
+    "assets/tier-list/still-2.jpg",
+    "assets/tier-list/still-3.jpg",
+    "assets/tier-list/still-4.jpg",
+    "assets/tier-list/still-5.jpg",
+    "assets/tier-list/still-6.jpg"
+  ],
+  "video": "assets/tier-list/demo.mp4",
+  "duration_s": 14.0,
+  "resolution": "720x1280",
+  "fps": 24,
+  "video_bytes": 559078,
+  "stills_bytes": 321089
+}
