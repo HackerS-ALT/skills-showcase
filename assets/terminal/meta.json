@@ -1,0 +1,28 @@
+{
+  "slug": "terminal",
+  "name": "Terminal",
+  "family": "Retro",
+  "description": "A glowing green-on-black terminal: typed commands with a block cursor, dim grey output, red and amber warnings, an ASCII progress bar and ASCII box diagrams, with scanlines, a soft phosphor glow and a dark vignette. The story is a terminal session: a command types itself, output scrolls out line by line, a progress bar runs, and the result lands in red or amber; a second command shows the contrast, and an ASCII comparison box sums it up.",
+  "best_use_cases": [
+    "Explaining a technical idea as a terminal session",
+    "Showing a before-and-after comparison in ASCII",
+    "Retro computing explainers"
+  ],
+  "style": "Glowing green-on-black terminal; typed commands with block cursor; dim grey output; red and amber warnings; ASCII progress bar and box diagrams; scanlines, phosphor glow, dark vignette.",
+  "voice": "Kokoro af_heart",
+  "orientation": "portrait",
+  "stills": [
+    "assets/terminal/still-1.jpg",
+    "assets/terminal/still-2.jpg",
+    "assets/terminal/still-3.jpg",
+    "assets/terminal/still-4.jpg",
+    "assets/terminal/still-5.jpg",
+    "assets/terminal/still-6.jpg"
+  ],
+  "video": "assets/terminal/demo.mp4",
+  "duration_s": 14.0,
+  "resolution": "720x1280",
+  "fps": 24,
+  "video_bytes": 746705,
+  "stills_bytes": 647095
+}

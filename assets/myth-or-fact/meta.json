@@ -1,0 +1,28 @@
+{
+  "slug": "myth-or-fact",
+  "name": "Myth or Fact",
+  "family": "Shorts Format",
+  "description": "A clean debunk Short on pale grey: a white statement card with a big quote mark, then a rubber stamp slams down (red MYTH or green FACT) with distressed ink, followed by one line of proof with a check icon.",
+  "best_use_cases": [
+    "Myth-busting Shorts and quizzes",
+    "True-or-false games with a score",
+    "Quick fact checks with one line of proof"
+  ],
+  "style": "Pale grey debunk Short; Archivo Black title, Anton stamps (red MYTH, green FACT), white statement cards; only real, checkable claims.",
+  "voice": "Kokoro af_heart",
+  "orientation": "portrait",
+  "stills": [
+    "assets/myth-or-fact/still-1.jpg",
+    "assets/myth-or-fact/still-2.jpg",
+    "assets/myth-or-fact/still-3.jpg",
+    "assets/myth-or-fact/still-4.jpg",
+    "assets/myth-or-fact/still-5.jpg",
+    "assets/myth-or-fact/still-6.jpg"
+  ],
+  "video": "assets/myth-or-fact/demo.mp4",
+  "duration_s": 14.0,
+  "resolution": "720x1280",
+  "fps": 24,
+  "video_bytes": 806308,
+  "stills_bytes": 339593
+}

@@ -1,6 +1,6 @@
 {
   "count": 86,
-  "done": 45,
+  "done": 52,
   "skills": [
     {
       "slug": "bio-glow",
@@ -98,20 +98,33 @@
     },
     {
       "slug": "callout-kit",
-      "name": "callout-kit",
-      "family": "nafay-style-library",
-      "family_key": "nafay-style-library",
-      "status": "text",
-      "description": "Hand-drawn annotation tools over your footage: red marker circles that draw themselves, arrows with marker labels, a magnifier box that zooms into a detail with connector lines, a pixelate blur for anything private, and a pulsing spotlight. Each callout draws itself on the beat and clears before the next one.",
+      "name": "Callout Kit",
+      "family": "Edit Overlay",
+      "description": "Hand-drawn annotation tools over your footage: red marker circles that draw themselves, arrows with marker labels, a magnifier box that zooms into a detail with connector lines, a pixelate blur for anything private, and a pulsing spotlight.",
       "best_use_cases": [
-        "Pointing out details in footage",
-        "Annotating a clip with circles, arrows and zooms",
-        "Highlighting one detail at a time over video"
+        "Pointing out details in a clip",
+        "App and product reviews",
+        "Tutorials that annotate footage"
       ],
-      "style": "Nafay, Edit Overlay \u2014 hand-drawn red marker callouts, magnifier zoom, spotlight over footage",
+      "style": "Hand-drawn red marker annotations over footage \u2014 self-drawing circles, arrows with labels, 2x zoom box, pixelate blur, spotlight",
       "voice": "Kokoro af_heart",
-      "stills": [],
-      "video": ""
+      "orientation": "portrait",
+      "stills": [
+        "assets/callout-kit/still-1.jpg",
+        "assets/callout-kit/still-2.jpg",
+        "assets/callout-kit/still-3.jpg",
+        "assets/callout-kit/still-4.jpg",
+        "assets/callout-kit/still-5.jpg",
+        "assets/callout-kit/still-6.jpg"
+      ],
+      "video": "assets/callout-kit/demo.mp4",
+      "duration_s": 13.0,
+      "resolution": "720x1280",
+      "fps": 30,
+      "video_bytes": 1206947,
+      "stills_bytes": 300201,
+      "status": "done",
+      "family_key": "nafay-style-library"
     },
     {
       "slug": "cartoon-audio-short",
@@ -333,20 +346,33 @@
     },
     {
       "slug": "cut-paper",
-      "name": "cut-paper",
-      "family": "cth-animate",
-      "family_key": "cth-animate",
-      "status": "text",
-      "description": "Torn-edge paper shapes with soft drop shadows, paper grain and crayon in the fills, patterns like stripes, dots and gingham, full-bleed colour worlds and characters with simple faces. Collage-style animation that is playful, warm and busy with small life.",
+      "name": "Cut Paper",
+      "family": "Illustrated",
+      "description": "Torn-edge paper shapes with soft drop shadows, paper grain and crayon in the fills, patterns (stripes, dots, gingham, wood grain), full-bleed colour worlds, and characters with simple faces. Collage-style animation: playful, warm, busy with small life.",
       "best_use_cases": [
-        "Playful collage-style stories",
-        "Warm, craft-like explainers with patterned paper worlds",
-        "Character stories in a handmade paper look"
+        "Histories and chronologies",
+        "Warm how-it-works stories",
+        "Playful collage explainers"
       ],
-      "style": "cth-animate \u2014 torn-edge cut paper, crayon fills, patterns, soft shadows on cream",
+      "style": "Cut-paper collage: every shape is torn paper with a wobbly edge, soft shadow and grain; one dominant wall colour per scene, pops for arrivals, hand-lettered text on paper tags, the spark's ray count telling time.",
       "voice": "Kokoro af_heart",
-      "stills": [],
-      "video": ""
+      "orientation": "portrait",
+      "stills": [
+        "assets/cut-paper/still-1.jpg",
+        "assets/cut-paper/still-2.jpg",
+        "assets/cut-paper/still-3.jpg",
+        "assets/cut-paper/still-4.jpg",
+        "assets/cut-paper/still-5.jpg",
+        "assets/cut-paper/still-6.jpg"
+      ],
+      "video": "assets/cut-paper/demo.mp4",
+      "duration_s": 8.0,
+      "resolution": "1080x1920",
+      "fps": 30,
+      "video_bytes": 14663718,
+      "stills_bytes": 507120,
+      "status": "done",
+      "family_key": "cth-animate"
     },
     {
       "slug": "dan-koe",
@@ -551,20 +577,33 @@
     },
     {
       "slug": "glass-icons",
-      "name": "glass-icons",
+      "name": "Glass Icons",
       "family": "nafay-style-library",
-      "family_key": "nafay-style-library",
-      "status": "text",
-      "description": "Glossy translucent 3D app icons in Three.js, floating on a soft mint, sky and peach gradient, each with a white symbol on its face, frosted labels and a crisp black headline. The icons float in from depth into a loose stack, then one at a time an icon swings forward to the centre.",
+      "description": "Glossy translucent 3D app icons in Three.js, floating on a soft mint, sky and peach gradient, each with a white symbol on its face, frosted labels and a crisp black headline.",
       "best_use_cases": [
-        "Presenting a set of apps, tools or features",
-        "Glossy icon-led list explainers",
-        "Soft, premium product rundowns"
+        "Tool roundups (tool types, not brands)",
+        "App and feature explainers",
+        "Lists where each item deserves a moment"
       ],
-      "style": "Nafay, 3D \u2014 glossy translucent app icons on a mint, sky and peach gradient",
+      "style": "3D glossy icons: rounded squares with bevel, clearcoat and slight transparency in soft colours, white 3D symbols on the face, mint-sky-peach gradient background, frosted info cards with mono number and one-line benefit, Inter 900 headlines.",
       "voice": "Kokoro af_heart",
-      "stills": [],
-      "video": ""
+      "orientation": "portrait",
+      "stills": [
+        "assets/glass-icons/still-1.jpg",
+        "assets/glass-icons/still-2.jpg",
+        "assets/glass-icons/still-3.jpg",
+        "assets/glass-icons/still-4.jpg",
+        "assets/glass-icons/still-5.jpg",
+        "assets/glass-icons/still-6.jpg"
+      ],
+      "video": "assets/glass-icons/demo.mp4",
+      "duration_s": 14.0,
+      "resolution": "720x1280",
+      "fps": 20,
+      "video_bytes": 2993549,
+      "stills_bytes": 291993,
+      "status": "done",
+      "family_key": "nafay-style-library"
     },
     {
       "slug": "glitch-pack",
@@ -859,20 +898,33 @@
     },
     {
       "slug": "low-poly-atlas",
-      "name": "low-poly-atlas",
+      "name": "Low-Poly Atlas",
       "family": "nafay-style-library",
-      "family_key": "nafay-style-library",
-      "status": "text",
-      "description": "Faceted low-poly terrain in warm sunset light, built in Three.js: flat-shaded hills, sand coasts and blue water, with roads, routes and campaign arrows drawing themselves across the land. The camera drifts over the land while a route draws itself from a city and a red campaign arrow marches along it.",
+      "description": "Faceted low-poly terrain in warm sunset light, built in Three.js: flat-shaded hills, sand coasts and blue water, with roads, routes and campaign arrows drawing themselves across the land.",
       "best_use_cases": [
-        "History journeys across a landscape",
-        "Campaigns and routes drawn over terrain",
-        "Map-like history stories in low poly"
+        "History with routes and campaigns",
+        "Journeys across a map",
+        "Empires, roads and distances"
       ],
-      "style": "Nafay, 3D \u2014 faceted low-poly terrain in sunset light, routes and campaign arrows",
+      "style": "3D",
       "voice": "Kokoro af_heart",
-      "stills": [],
-      "video": ""
+      "orientation": "portrait",
+      "stills": [
+        "assets/low-poly-atlas/still-1.jpg",
+        "assets/low-poly-atlas/still-2.jpg",
+        "assets/low-poly-atlas/still-3.jpg",
+        "assets/low-poly-atlas/still-4.jpg",
+        "assets/low-poly-atlas/still-5.jpg",
+        "assets/low-poly-atlas/still-6.jpg"
+      ],
+      "video": "assets/low-poly-atlas/demo.mp4",
+      "duration_s": 15.0,
+      "resolution": "720x1280",
+      "fps": 24.0,
+      "video_bytes": 7591433,
+      "stills_bytes": 625470,
+      "status": "done",
+      "family_key": "nafay-style-library"
     },
     {
       "slug": "lower-thirds",
@@ -1533,38 +1585,64 @@
       "family_key": "nafay-style-library"
     },
     {
-      "slug": "sketchbook",
-      "name": "sketchbook",
-      "family": "cth-animate",
-      "family_key": "cth-animate",
-      "status": "text",
-      "description": "Graphite and one accent colour on a warm sketchbook page, where every line is drawn by hand and boils on 2s. Things get pencilled in, inked over, then coloured with a quick scribble, and hand lettering on the page does the narrating.",
       "best_use_cases": [
-        "Hand-drawn notebook explainers",
-        "Ideas sketched out live on the page",
-        "Personal, sketchy stories with hand lettering"
+        "idea explainers",
+        "\"how an idea grows\"",
+        "hand-drawn explainers"
       ],
-      "style": "cth-animate \u2014 graphite and terracotta on a warm sketchbook page, boiling hand-drawn lines",
+      "description": "Graphite and one accent colour on a warm sketchbook page. Every line is drawn by hand and boils on 2s. Things get pencilled in, inked over, then coloured with a quick scribble, and hand lettering on the page does the narrating.",
+      "duration_s": 12.0,
+      "family": "cth-animate",
+      "fps": 30,
+      "name": "sketchbook",
+      "orientation": "portrait",
+      "resolution": "1080x1920",
+      "slug": "sketchbook",
+      "stills": [
+        "assets/sketchbook/still-1.jpg",
+        "assets/sketchbook/still-2.jpg",
+        "assets/sketchbook/still-3.jpg",
+        "assets/sketchbook/still-4.jpg",
+        "assets/sketchbook/still-5.jpg",
+        "assets/sketchbook/still-6.jpg"
+      ],
+      "stills_bytes": 1277597,
+      "style": "Graphite and one accent colour on a warm sketchbook page, hand-drawn lines boiling on 2s, hand lettering narrates, spiral binding and dot grid in view",
+      "video": "assets/sketchbook/demo.mp4",
+      "video_bytes": 5960592,
       "voice": "Kokoro af_heart",
-      "stills": [],
-      "video": ""
+      "status": "done",
+      "family_key": "cth-animate"
     },
     {
-      "slug": "software-walkthrough",
-      "name": "software-walkthrough",
-      "family": "ai-video-editor",
-      "family_key": "ai-video-editor",
-      "status": "text",
-      "description": "A polished screen-recording tutorial built entirely in code: an app window on a soft gradient desktop, a real-feeling cursor with click ripples, a camera that zooms into what matters, yellow-edged spotlights and numbered step callouts. It shows the clicks, not just the idea.",
       "best_use_cases": [
-        "Software tutorials and how-to walkthroughs",
-        "Showing a real app flow step by step with the cursor",
-        "Screen-and-UI explainers that end on the result happening"
+        "app tutorials",
+        "product walkthroughs",
+        "how-to videos"
       ],
-      "style": "AI video editor, Screen and UI \u2014 coded app window, cursor with click ripples, zoom camera, step callouts",
+      "description": "A polished screen-recording tutorial built entirely in code: an app window on a soft gradient desktop, a real-feeling cursor with click ripples, a camera that zooms into what matters, yellow-edged spotlights, numbered step callouts and a calm pad underneath.",
+      "duration_s": 19.5,
+      "family": "Screen and UI",
+      "fps": 30,
+      "name": "software-walkthrough",
+      "orientation": "landscape",
+      "resolution": "1280x720",
+      "slug": "software-walkthrough",
+      "stills": [
+        "assets/software-walkthrough/still-1.jpg",
+        "assets/software-walkthrough/still-2.jpg",
+        "assets/software-walkthrough/still-3.jpg",
+        "assets/software-walkthrough/still-4.jpg",
+        "assets/software-walkthrough/still-5.jpg",
+        "assets/software-walkthrough/still-6.jpg"
+      ],
+      "stills_bytes": 364528,
+      "style": "App window on a soft gradient desktop, real-feeling cursor with click ripples, zooming camera, yellow-edged spotlights, numbered step callouts",
+      "video": "assets/software-walkthrough/demo.mp4",
+      "video_bytes": 2673565,
       "voice": "Kokoro af_heart",
-      "stills": [],
-      "video": ""
+      "status": "done",
+      "family_key": "ai-video-editor"
     },
     {
       "best_use_cases": [
@@ -1786,20 +1864,33 @@
     },
     {
       "slug": "terminal",
-      "name": "terminal",
-      "family": "nafay-style-library",
-      "family_key": "nafay-style-library",
-      "status": "text",
-      "description": "A glowing green-on-black terminal: typed commands with a block cursor, dim grey output, red and amber warnings, an ASCII progress bar and ASCII box diagrams, with scanlines, a soft phosphor glow and a dark vignette. The story is a terminal session, with a command typing itself and output scrolling out line by line.",
+      "name": "Terminal",
+      "family": "Retro",
+      "description": "A glowing green-on-black terminal: typed commands with a block cursor, dim grey output, red and amber warnings, an ASCII progress bar and ASCII box diagrams, with scanlines, a soft phosphor glow and a dark vignette. The story is a terminal session: a command types itself, output scrolls out line by line, a progress bar runs, and the result lands in red or amber; a second command shows the contrast, and an ASCII comparison box sums it up.",
       "best_use_cases": [
-        "Tech stories told as a terminal session",
-        "Hacker-style explainers with typed commands",
-        "Retro computing visuals"
+        "Explaining a technical idea as a terminal session",
+        "Showing a before-and-after comparison in ASCII",
+        "Retro computing explainers"
       ],
-      "style": "Nafay, Retro \u2014 green-on-black terminal, block cursor, ASCII diagrams, scanlines",
+      "style": "Glowing green-on-black terminal; typed commands with block cursor; dim grey output; red and amber warnings; ASCII progress bar and box diagrams; scanlines, phosphor glow, dark vignette.",
       "voice": "Kokoro af_heart",
-      "stills": [],
-      "video": ""
+      "orientation": "portrait",
+      "stills": [
+        "assets/terminal/still-1.jpg",
+        "assets/terminal/still-2.jpg",
+        "assets/terminal/still-3.jpg",
+        "assets/terminal/still-4.jpg",
+        "assets/terminal/still-5.jpg",
+        "assets/terminal/still-6.jpg"
+      ],
+      "video": "assets/terminal/demo.mp4",
+      "duration_s": 14.0,
+      "resolution": "720x1280",
+      "fps": 24,
+      "video_bytes": 746705,
+      "stills_bytes": 647095,
+      "status": "done",
+      "family_key": "nafay-style-library"
     },
     {
       "slug": "tier-list",

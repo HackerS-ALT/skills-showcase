@@ -1,0 +1,28 @@
+{
+  "slug": "low-poly-atlas",
+  "name": "Low-Poly Atlas",
+  "family": "nafay-style-library",
+  "description": "Faceted low-poly terrain in warm sunset light, built in Three.js: flat-shaded hills, sand coasts and blue water, with roads, routes and campaign arrows drawing themselves across the land.",
+  "best_use_cases": [
+    "History with routes and campaigns",
+    "Journeys across a map",
+    "Empires, roads and distances"
+  ],
+  "style": "3D",
+  "voice": "Kokoro af_heart",
+  "orientation": "portrait",
+  "stills": [
+    "assets/low-poly-atlas/still-1.jpg",
+    "assets/low-poly-atlas/still-2.jpg",
+    "assets/low-poly-atlas/still-3.jpg",
+    "assets/low-poly-atlas/still-4.jpg",
+    "assets/low-poly-atlas/still-5.jpg",
+    "assets/low-poly-atlas/still-6.jpg"
+  ],
+  "video": "assets/low-poly-atlas/demo.mp4",
+  "duration_s": 15.0,
+  "resolution": "720x1280",
+  "fps": 24.0,
+  "video_bytes": 7591433,
+  "stills_bytes": 625470
+}

@@ -1,0 +1,28 @@
+{
+ "slug": "callout-kit",
+ "name": "Callout Kit",
+ "family": "Edit Overlay",
+ "description": "Hand-drawn annotation tools over your footage: red marker circles that draw themselves, arrows with marker labels, a magnifier box that zooms into a detail with connector lines, a pixelate blur for anything private, and a pulsing spotlight.",
+ "best_use_cases": [
+  "Pointing out details in a clip",
+  "App and product reviews",
+  "Tutorials that annotate footage"
+ ],
+ "style": "Hand-drawn red marker annotations over footage \u2014 self-drawing circles, arrows with labels, 2x zoom box, pixelate blur, spotlight",
+ "voice": "Kokoro af_heart",
+ "orientation": "portrait",
+ "stills": [
+  "assets/callout-kit/still-1.jpg",
+  "assets/callout-kit/still-2.jpg",
+  "assets/callout-kit/still-3.jpg",
+  "assets/callout-kit/still-4.jpg",
+  "assets/callout-kit/still-5.jpg",
+  "assets/callout-kit/still-6.jpg"
+ ],
+ "video": "assets/callout-kit/demo.mp4",
+ "duration_s": 13.0,
+ "resolution": "720x1280",
+ "fps": 30,
+ "video_bytes": 1206947,
+ "stills_bytes": 300201
+}

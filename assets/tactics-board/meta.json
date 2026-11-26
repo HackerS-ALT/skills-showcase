@@ -1,0 +1,28 @@
+{
+  "slug": "tactics-board",
+  "name": "Tactics Board",
+  "family": "Data",
+  "description": "A top-down pitch with mown stripes and crisp white lines, red and blue numbered player tokens with soft shadows, dashed run arrows that draw themselves, a yellow ball path with numbered passes, and a running clock chip. Players move between real positions as a counter-attack unfolds pass by pass, defenders shift, the clock counts the seconds, and the finish gets a flash and a big word, then the takeaway.",
+  "best_use_cases": [
+    "Explaining a sports play pass by pass",
+    "Showing movement and positioning on a pitch",
+    "Data-driven match analysis in a Short"
+  ],
+  "style": "Top-down pitch in real proportions with mown stripes and crisp white lines; red and blue numbered player tokens; dashed run arrows that draw themselves; yellow numbered ball path; running clock chip; Anton headline type.",
+  "voice": "Kokoro af_heart",
+  "orientation": "portrait",
+  "stills": [
+    "assets/tactics-board/still-1.jpg",
+    "assets/tactics-board/still-2.jpg",
+    "assets/tactics-board/still-3.jpg",
+    "assets/tactics-board/still-4.jpg",
+    "assets/tactics-board/still-5.jpg",
+    "assets/tactics-board/still-6.jpg"
+  ],
+  "video": "assets/tactics-board/demo.mp4",
+  "duration_s": 13.0,
+  "resolution": "720x1280",
+  "fps": 24,
+  "video_bytes": 4890639,
+  "stills_bytes": 700749
+}

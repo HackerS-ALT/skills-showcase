@@ -1,0 +1,28 @@
+{
+ "slug": "pixel-quest",
+ "name": "Pixel Quest",
+ "family": "Retro",
+ "description": "Chunky pixel art drawn on a 180 by 320 grid and scaled up 4x: a side-scrolling level with a little hero, sky bands, pixel clouds, brick platforms and gems, under a retro HUD (hearts, XP bar, level number) with a dialog box for every tip.",
+ "best_use_cases": [
+  "Tips and how-tos as game quests",
+  "Retro gaming-style explainers",
+  "List-style advice with a level-up payoff"
+ ],
+ "style": "Chunky 180x320 pixel art scaled up 4x with a retro HUD",
+ "voice": "Kokoro af_heart",
+ "orientation": "portrait",
+ "stills": [
+  "assets/pixel-quest/still-1.jpg",
+  "assets/pixel-quest/still-2.jpg",
+  "assets/pixel-quest/still-3.jpg",
+  "assets/pixel-quest/still-4.jpg",
+  "assets/pixel-quest/still-5.jpg",
+  "assets/pixel-quest/still-6.jpg"
+ ],
+ "video": "assets/pixel-quest/demo.mp4",
+ "duration_s": 14.0,
+ "resolution": "720x1280",
+ "fps": 30,
+ "video_bytes": 765636,
+ "stills_bytes": 218605
+}

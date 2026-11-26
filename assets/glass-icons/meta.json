@@ -1,0 +1,28 @@
+{
+ "slug": "glass-icons",
+ "name": "Glass Icons",
+ "family": "nafay-style-library",
+ "description": "Glossy translucent 3D app icons in Three.js, floating on a soft mint, sky and peach gradient, each with a white symbol on its face, frosted labels and a crisp black headline.",
+ "best_use_cases": [
+  "Tool roundups (tool types, not brands)",
+  "App and feature explainers",
+  "Lists where each item deserves a moment"
+ ],
+ "style": "3D glossy icons: rounded squares with bevel, clearcoat and slight transparency in soft colours, white 3D symbols on the face, mint-sky-peach gradient background, frosted info cards with mono number and one-line benefit, Inter 900 headlines.",
+ "voice": "Kokoro af_heart",
+ "orientation": "portrait",
+ "stills": [
+  "assets/glass-icons/still-1.jpg",
+  "assets/glass-icons/still-2.jpg",
+  "assets/glass-icons/still-3.jpg",
+  "assets/glass-icons/still-4.jpg",
+  "assets/glass-icons/still-5.jpg",
+  "assets/glass-icons/still-6.jpg"
+ ],
+ "video": "assets/glass-icons/demo.mp4",
+ "duration_s": 14.0,
+ "resolution": "720x1280",
+ "fps": 20,
+ "video_bytes": 2993549,
+ "stills_bytes": 291993
+}

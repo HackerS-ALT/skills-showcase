@@ -1,0 +1,28 @@
+{
+ "slug": "cut-paper",
+ "name": "Cut Paper",
+ "family": "Illustrated",
+ "description": "Torn-edge paper shapes with soft drop shadows, paper grain and crayon in the fills, patterns (stripes, dots, gingham, wood grain), full-bleed colour worlds, and characters with simple faces. Collage-style animation: playful, warm, busy with small life.",
+ "best_use_cases": [
+  "Histories and chronologies",
+  "Warm how-it-works stories",
+  "Playful collage explainers"
+ ],
+ "style": "Cut-paper collage: every shape is torn paper with a wobbly edge, soft shadow and grain; one dominant wall colour per scene, pops for arrivals, hand-lettered text on paper tags, the spark's ray count telling time.",
+ "voice": "Kokoro af_heart",
+ "orientation": "portrait",
+ "stills": [
+  "assets/cut-paper/still-1.jpg",
+  "assets/cut-paper/still-2.jpg",
+  "assets/cut-paper/still-3.jpg",
+  "assets/cut-paper/still-4.jpg",
+  "assets/cut-paper/still-5.jpg",
+  "assets/cut-paper/still-6.jpg"
+ ],
+ "video": "assets/cut-paper/demo.mp4",
+ "duration_s": 8.0,
+ "resolution": "1080x1920",
+ "fps": 30,
+ "video_bytes": 14663718,
+ "stills_bytes": 507120
+}
