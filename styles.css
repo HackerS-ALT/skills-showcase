@@ -122,6 +122,29 @@ body {
 
 .card img.landscape { aspect-ratio: 16 / 9; }
 
+/* Name-only placeholder: skill not finished yet — no image, no link, no modal. */
+.card.placeholder {
+  cursor: default;
+  border-style: dashed;
+  background: var(--surface-2);
+  min-height: 220px;
+  display: flex;
+  flex-direction: column;
+}
+.card.placeholder:hover,
+.card.placeholder:focus-visible {
+  transform: none;
+  box-shadow: none;
+  border-color: var(--border);
+}
+.card.placeholder .coming-soon {
+  margin-top: auto;
+  padding: 0 0.9rem 0.9rem;
+  font-size: 0.85rem;
+  color: var(--muted);
+  font-style: italic;
+}
+
 .empty { text-align: center; color: var(--muted); }
 
 .site-footer {

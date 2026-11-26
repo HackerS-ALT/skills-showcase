@@ -16,6 +16,22 @@
   function cardEl(s) {
     var card = document.createElement('article');
     card.className = 'card';
+    if (s.status === 'pending') {
+      card.classList.add('placeholder');
+      card.setAttribute('aria-label', s.name + ' — coming soon');
+      var h = document.createElement('h2');
+      h.textContent = s.name;
+      var fam = document.createElement('div');
+      fam.className = 'family';
+      fam.textContent = s.family;
+      var soon = document.createElement('div');
+      soon.className = 'coming-soon';
+      soon.textContent = 'Coming soon';
+      card.appendChild(h);
+      card.appendChild(fam);
+      card.appendChild(soon);
+      return card;
+    }
     card.tabIndex = 0;
     card.setAttribute('role', 'button');
     card.setAttribute('aria-label', s.name + ' — open details');
@@ -44,13 +60,15 @@
     var fam = familyFilter.value;
     grid.innerHTML = '';
     var shown = 0;
+    var doneCount = 0;
     allSkills.forEach(function (s) {
+      if (s.status === 'done') doneCount++;
       if (fam && s.family !== fam) return;
       if (q && (s.name + ' ' + s.family + ' ' + (s.description || '')).toLowerCase().indexOf(q) === -1) return;
       grid.appendChild(cardEl(s));
       shown++;
     });
-    countEl.textContent = shown + ' of ' + allSkills.length + ' styles';
+    countEl.textContent = doneCount + ' ready · ' + shown + ' of ' + allSkills.length + ' styles';
     emptyEl.hidden = shown !== 0;
   }
 
