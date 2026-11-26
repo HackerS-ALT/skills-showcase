@@ -1,0 +1,28 @@
+{
+ "slug": "data-story",
+ "name": "Data Story",
+ "family": "Data",
+ "description": "Numbers, trends, comparisons \u2014 anything where the data IS the story. A calm, editorial data explainer: deep ink background, one warm accent per idea, Archivo headlines, IBM Plex Mono numbers and labels, charts that draw themselves to scale, and the source always on screen.",
+ "best_use_cases": [
+  "Numbers and trends",
+  "Comparisons",
+  "Data-driven explainers with sources on screen"
+ ],
+ "style": "Editorial data explainer: lines draw left to right with a glowing head, bars grow one by one with counting values, comparison cards with a sand multiplier, and a plain-language takeaway with a sand pill behind the key phrase.",
+ "voice": "Kokoro af_heart",
+ "orientation": "landscape",
+ "stills": [
+  "assets/data-story/still-1.jpg",
+  "assets/data-story/still-2.jpg",
+  "assets/data-story/still-3.jpg",
+  "assets/data-story/still-4.jpg",
+  "assets/data-story/still-5.jpg",
+  "assets/data-story/still-6.jpg"
+ ],
+ "video": "assets/data-story/demo.mp4",
+ "duration_s": 21.0,
+ "resolution": "1280x720",
+ "fps": 30,
+ "video_bytes": 1711579,
+ "stills_bytes": 256344
+}

@@ -1,0 +1,28 @@
+{
+ "slug": "breaking-desk",
+ "name": "Breaking Desk",
+ "family": "Shorts Format",
+ "description": "An invented news-desk package over your footage: a LIVE bug with a channel name, a red BREAKING tab, a white headline bar that types itself, a scrolling ticker, a map inset with a pulsing dot, and a clock.",
+ "best_use_cases": [
+  "News recaps and current events",
+  "Headline-driven explainers",
+  "Weekly roundups"
+ ],
+ "style": "Invented news-desk package \u2014 LIVE bug, red BREAKING tab, typing headline bar, scrolling ticker, map inset with pulsing dot",
+ "voice": "Kokoro af_heart",
+ "orientation": "portrait",
+ "stills": [
+  "assets/breaking-desk/still-1.jpg",
+  "assets/breaking-desk/still-2.jpg",
+  "assets/breaking-desk/still-3.jpg",
+  "assets/breaking-desk/still-4.jpg",
+  "assets/breaking-desk/still-5.jpg",
+  "assets/breaking-desk/still-6.jpg"
+ ],
+ "video": "assets/breaking-desk/demo.mp4",
+ "duration_s": 13.0,
+ "resolution": "720x1280",
+ "fps": 30,
+ "video_bytes": 1311581,
+ "stills_bytes": 317837
+}

@@ -1,0 +1,28 @@
+{
+ "slug": "clean-tech",
+ "name": "Clean Tech",
+ "family": "Kinetic Type",
+ "description": "A calm, bright product-explainer look: cool off-white with a drifting dot grid, crisp Inter Tight words that rise into place, white UI cards with soft shadows, one electric blue accent, mono labels and a green check for anything finished.",
+ "best_use_cases": [
+  "Tech topics",
+  "Product explainers",
+  "AI and automation explainers"
+ ],
+ "style": "Kinetic type on cool off-white: short statements rise word by word, the key word gets a blue pill, and ideas become small working diagrams \u2014 a prompt card that types and sends, nodes that pop in, a dot that travels a loop, task rows that tick off, a counter that climbs.",
+ "voice": "Kokoro af_heart",
+ "orientation": "landscape",
+ "stills": [
+  "assets/clean-tech/still-1.jpg",
+  "assets/clean-tech/still-2.jpg",
+  "assets/clean-tech/still-3.jpg",
+  "assets/clean-tech/still-4.jpg",
+  "assets/clean-tech/still-5.jpg",
+  "assets/clean-tech/still-6.jpg"
+ ],
+ "video": "assets/clean-tech/demo.mp4",
+ "duration_s": 20.0,
+ "resolution": "1280x720",
+ "fps": 30,
+ "video_bytes": 2999140,
+ "stills_bytes": 470713
+}
