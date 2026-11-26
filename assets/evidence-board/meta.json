@@ -1,0 +1,28 @@
+{
+ "slug": "evidence-board",
+ "name": "Evidence Board",
+ "family": "Illustrated",
+ "description": "A detective corkboard: speckled cork, polaroids with sketched clues, typed index cards, yellow sticky notes, red push pins and red string, with a case-file label taped at the top and a rubber stamp for the verdict. The camera moves across the board clue by clue as red string draws itself from pin to pin.",
+ "best_use_cases": [
+  "Detective and mystery explainers",
+  "Connecting clues on a corkboard",
+  "True-crime and investigation stories"
+ ],
+ "style": "Nafay, Illustrated \u2014 detective corkboard, polaroids, red string, verdict stamp",
+ "voice": "Kokoro af_heart",
+ "orientation": "portrait",
+ "stills": [
+  "assets/evidence-board/still-1.jpg",
+  "assets/evidence-board/still-2.jpg",
+  "assets/evidence-board/still-3.jpg",
+  "assets/evidence-board/still-4.jpg",
+  "assets/evidence-board/still-5.jpg",
+  "assets/evidence-board/still-6.jpg"
+ ],
+ "video": "assets/evidence-board/demo.mp4",
+ "duration_s": 15.0,
+ "resolution": "720x1280",
+ "fps": 20,
+ "video_bytes": 14011288,
+ "stills_bytes": 988408
+}
