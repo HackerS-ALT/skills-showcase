@@ -76,6 +76,11 @@ def main():
                     total_video += os.path.getsize(p)
             if ok:
                 meta["status"] = "done"
+                # family_key: the source family slug (stable filter key).
+                # meta's `family` is a free-form display label that varies
+                # per skill; without this the family filter hides done
+                # skills whose label is not a source slug.
+                meta["family_key"] = family
                 entries.append(meta)
                 done += 1
                 continue
@@ -87,6 +92,7 @@ def main():
                 "slug": slug,
                 "name": slug,
                 "family": family,
+                "family_key": family,
                 "status": "text",
                 "description": t.get("description", ""),
                 "best_use_cases": t.get("best_use_cases", []),
@@ -100,6 +106,7 @@ def main():
             "slug": slug,
             "name": slug,
             "family": family,
+            "family_key": family,
             "status": "pending",
             "description": "",
             "best_use_cases": [],

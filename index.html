@@ -4,40 +4,74 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Animation Skills Showcase — 86 Styles</title>
+<meta name="description" content="86 animation styles, each rendered by its own code. Browse the grid, open any card for stills and a demo video.">
 <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<header class="site-header">
-  <h1>Animation Skills Showcase</h1>
-  <p class="subtitle">86 animation styles — every card rendered by the skill itself. Click any card for stills and a demo video.</p>
-  <div class="toolbar">
-    <input id="search" type="search" placeholder="Search styles…" aria-label="Search styles">
-    <select id="family-filter" aria-label="Filter by family">
-      <option value="">All families</option>
-      <option value="cartoon-audio-short">cartoon-audio-short</option>
-      <option value="faceless-shorts">faceless-shorts</option>
-      <option value="ai-video-editor">ai-video-editor</option>
-      <option value="nafay-style-library">nafay-style-library</option>
-      <option value="cth-animate">cth-animate</option>
-      <option value="artem-animation-skills">artem-animation-skills</option>
-    </select>
-    <span id="count" class="count"></span>
+<header class="hero">
+  <div class="hero-inner">
+    <div class="hero-text">
+      <h1>Eighty-six styles, each drawn by code.</h1>
+      <span class="hero-bar" aria-hidden="true"><span class="hero-bar-pink"></span><span class="hero-bar-lime"></span></span>
+      <p class="hero-sentence">Every card below is a real still from its skill's own demo.</p>
+      <a class="cta" href="#styles">Browse the styles</a>
+    </div>
+    <div class="hero-stills" aria-label="Stills from three finished styles">
+      <figure class="hero-still" data-slug="blueprint" tabindex="0" role="button" aria-label="Blueprint — open details">
+        <img src="assets/blueprint/still-1.jpg" alt="Blueprint style still: how a pin lock works, drawn as a technical blueprint" fetchpriority="high">
+        <figcaption>Blueprint</figcaption>
+      </figure>
+      <figure class="hero-still" data-slug="paper-craft" tabindex="0" role="button" aria-label="Paper-craft — open details">
+        <img src="assets/paper-craft/still-1.jpg" alt="Paper-craft style still: a paper bee flying to a beehive" loading="lazy">
+        <figcaption>Paper-craft</figcaption>
+      </figure>
+      <figure class="hero-still" data-slug="neon-line" tabindex="0" role="button" aria-label="Neon-line — open details">
+        <img src="assets/neon-line/still-1.jpg" alt="Neon-line style still: two neon figures texting across time zones" loading="lazy">
+        <figcaption>Neon-line</figcaption>
+      </figure>
+    </div>
   </div>
 </header>
 
 <main>
-  <div id="grid" class="grid" aria-live="polite"></div>
-  <p id="empty" class="empty" hidden>No styles match that search.</p>
+  <section class="library" id="styles" aria-labelledby="library-heading">
+    <div class="library-inner">
+      <div class="library-head">
+        <h2 id="library-heading">The styles</h2>
+        <div class="toolbar">
+          <input id="search" type="search" placeholder="Search styles..." aria-label="Search styles">
+          <select id="family-filter" aria-label="Filter by family">
+            <option value="">All families</option>
+            <option value="cartoon-audio-short">cartoon-audio-short</option>
+            <option value="faceless-shorts">faceless-shorts</option>
+            <option value="ai-video-editor">ai-video-editor</option>
+            <option value="nafay-style-library">nafay-style-library</option>
+            <option value="cth-animate">cth-animate</option>
+            <option value="artem-animation-skills">artem-animation-skills</option>
+          </select>
+          <span id="count" class="count" role="status"></span>
+        </div>
+      </div>
+      <p class="loading" id="loading">Loading the styles...</p>
+      <div id="grid" class="grid" aria-live="polite"></div>
+      <p id="empty" class="empty" hidden>No styles match that search.</p>
+    </div>
+  </section>
 </main>
 
 <footer class="site-footer">
   <p>All 86 styles rendered offline from their own code. Voices: Kokoro (af_heart) by default; cartoon-audio-short uses the channel TTS voice. No ElevenLabs anywhere.</p>
+  <p><a href="https://github.com/HackerS-ALT/skills-showcase">Source on GitHub</a></p>
 </footer>
+
+<noscript><p class="noscript">This showcase needs JavaScript to load the style grid. The full list of 86 styles is in the repository README.</p></noscript>
 
 <div id="modal" class="modal" hidden role="dialog" aria-modal="true" aria-labelledby="modal-name">
   <div class="modal-backdrop" data-close></div>
   <div class="modal-panel">
-    <button class="modal-close" data-close aria-label="Close">×</button>
+    <button class="modal-close" data-close aria-label="Close">
+      <svg aria-hidden="true" viewBox="0 0 16 16" width="16" height="16"><path d="M2 2 L14 14 M14 2 L2 14" stroke="currentColor" stroke-width="2" stroke-linecap="round" fill="none"/></svg>
+    </button>
     <div class="modal-body">
       <section class="modal-text">
         <h2 id="modal-name"></h2>
@@ -54,7 +88,7 @@
         <video id="modal-video" controls playsinline preload="metadata"></video>
         <div id="modal-stills" class="modal-stills"></div>
       </section>
-      <p id="modal-media-pending" class="media-pending" hidden>Stills and demo video coming soon — this skill's media is still rendering.</p>
+      <p id="modal-media-pending" class="media-pending" hidden>Stills and demo video coming soon. This skill's media is still rendering.</p>
     </div>
   </div>
 </div>
