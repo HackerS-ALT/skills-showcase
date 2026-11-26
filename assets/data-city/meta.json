@@ -1,0 +1,28 @@
+{
+ "slug": "data-city",
+ "name": "Data City",
+ "family": "3D",
+ "description": "A 3D bar chart that grows like a city skyline at night, built in Three.js: navy towers with lit windows, glowing cyan-to-magenta roofs, a grid floor fading into fog, and values floating above each tower.",
+ "best_use_cases": [
+  "Bar-chart data stories",
+  "Trends over time",
+  "Making numbers feel like a city"
+ ],
+ "style": "3D in Three.js: tower heights exactly proportional to the values, a slow orbit around the skyline, the tallest tower gets a light beam and a callout, then the camera rises over the city for the takeaway number.",
+ "voice": "Kokoro af_heart",
+ "orientation": "portrait",
+ "stills": [
+  "assets/data-city/still-1.jpg",
+  "assets/data-city/still-2.jpg",
+  "assets/data-city/still-3.jpg",
+  "assets/data-city/still-4.jpg",
+  "assets/data-city/still-5.jpg",
+  "assets/data-city/still-6.jpg"
+ ],
+ "video": "assets/data-city/demo.mp4",
+ "duration_s": 14.0,
+ "resolution": "720x1280",
+ "fps": 30,
+ "video_bytes": 1761421,
+ "stills_bytes": 492292
+}

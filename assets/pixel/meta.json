@@ -1,0 +1,28 @@
+{
+ "slug": "pixel",
+ "name": "Pixel",
+ "family": "Cth Animate",
+ "description": "Pixel art. Every picture is drawn at a low internal resolution - 90x160, 135x240, 180x320 for a 9:16 frame - with whole-pixel primitives in a limited palette, then scaled up nearest-neighbour to 1080x1920. Hard square pixels, ordered (Bayer) dithering instead of gradients, a built-in 5x7 bitmap font, sprites from string arrays, and screen effects that belong to a device: an LCD grid for a handheld, scanlines and a curved-tube vignette for an arcade.",
+ "best_use_cases": [
+  "Stories told across eras, with resolution marking time",
+  "Retro game and handheld nostalgia",
+  "Chronologies that get sharper as they go"
+ ],
+ "style": "Low-resolution pixel art scaled up nearest-neighbour with Bayer dithering",
+ "voice": "Kokoro af_heart",
+ "orientation": "portrait",
+ "stills": [
+  "assets/pixel/still-1.jpg",
+  "assets/pixel/still-2.jpg",
+  "assets/pixel/still-3.jpg",
+  "assets/pixel/still-4.jpg",
+  "assets/pixel/still-5.jpg",
+  "assets/pixel/still-6.jpg"
+ ],
+ "video": "assets/pixel/demo.mp4",
+ "duration_s": 12.0,
+ "resolution": "1080x1920",
+ "fps": 30,
+ "video_bytes": 2449323,
+ "stills_bytes": 2245704
+}

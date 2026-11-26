@@ -1,0 +1,28 @@
+{
+  "slug": "math-canvas",
+  "name": "Math Canvas",
+  "family": "Data",
+  "description": "A dark slate for maths: an equation written in an elegant italic serif, a yellow box and handwritten note on the key term, and a graph whose curve plots itself to scale with a glowing dot and a live value, beside a dashed comparison line.",
+  "best_use_cases": [
+    "Maths explainers with a live-plotted graph",
+    "Compound growth and comparison curves",
+    "Equations that write themselves term by term"
+  ],
+  "style": "Dark slate with faint grid; Instrument Serif italic equations, teal main curve, yellow key-term box and handwritten notes.",
+  "voice": "Kokoro af_heart",
+  "orientation": "portrait",
+  "stills": [
+    "assets/math-canvas/still-1.jpg",
+    "assets/math-canvas/still-2.jpg",
+    "assets/math-canvas/still-3.jpg",
+    "assets/math-canvas/still-4.jpg",
+    "assets/math-canvas/still-5.jpg",
+    "assets/math-canvas/still-6.jpg"
+  ],
+  "video": "assets/math-canvas/demo.mp4",
+  "duration_s": 14.0,
+  "resolution": "720x1280",
+  "fps": 24,
+  "video_bytes": 709581,
+  "stills_bytes": 543580
+}

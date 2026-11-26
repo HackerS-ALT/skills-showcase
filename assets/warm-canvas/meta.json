@@ -1,0 +1,28 @@
+{
+ "slug": "warm-canvas",
+ "name": "Warm Canvas",
+ "family": "ai-video-editor",
+ "description": "A calm, editorial creator edit built around your own footage: full-frame talking head with a few clean serif captions, then a warm off-white canvas with a soft swoosh where white cards explain the idea while you shrink into a rounded picture-in-picture.",
+ "best_use_cases": [
+  "Talking-head creator edits",
+  "Calm editorial explainers with cards",
+  "Plan-my-week and productivity topics"
+ ],
+ "style": "Two modes only: full-frame A-roll with one centred Fraunces caption (key words in sky blue #4f9cf0) and small side chips, or the warm canvas (#f7f5f4 with one big swoosh) with the speaker in a rounded 272x384 PiP and the content in the left column. White cards, radius 20, pastel tags, gentle fades and soft counters, never a bounce. Quiet tactile sound: paper slides, wooden taps, one warm pad.",
+ "voice": "Kokoro af_heart",
+ "orientation": "landscape",
+ "stills": [
+  "assets/warm-canvas/still-1.jpg",
+  "assets/warm-canvas/still-2.jpg",
+  "assets/warm-canvas/still-3.jpg",
+  "assets/warm-canvas/still-4.jpg",
+  "assets/warm-canvas/still-5.jpg",
+  "assets/warm-canvas/still-6.jpg"
+ ],
+ "video": "assets/warm-canvas/demo.mp4",
+ "duration_s": 12.5,
+ "resolution": "1280x720",
+ "fps": 30,
+ "video_bytes": 657684,
+ "stills_bytes": 293213
+}

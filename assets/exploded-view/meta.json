@@ -1,0 +1,28 @@
+{
+ "slug": "exploded-view",
+ "name": "Exploded View",
+ "family": "nafay-style-library",
+ "description": "A clean studio teardown in Three.js: an object turns slowly on a light grey floor and floats apart into its layers, each part tagged with a numbered mono label on a thin leader line.",
+ "best_use_cases": [
+  "What's inside X",
+  "How a thing is put together",
+  "Vertical Shorts teardowns"
+ ],
+ "style": "3D studio teardown: light grey background, shadow-only floor, soft key light, slow turntable, parts lifting apart one at a time with even gaps, Space Grotesk headlines, numbered JetBrains Mono labels on self-drawing leader lines, one part glowing to show why it matters.",
+ "voice": "Kokoro af_heart",
+ "orientation": "portrait",
+ "stills": [
+  "assets/exploded-view/still-1.jpg",
+  "assets/exploded-view/still-2.jpg",
+  "assets/exploded-view/still-3.jpg",
+  "assets/exploded-view/still-4.jpg",
+  "assets/exploded-view/still-5.jpg",
+  "assets/exploded-view/still-6.jpg"
+ ],
+ "video": "assets/exploded-view/demo.mp4",
+ "duration_s": 14.0,
+ "resolution": "720x1280",
+ "fps": 20,
+ "video_bytes": 3351402,
+ "stills_bytes": 424182
+}

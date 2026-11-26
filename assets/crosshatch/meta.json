@@ -1,0 +1,28 @@
+{
+ "slug": "crosshatch",
+ "name": "Crosshatch",
+ "family": "Hand-Drawn",
+ "description": "A sketchy ink line that boils on 2s, crosshatch and coloured-pencil shading clipped inside shapes, stipple, paper grain. Warm cream paper and wood by day; navy inside-the-computer worlds with periwinkle lines and glowing accents.",
+ "best_use_cases": [
+  "Short explainers",
+  "Histories and little stories",
+  "Sketchy ink explainers with a plan-then-do structure"
+ ],
+ "style": "Hand-drawn ink: wobbly strokes reseeded every boil step, textures clipped inside shapes, light shaded with a density function, the hero terracotta dot in both worlds, red pencil dashes for the plan.",
+ "voice": "Kokoro af_heart",
+ "orientation": "portrait",
+ "stills": [
+  "assets/crosshatch/still-1.jpg",
+  "assets/crosshatch/still-2.jpg",
+  "assets/crosshatch/still-3.jpg",
+  "assets/crosshatch/still-4.jpg",
+  "assets/crosshatch/still-5.jpg",
+  "assets/crosshatch/still-6.jpg"
+ ],
+ "video": "assets/crosshatch/demo.mp4",
+ "duration_s": 10.0,
+ "resolution": "1080x1920",
+ "fps": 30,
+ "video_bytes": 15948915,
+ "stills_bytes": 1194900
+}

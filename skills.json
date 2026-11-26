@@ -1,6 +1,6 @@
 {
   "count": 86,
-  "done": 25,
+  "done": 37,
   "skills": [
     {
       "slug": "bio-glow",
@@ -247,37 +247,63 @@
     },
     {
       "slug": "creator-motion-graphics",
-      "name": "creator-motion-graphics",
-      "family": "nafay-style-library",
-      "family_key": "nafay-style-library",
-      "status": "text",
-      "description": "The high-energy business-creator edit: huge condensed caps slamming in word by word, a yellow serif accent on the one word that matters, highlighter swipes, hand-drawn circles and arrows, tilted browser and phone mockups, rolling green counters, film grain and light leaks on near-black. Every idea gets its own beat.",
+      "name": "Creator Motion Graphics",
+      "family": "Kinetic Type",
+      "description": "High-energy business/creator explainers; punchy claims, numbers, proof mockups. Huge condensed caps slam in word by word, a yellow serif accent marks the one word that matters, highlighter swipes, hand-drawn circles and arrows, tilted browser and phone mockups, rolling green counters, film grain and light leaks on near-black.",
       "best_use_cases": [
-        "High-energy creator and business edits",
-        "Punchy idea-per-beat explainers with proof mockups",
-        "Motivational and business Shorts"
+        "Business and creator explainers",
+        "Punchy claims with numbers",
+        "Proof mockups and first-client stories"
       ],
-      "style": "Nafay, Kinetic Type \u2014 huge condensed caps, yellow serif accent, mockups, grain on near-black",
+      "style": "Kinetic type on near-black: Anton caps slam in word by word, one yellow serif word per line, green only for money and growth numbers, red only for the wrong idea, whip pans, RGB glitches and flash cuts between ideas.",
       "voice": "Kokoro af_heart",
-      "stills": [],
-      "video": ""
+      "orientation": "landscape",
+      "stills": [
+        "assets/creator-motion-graphics/still-1.jpg",
+        "assets/creator-motion-graphics/still-2.jpg",
+        "assets/creator-motion-graphics/still-3.jpg",
+        "assets/creator-motion-graphics/still-4.jpg",
+        "assets/creator-motion-graphics/still-5.jpg",
+        "assets/creator-motion-graphics/still-6.jpg"
+      ],
+      "video": "assets/creator-motion-graphics/demo.mp4",
+      "duration_s": 21.5,
+      "resolution": "1280x720",
+      "fps": 30,
+      "video_bytes": 19815272,
+      "stills_bytes": 764211,
+      "status": "done",
+      "family_key": "nafay-style-library"
     },
     {
       "slug": "crosshatch",
-      "name": "crosshatch",
-      "family": "cth-animate",
-      "family_key": "cth-animate",
-      "status": "text",
-      "description": "A sketchy ink line that boils on 2s, with crosshatch and coloured-pencil shading clipped inside shapes, stipple and paper grain. Warm cream paper and wood by day, and navy inside-the-computer worlds with periwinkle lines and glowing accents.",
+      "name": "Crosshatch",
+      "family": "Hand-Drawn",
+      "description": "A sketchy ink line that boils on 2s, crosshatch and coloured-pencil shading clipped inside shapes, stipple, paper grain. Warm cream paper and wood by day; navy inside-the-computer worlds with periwinkle lines and glowing accents.",
       "best_use_cases": [
-        "Hand-drawn sketchy explainers",
-        "Stories set inside a computer or a technical world",
-        "Warm, textured ink illustrations"
+        "Short explainers",
+        "Histories and little stories",
+        "Sketchy ink explainers with a plan-then-do structure"
       ],
-      "style": "cth-animate \u2014 sketchy boiling ink line, crosshatch and coloured-pencil shading on cream paper",
+      "style": "Hand-drawn ink: wobbly strokes reseeded every boil step, textures clipped inside shapes, light shaded with a density function, the hero terracotta dot in both worlds, red pencil dashes for the plan.",
       "voice": "Kokoro af_heart",
-      "stills": [],
-      "video": ""
+      "orientation": "portrait",
+      "stills": [
+        "assets/crosshatch/still-1.jpg",
+        "assets/crosshatch/still-2.jpg",
+        "assets/crosshatch/still-3.jpg",
+        "assets/crosshatch/still-4.jpg",
+        "assets/crosshatch/still-5.jpg",
+        "assets/crosshatch/still-6.jpg"
+      ],
+      "video": "assets/crosshatch/demo.mp4",
+      "duration_s": 10.0,
+      "resolution": "1080x1920",
+      "fps": 30,
+      "video_bytes": 15948915,
+      "stills_bytes": 1194900,
+      "status": "done",
+      "family_key": "cth-animate"
     },
     {
       "slug": "cut-paper",
@@ -315,20 +341,33 @@
     },
     {
       "slug": "data-city",
-      "name": "data-city",
-      "family": "nafay-style-library",
-      "family_key": "nafay-style-library",
-      "status": "text",
-      "description": "A 3D bar chart that grows like a city skyline at night, built in Three.js: navy towers with lit windows, glowing cyan-to-magenta roofs, a grid floor fading into fog, and values floating above each tower. Towers rise one by one with their values counting up while the camera slowly circles the skyline.",
+      "name": "Data City",
+      "family": "3D",
+      "description": "A 3D bar chart that grows like a city skyline at night, built in Three.js: navy towers with lit windows, glowing cyan-to-magenta roofs, a grid floor fading into fog, and values floating above each tower.",
       "best_use_cases": [
-        "Bar-chart data shown as a night skyline",
-        "Comparing values across categories",
-        "Data stories with a cinematic 3D feel"
+        "Bar-chart data stories",
+        "Trends over time",
+        "Making numbers feel like a city"
       ],
-      "style": "Nafay, 3D \u2014 bar chart as a night city skyline, glowing roofs, fog, circling camera",
+      "style": "3D in Three.js: tower heights exactly proportional to the values, a slow orbit around the skyline, the tallest tower gets a light beam and a callout, then the camera rises over the city for the takeaway number.",
       "voice": "Kokoro af_heart",
-      "stills": [],
-      "video": ""
+      "orientation": "portrait",
+      "stills": [
+        "assets/data-city/still-1.jpg",
+        "assets/data-city/still-2.jpg",
+        "assets/data-city/still-3.jpg",
+        "assets/data-city/still-4.jpg",
+        "assets/data-city/still-5.jpg",
+        "assets/data-city/still-6.jpg"
+      ],
+      "video": "assets/data-city/demo.mp4",
+      "duration_s": 14.0,
+      "resolution": "720x1280",
+      "fps": 30,
+      "video_bytes": 1761421,
+      "stills_bytes": 492292,
+      "status": "done",
+      "family_key": "nafay-style-library"
     },
     {
       "slug": "data-story",
@@ -443,20 +482,33 @@
     },
     {
       "slug": "exploded-view",
-      "name": "exploded-view",
+      "name": "Exploded View",
       "family": "nafay-style-library",
-      "family_key": "nafay-style-library",
-      "status": "text",
-      "description": "A clean studio teardown in Three.js: an object turns slowly on a light grey floor and floats apart into its layers, each part tagged with a numbered mono label on a thin leader line. The closed object turns once, then its layers lift apart one at a time, each named as it moves.",
+      "description": "A clean studio teardown in Three.js: an object turns slowly on a light grey floor and floats apart into its layers, each part tagged with a numbered mono label on a thin leader line.",
       "best_use_cases": [
-        "Studio teardowns of an object layer by layer",
-        "Showing what is inside a product",
-        "Labelled part-by-part explainers"
+        "What's inside X",
+        "How a thing is put together",
+        "Vertical Shorts teardowns"
       ],
-      "style": "Nafay, 3D \u2014 clean studio teardown, floating layers, numbered mono labels",
+      "style": "3D studio teardown: light grey background, shadow-only floor, soft key light, slow turntable, parts lifting apart one at a time with even gaps, Space Grotesk headlines, numbered JetBrains Mono labels on self-drawing leader lines, one part glowing to show why it matters.",
       "voice": "Kokoro af_heart",
-      "stills": [],
-      "video": ""
+      "orientation": "portrait",
+      "stills": [
+        "assets/exploded-view/still-1.jpg",
+        "assets/exploded-view/still-2.jpg",
+        "assets/exploded-view/still-3.jpg",
+        "assets/exploded-view/still-4.jpg",
+        "assets/exploded-view/still-5.jpg",
+        "assets/exploded-view/still-6.jpg"
+      ],
+      "video": "assets/exploded-view/demo.mp4",
+      "duration_s": 14.0,
+      "resolution": "720x1280",
+      "fps": 20,
+      "video_bytes": 3351402,
+      "stills_bytes": 424182,
+      "status": "done",
+      "family_key": "nafay-style-library"
     },
     {
       "slug": "glass-icons",
@@ -558,20 +610,33 @@
     },
     {
       "slug": "inside-out",
-      "name": "inside-out",
+      "name": "Inside Out",
       "family": "faceless-shorts",
-      "family_key": "faceless-shorts",
-      "status": "text",
-      "description": "A simple flat hero with x-ray cutaways into the body, organs and props as clean vector shapes, bold 1-3 word captions with one yellow word, and a cut every 1-3 seconds with the camera always moving. Curious, slightly shocking and satisfying.",
+      "description": "Flat 2D \"What happens if...?\" shorts: a simple flat hero, x-ray cutaways into the body, organs and props as clean vector shapes, bold 1-3 word captions with one yellow word, and a cut every 1-3 seconds with the camera always moving.",
       "best_use_cases": [
-        "What happens if...? flat 2D body explainers",
-        "Quick-cut Shorts about swallowing, holding breath and other body curiosities",
-        "Vector-style explainers with x-ray views"
+        "What-happens-if body explainers",
+        "Health and science questions",
+        "Myth-busting with x-ray cutaways"
       ],
-      "style": "Faceless-shorts \u2014 flat 2D vector, x-ray cyan and danger red on warm cream, bold short captions",
+      "style": "Flat 2D x-ray explainer",
       "voice": "Kokoro af_heart",
-      "stills": [],
-      "video": ""
+      "orientation": "portrait",
+      "stills": [
+        "assets/inside-out/still-1.jpg",
+        "assets/inside-out/still-2.jpg",
+        "assets/inside-out/still-3.jpg",
+        "assets/inside-out/still-4.jpg",
+        "assets/inside-out/still-5.jpg",
+        "assets/inside-out/still-6.jpg"
+      ],
+      "video": "assets/inside-out/demo.mp4",
+      "duration_s": 12.9,
+      "resolution": "1080x1920",
+      "fps": 30.0,
+      "video_bytes": 3729340,
+      "stills_bytes": 623837,
+      "status": "done",
+      "family_key": "faceless-shorts"
     },
     {
       "slug": "iso-cutaway",
@@ -725,20 +790,33 @@
     },
     {
       "slug": "low-poly",
-      "name": "low-poly",
+      "name": "Low-Poly",
       "family": "artem-animation-skills",
-      "family_key": "artem-animation-skills",
-      "status": "text",
-      "description": "A PS1 and N64-era low-poly 3D animation in the style of low poly shorts: chunky low-resolution pixels, wobbly vertices, dithering, flat warm lighting and small yellow captions with a thin black outline. The built-in scene is a train platform where a dog sits and waits as a train brakes in and pulls away.",
+      "description": "PS1/N64-era low-poly 3D animation in the style of \"low poly shorts\": chunky low-resolution pixels, wobbly vertices, dithering, flat warm lighting and small yellow captions with a thin black outline. The built-in scene is a train platform: a dog sits and waits, a train brakes in and pulls away, and he is still there in the snow.",
       "best_use_cases": [
-        "Retro low-poly 3D story shorts",
-        "Nostalgic PS1-style scenes",
-        "Quiet, warm character moments in low poly"
+        "Nostalgic retro 3D stories",
+        "True stories about animals",
+        "Quiet, sad or strange tales"
       ],
-      "style": "Artem \u2014 PS1-era low-poly 3D, chunky pixels, wobbly vertices, flat warm light",
+      "style": "PS1-era low-poly 3D",
       "voice": "Kokoro af_heart",
-      "stills": [],
-      "video": ""
+      "orientation": "portrait",
+      "stills": [
+        "assets/low-poly/still-1.jpg",
+        "assets/low-poly/still-2.jpg",
+        "assets/low-poly/still-3.jpg",
+        "assets/low-poly/still-4.jpg",
+        "assets/low-poly/still-5.jpg",
+        "assets/low-poly/still-6.jpg"
+      ],
+      "video": "assets/low-poly/demo.mp4",
+      "duration_s": 10.0,
+      "resolution": "1080x1920",
+      "fps": 30.0,
+      "video_bytes": 12186648,
+      "stills_bytes": 1606300,
+      "status": "done",
+      "family_key": "artem-animation-skills"
     },
     {
       "slug": "low-poly-atlas",
@@ -883,20 +961,33 @@
     },
     {
       "slug": "math-canvas",
-      "name": "math-canvas",
-      "family": "nafay-style-library",
-      "family_key": "nafay-style-library",
-      "status": "text",
-      "description": "A dark slate for maths: an equation written in an elegant italic serif, a yellow box and handwritten note on the key term, and a graph whose curve plots itself to scale with a glowing dot and a live value, beside a dashed comparison line. The equation writes on term by term.",
+      "name": "Math Canvas",
+      "family": "Data",
+      "description": "A dark slate for maths: an equation written in an elegant italic serif, a yellow box and handwritten note on the key term, and a graph whose curve plots itself to scale with a glowing dot and a live value, beside a dashed comparison line.",
       "best_use_cases": [
-        "Maths explainers with an equation and a live graph",
-        "Comparing two curves and measuring the gap",
-        "Elegant dark-slate maths visuals"
+        "Maths explainers with a live-plotted graph",
+        "Compound growth and comparison curves",
+        "Equations that write themselves term by term"
       ],
-      "style": "Nafay, Data \u2014 dark slate, italic serif equation, self-plotting curve, live value",
+      "style": "Dark slate with faint grid; Instrument Serif italic equations, teal main curve, yellow key-term box and handwritten notes.",
       "voice": "Kokoro af_heart",
-      "stills": [],
-      "video": ""
+      "orientation": "portrait",
+      "stills": [
+        "assets/math-canvas/still-1.jpg",
+        "assets/math-canvas/still-2.jpg",
+        "assets/math-canvas/still-3.jpg",
+        "assets/math-canvas/still-4.jpg",
+        "assets/math-canvas/still-5.jpg",
+        "assets/math-canvas/still-6.jpg"
+      ],
+      "video": "assets/math-canvas/demo.mp4",
+      "duration_s": 14.0,
+      "resolution": "720x1280",
+      "fps": 24,
+      "video_bytes": 709581,
+      "stills_bytes": 543580,
+      "status": "done",
+      "family_key": "nafay-style-library"
     },
     {
       "slug": "minecraft",
@@ -1075,37 +1166,63 @@
     },
     {
       "slug": "physics-toybox",
-      "name": "physics-toybox",
-      "family": "nafay-style-library",
-      "family_key": "nafay-style-library",
-      "status": "text",
-      "description": "Bright plastic toys in Three.js on a sunny yellow floor: glossy balls, a white ramp and a curving chain of coloured dominoes that grow in size, with crisp shadows and a slow-motion moment on the key hit. A ball rolls down the ramp and starts a chain reaction you can follow beat by beat.",
+      "name": "Physics Toybox",
+      "family": "3D",
+      "description": "Bright plastic toys in Three.js on a sunny yellow floor: glossy balls, a white ramp and a curving chain of coloured dominoes that grow in size, with crisp shadows and a slow-motion moment on the key hit.",
       "best_use_cases": [
-        "Physics chain reactions and domino runs",
-        "Showing cause and effect with toys",
-        "Playful science demos with slow motion"
+        "Physics ideas shown as a chain reaction",
+        "Cause-and-effect explainers",
+        "Slow-motion key moments"
       ],
-      "style": "Nafay, 3D \u2014 bright plastic toys on a sunny yellow floor, domino chain, slow motion",
+      "style": "Bright plastic toys in Three.js on a sunny yellow floor",
       "voice": "Kokoro af_heart",
-      "stills": [],
-      "video": ""
+      "orientation": "portrait",
+      "stills": [
+        "assets/physics-toybox/still-1.jpg",
+        "assets/physics-toybox/still-2.jpg",
+        "assets/physics-toybox/still-3.jpg",
+        "assets/physics-toybox/still-4.jpg",
+        "assets/physics-toybox/still-5.jpg",
+        "assets/physics-toybox/still-6.jpg"
+      ],
+      "video": "assets/physics-toybox/demo.mp4",
+      "duration_s": 13.0,
+      "resolution": "720x1280",
+      "fps": 30,
+      "video_bytes": 1488103,
+      "stills_bytes": 393037,
+      "status": "done",
+      "family_key": "nafay-style-library"
     },
     {
       "slug": "pixel",
-      "name": "pixel",
-      "family": "cth-animate",
-      "family_key": "cth-animate",
-      "status": "text",
-      "description": "Pixel art drawn at a low internal resolution with whole-pixel primitives in a limited palette, scaled up nearest-neighbour, with hard square pixels, ordered dithering instead of gradients and a built-in bitmap font. Resolution can tell time: an early era is chunkier than a later one.",
+      "name": "Pixel",
+      "family": "Cth Animate",
+      "description": "Pixel art. Every picture is drawn at a low internal resolution - 90x160, 135x240, 180x320 for a 9:16 frame - with whole-pixel primitives in a limited palette, then scaled up nearest-neighbour to 1080x1920. Hard square pixels, ordered (Bayer) dithering instead of gradients, a built-in 5x7 bitmap font, sprites from string arrays, and screen effects that belong to a device: an LCD grid for a handheld, scanlines and a curved-tube vignette for an arcade.",
       "best_use_cases": [
-        "Retro game-style stories and chronologies",
-        "Pixel-art explainers where eras get sharper over time",
-        "Handheld and arcade-flavoured visuals"
+        "Stories told across eras, with resolution marking time",
+        "Retro game and handheld nostalgia",
+        "Chronologies that get sharper as they go"
       ],
-      "style": "cth-animate \u2014 pixel art, low internal resolution scaled nearest-neighbour, Bayer dithering",
+      "style": "Low-resolution pixel art scaled up nearest-neighbour with Bayer dithering",
       "voice": "Kokoro af_heart",
-      "stills": [],
-      "video": ""
+      "orientation": "portrait",
+      "stills": [
+        "assets/pixel/still-1.jpg",
+        "assets/pixel/still-2.jpg",
+        "assets/pixel/still-3.jpg",
+        "assets/pixel/still-4.jpg",
+        "assets/pixel/still-5.jpg",
+        "assets/pixel/still-6.jpg"
+      ],
+      "video": "assets/pixel/demo.mp4",
+      "duration_s": 12.0,
+      "resolution": "1080x1920",
+      "fps": 30,
+      "video_bytes": 2449323,
+      "stills_bytes": 2245704,
+      "status": "done",
+      "family_key": "cth-animate"
     },
     {
       "slug": "pixel-quest",
@@ -1321,21 +1438,34 @@
       "video": ""
     },
     {
-      "slug": "size-lineup",
-      "name": "size-lineup",
-      "family": "nafay-style-library",
-      "family_key": "nafay-style-library",
-      "status": "text",
-      "description": "Things lined up smallest to biggest on an endless pale floor with a grid, built in Three.js, while the camera glides past and pulls back. Each one gets a dimension line and a dark height tag, and the final pull-back shows the whole lineup with the giant at the end.",
       "best_use_cases": [
-        "Size comparisons, smallest to biggest",
-        "Showing scale across objects or creatures",
-        "Lineup reveal explainers"
+        "size comparisons",
+        "scale explainers",
+        "\"how big is X\" Shorts"
       ],
-      "style": "Nafay, 3D \u2014 smallest-to-biggest lineup on a pale grid floor, dimension lines, height tags",
+      "description": "Things lined up smallest to biggest on an endless pale floor with a grid, built in Three.js, while the camera glides past and pulls back.",
+      "duration_s": 15.0,
+      "family": "3D",
+      "fps": 30,
+      "name": "size-lineup",
+      "orientation": "portrait",
+      "resolution": "720x1280",
+      "slug": "size-lineup",
+      "stills": [
+        "assets/size-lineup/still-1.jpg",
+        "assets/size-lineup/still-2.jpg",
+        "assets/size-lineup/still-3.jpg",
+        "assets/size-lineup/still-4.jpg",
+        "assets/size-lineup/still-5.jpg",
+        "assets/size-lineup/still-6.jpg"
+      ],
+      "stills_bytes": 454665,
+      "style": "Endless pale floor + grid, dimension lines + dark height tags, Archivo Black headline navy + blue, JetBrains Mono numbers",
+      "video": "assets/size-lineup/demo.mp4",
+      "video_bytes": 1960094,
       "voice": "Kokoro af_heart",
-      "stills": [],
-      "video": ""
+      "status": "done",
+      "family_key": "nafay-style-library"
     },
     {
       "slug": "sketchbook",
@@ -1710,20 +1840,33 @@
     },
     {
       "slug": "warm-canvas",
-      "name": "warm-canvas",
+      "name": "Warm Canvas",
       "family": "ai-video-editor",
-      "family_key": "ai-video-editor",
-      "status": "text",
-      "description": "A calm, editorial creator edit built around your own footage: full-frame talking head with clean serif captions, then a warm off-white canvas with a soft swoosh where white cards explain the idea while you shrink into a rounded picture-in-picture. Fraunces headlines in ink and sky blue with quiet UI text and pastel chips.",
+      "description": "A calm, editorial creator edit built around your own footage: full-frame talking head with a few clean serif captions, then a warm off-white canvas with a soft swoosh where white cards explain the idea while you shrink into a rounded picture-in-picture.",
       "best_use_cases": [
-        "Talking-head creator videos with visual explanations",
-        "Explaining an idea with cards, tables and takeaway pills beside the speaker",
-        "Editorial explainer edits built on A-roll footage"
+        "Talking-head creator edits",
+        "Calm editorial explainers with cards",
+        "Plan-my-week and productivity topics"
       ],
-      "style": "AI video editor, Talking Head \u2014 warm off-white canvas, Fraunces headlines, picture-in-picture speaker",
+      "style": "Two modes only: full-frame A-roll with one centred Fraunces caption (key words in sky blue #4f9cf0) and small side chips, or the warm canvas (#f7f5f4 with one big swoosh) with the speaker in a rounded 272x384 PiP and the content in the left column. White cards, radius 20, pastel tags, gentle fades and soft counters, never a bounce. Quiet tactile sound: paper slides, wooden taps, one warm pad.",
       "voice": "Kokoro af_heart",
-      "stills": [],
-      "video": ""
+      "orientation": "landscape",
+      "stills": [
+        "assets/warm-canvas/still-1.jpg",
+        "assets/warm-canvas/still-2.jpg",
+        "assets/warm-canvas/still-3.jpg",
+        "assets/warm-canvas/still-4.jpg",
+        "assets/warm-canvas/still-5.jpg",
+        "assets/warm-canvas/still-6.jpg"
+      ],
+      "video": "assets/warm-canvas/demo.mp4",
+      "duration_s": 12.5,
+      "resolution": "1280x720",
+      "fps": 30,
+      "video_bytes": 657684,
+      "stills_bytes": 293213,
+      "status": "done",
+      "family_key": "ai-video-editor"
     },
     {
       "slug": "woodcut-tale",
@@ -1774,20 +1917,33 @@
     },
     {
       "slug": "zine-collage",
-      "name": "zine-collage",
+      "name": "Zine Collage",
       "family": "nafay-style-library",
-      "family_key": "nafay-style-library",
-      "status": "text",
-      "description": "A DIY zine on kraft paper: torn pink and black paper, halftone cutouts drawn in code, ransom-note letters each in a different font and colour, translucent tape strips and handwritten notes, all slapped on at a jittery 8 frames a second. Pieces are slapped onto the page one after another like someone building a collage live.",
+      "description": "A DIY zine on kraft paper: torn pink and black paper, halftone cutouts drawn in code, ransom-note letters each in a different font and colour, translucent tape strips and handwritten notes, all slapped on at a jittery 8 frames a second.",
       "best_use_cases": [
-        "DIY zine-style collages",
-        "Punk, handmade fact Shorts",
-        "Scrapbook collage storytelling"
+        "Fact scraps and quick explainers",
+        "Music and pop-culture stories",
+        "DIY collage energy"
       ],
-      "style": "Nafay, Illustrated \u2014 DIY zine on kraft paper, torn paper, ransom-note letters, tape",
+      "style": "Kraft paper (#e2d2b2) with speckles, torn jagged shapes in hot pink, black, white and yellow with short drop shadows, halftone dot-grid subjects, ransom-note titles with each letter in its own font/colour box, tape strips, Caveat handwriting, stop-motion 8 fps slap timing with 1-2 px jitter. Lo-fi beat with vinyl crackle.",
       "voice": "Kokoro af_heart",
-      "stills": [],
-      "video": ""
+      "orientation": "portrait",
+      "stills": [
+        "assets/zine-collage/still-1.jpg",
+        "assets/zine-collage/still-2.jpg",
+        "assets/zine-collage/still-3.jpg",
+        "assets/zine-collage/still-4.jpg",
+        "assets/zine-collage/still-5.jpg",
+        "assets/zine-collage/still-6.jpg"
+      ],
+      "video": "assets/zine-collage/demo.mp4",
+      "duration_s": 14.0,
+      "resolution": "720x1280",
+      "fps": 30,
+      "video_bytes": 30224512,
+      "stills_bytes": 1520525,
+      "status": "done",
+      "family_key": "nafay-style-library"
     }
   ]
 }

@@ -1,0 +1,28 @@
+{
+ "slug": "physics-toybox",
+ "name": "Physics Toybox",
+ "family": "3D",
+ "description": "Bright plastic toys in Three.js on a sunny yellow floor: glossy balls, a white ramp and a curving chain of coloured dominoes that grow in size, with crisp shadows and a slow-motion moment on the key hit.",
+ "best_use_cases": [
+  "Physics ideas shown as a chain reaction",
+  "Cause-and-effect explainers",
+  "Slow-motion key moments"
+ ],
+ "style": "Bright plastic toys in Three.js on a sunny yellow floor",
+ "voice": "Kokoro af_heart",
+ "orientation": "portrait",
+ "stills": [
+  "assets/physics-toybox/still-1.jpg",
+  "assets/physics-toybox/still-2.jpg",
+  "assets/physics-toybox/still-3.jpg",
+  "assets/physics-toybox/still-4.jpg",
+  "assets/physics-toybox/still-5.jpg",
+  "assets/physics-toybox/still-6.jpg"
+ ],
+ "video": "assets/physics-toybox/demo.mp4",
+ "duration_s": 13.0,
+ "resolution": "720x1280",
+ "fps": 30,
+ "video_bytes": 1488103,
+ "stills_bytes": 393037
+}

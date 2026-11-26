@@ -1,0 +1,28 @@
+{
+  "slug": "low-poly",
+  "name": "Low-Poly",
+  "family": "artem-animation-skills",
+  "description": "PS1/N64-era low-poly 3D animation in the style of \"low poly shorts\": chunky low-resolution pixels, wobbly vertices, dithering, flat warm lighting and small yellow captions with a thin black outline. The built-in scene is a train platform: a dog sits and waits, a train brakes in and pulls away, and he is still there in the snow.",
+  "best_use_cases": [
+    "Nostalgic retro 3D stories",
+    "True stories about animals",
+    "Quiet, sad or strange tales"
+  ],
+  "style": "PS1-era low-poly 3D",
+  "voice": "Kokoro af_heart",
+  "orientation": "portrait",
+  "stills": [
+    "assets/low-poly/still-1.jpg",
+    "assets/low-poly/still-2.jpg",
+    "assets/low-poly/still-3.jpg",
+    "assets/low-poly/still-4.jpg",
+    "assets/low-poly/still-5.jpg",
+    "assets/low-poly/still-6.jpg"
+  ],
+  "video": "assets/low-poly/demo.mp4",
+  "duration_s": 10.0,
+  "resolution": "1080x1920",
+  "fps": 30.0,
+  "video_bytes": 12186648,
+  "stills_bytes": 1606300
+}

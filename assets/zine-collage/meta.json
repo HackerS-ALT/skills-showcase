@@ -1,0 +1,28 @@
+{
+ "slug": "zine-collage",
+ "name": "Zine Collage",
+ "family": "nafay-style-library",
+ "description": "A DIY zine on kraft paper: torn pink and black paper, halftone cutouts drawn in code, ransom-note letters each in a different font and colour, translucent tape strips and handwritten notes, all slapped on at a jittery 8 frames a second.",
+ "best_use_cases": [
+  "Fact scraps and quick explainers",
+  "Music and pop-culture stories",
+  "DIY collage energy"
+ ],
+ "style": "Kraft paper (#e2d2b2) with speckles, torn jagged shapes in hot pink, black, white and yellow with short drop shadows, halftone dot-grid subjects, ransom-note titles with each letter in its own font/colour box, tape strips, Caveat handwriting, stop-motion 8 fps slap timing with 1-2 px jitter. Lo-fi beat with vinyl crackle.",
+ "voice": "Kokoro af_heart",
+ "orientation": "portrait",
+ "stills": [
+  "assets/zine-collage/still-1.jpg",
+  "assets/zine-collage/still-2.jpg",
+  "assets/zine-collage/still-3.jpg",
+  "assets/zine-collage/still-4.jpg",
+  "assets/zine-collage/still-5.jpg",
+  "assets/zine-collage/still-6.jpg"
+ ],
+ "video": "assets/zine-collage/demo.mp4",
+ "duration_s": 14.0,
+ "resolution": "720x1280",
+ "fps": 30,
+ "video_bytes": 30224512,
+ "stills_bytes": 1520525
+}

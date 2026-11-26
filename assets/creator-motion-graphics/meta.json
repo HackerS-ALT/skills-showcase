@@ -1,0 +1,28 @@
+{
+ "slug": "creator-motion-graphics",
+ "name": "Creator Motion Graphics",
+ "family": "Kinetic Type",
+ "description": "High-energy business/creator explainers; punchy claims, numbers, proof mockups. Huge condensed caps slam in word by word, a yellow serif accent marks the one word that matters, highlighter swipes, hand-drawn circles and arrows, tilted browser and phone mockups, rolling green counters, film grain and light leaks on near-black.",
+ "best_use_cases": [
+  "Business and creator explainers",
+  "Punchy claims with numbers",
+  "Proof mockups and first-client stories"
+ ],
+ "style": "Kinetic type on near-black: Anton caps slam in word by word, one yellow serif word per line, green only for money and growth numbers, red only for the wrong idea, whip pans, RGB glitches and flash cuts between ideas.",
+ "voice": "Kokoro af_heart",
+ "orientation": "landscape",
+ "stills": [
+  "assets/creator-motion-graphics/still-1.jpg",
+  "assets/creator-motion-graphics/still-2.jpg",
+  "assets/creator-motion-graphics/still-3.jpg",
+  "assets/creator-motion-graphics/still-4.jpg",
+  "assets/creator-motion-graphics/still-5.jpg",
+  "assets/creator-motion-graphics/still-6.jpg"
+ ],
+ "video": "assets/creator-motion-graphics/demo.mp4",
+ "duration_s": 21.5,
+ "resolution": "1280x720",
+ "fps": 30,
+ "video_bytes": 19815272,
+ "stills_bytes": 764211
+}
