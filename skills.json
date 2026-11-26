@@ -1,6 +1,6 @@
 {
   "count": 86,
-  "done": 37,
+  "done": 45,
   "skills": [
     {
       "slug": "bio-glow",
@@ -68,20 +68,33 @@
     },
     {
       "slug": "breaking-desk",
-      "name": "breaking-desk",
-      "family": "nafay-style-library",
-      "family_key": "nafay-style-library",
-      "status": "text",
-      "description": "An invented news-desk package over your footage: a LIVE bug with a channel name, a red BREAKING tab, a white headline bar that types itself, a scrolling ticker, a map inset with a pulsing dot, and a clock. The headline types out with a flash and a second headline swaps in with a wipe for the follow-up.",
+      "name": "Breaking Desk",
+      "family": "Shorts Format",
+      "description": "An invented news-desk package over your footage: a LIVE bug with a channel name, a red BREAKING tab, a white headline bar that types itself, a scrolling ticker, a map inset with a pulsing dot, and a clock.",
       "best_use_cases": [
-        "News-style announcements over footage",
-        "Breaking-news format Shorts",
-        "Headline-driven updates with a map inset"
+        "News recaps and current events",
+        "Headline-driven explainers",
+        "Weekly roundups"
       ],
-      "style": "Nafay, Shorts Format \u2014 news desk package, LIVE bug, BREAKING tab, typing headline, ticker",
+      "style": "Invented news-desk package \u2014 LIVE bug, red BREAKING tab, typing headline bar, scrolling ticker, map inset with pulsing dot",
       "voice": "Kokoro af_heart",
-      "stills": [],
-      "video": ""
+      "orientation": "portrait",
+      "stills": [
+        "assets/breaking-desk/still-1.jpg",
+        "assets/breaking-desk/still-2.jpg",
+        "assets/breaking-desk/still-3.jpg",
+        "assets/breaking-desk/still-4.jpg",
+        "assets/breaking-desk/still-5.jpg",
+        "assets/breaking-desk/still-6.jpg"
+      ],
+      "video": "assets/breaking-desk/demo.mp4",
+      "duration_s": 13.0,
+      "resolution": "720x1280",
+      "fps": 30,
+      "video_bytes": 1311581,
+      "stills_bytes": 317837,
+      "status": "done",
+      "family_key": "nafay-style-library"
     },
     {
       "slug": "callout-kit",
@@ -170,20 +183,33 @@
     },
     {
       "slug": "clean-tech",
-      "name": "clean-tech",
-      "family": "ai-video-editor",
-      "family_key": "ai-video-editor",
-      "status": "text",
-      "description": "A calm, bright product-explainer look: cool off-white with a drifting dot grid, crisp words that rise into place, white UI cards with soft shadows, one electric blue accent and mono labels. Short statements rise word by word and ideas become small working diagrams.",
+      "name": "Clean Tech",
+      "family": "Kinetic Type",
+      "description": "A calm, bright product-explainer look: cool off-white with a drifting dot grid, crisp Inter Tight words that rise into place, white UI cards with soft shadows, one electric blue accent, mono labels and a green check for anything finished.",
       "best_use_cases": [
-        "Product explainers and app walkthroughs",
-        "Explaining a workflow or tool with small working diagrams",
-        "Clean kinetic-type explainers"
+        "Tech topics",
+        "Product explainers",
+        "AI and automation explainers"
       ],
-      "style": "AI video editor, Kinetic Type \u2014 cool off-white, dot grid, electric blue accent, rising kinetic type",
+      "style": "Kinetic type on cool off-white: short statements rise word by word, the key word gets a blue pill, and ideas become small working diagrams \u2014 a prompt card that types and sends, nodes that pop in, a dot that travels a loop, task rows that tick off, a counter that climbs.",
       "voice": "Kokoro af_heart",
-      "stills": [],
-      "video": ""
+      "orientation": "landscape",
+      "stills": [
+        "assets/clean-tech/still-1.jpg",
+        "assets/clean-tech/still-2.jpg",
+        "assets/clean-tech/still-3.jpg",
+        "assets/clean-tech/still-4.jpg",
+        "assets/clean-tech/still-5.jpg",
+        "assets/clean-tech/still-6.jpg"
+      ],
+      "video": "assets/clean-tech/demo.mp4",
+      "duration_s": 20.0,
+      "resolution": "1280x720",
+      "fps": 30,
+      "video_bytes": 2999140,
+      "stills_bytes": 470713,
+      "status": "done",
+      "family_key": "ai-video-editor"
     },
     {
       "slug": "comic-panels",
@@ -301,7 +327,7 @@
       "resolution": "1080x1920",
       "fps": 30,
       "video_bytes": 15948915,
-      "stills_bytes": 1194900,
+      "stills_bytes": 598400,
       "status": "done",
       "family_key": "cth-animate"
     },
@@ -371,20 +397,33 @@
     },
     {
       "slug": "data-story",
-      "name": "data-story",
-      "family": "nafay-style-library",
-      "family_key": "nafay-style-library",
-      "status": "text",
-      "description": "A calm, editorial data explainer: deep ink background, one warm accent per idea in coral, teal or sand, Archivo headlines, IBM Plex Mono numbers and labels, charts that draw themselves to scale, and the source always on screen. Numbers count up, then shrink into a label as the chart arrives.",
+      "name": "Data Story",
+      "family": "Data",
+      "description": "Numbers, trends, comparisons \u2014 anything where the data IS the story. A calm, editorial data explainer: deep ink background, one warm accent per idea, Archivo headlines, IBM Plex Mono numbers and labels, charts that draw themselves to scale, and the source always on screen.",
       "best_use_cases": [
-        "Editorial data explainers with sourced charts",
-        "Showing a trend with a line that draws through real data",
-        "Calm number-led stories"
+        "Numbers and trends",
+        "Comparisons",
+        "Data-driven explainers with sources on screen"
       ],
-      "style": "Nafay, Data \u2014 deep ink background, warm accents, self-drawing charts, source on screen",
+      "style": "Editorial data explainer: lines draw left to right with a glowing head, bars grow one by one with counting values, comparison cards with a sand multiplier, and a plain-language takeaway with a sand pill behind the key phrase.",
       "voice": "Kokoro af_heart",
-      "stills": [],
-      "video": ""
+      "orientation": "landscape",
+      "stills": [
+        "assets/data-story/still-1.jpg",
+        "assets/data-story/still-2.jpg",
+        "assets/data-story/still-3.jpg",
+        "assets/data-story/still-4.jpg",
+        "assets/data-story/still-5.jpg",
+        "assets/data-story/still-6.jpg"
+      ],
+      "video": "assets/data-story/demo.mp4",
+      "duration_s": 21.0,
+      "resolution": "1280x720",
+      "fps": 30,
+      "video_bytes": 1711579,
+      "stills_bytes": 256344,
+      "status": "done",
+      "family_key": "nafay-style-library"
     },
     {
       "slug": "deep-layers",
@@ -1025,20 +1064,33 @@
     },
     {
       "slug": "myth-or-fact",
-      "name": "myth-or-fact",
-      "family": "nafay-style-library",
-      "family_key": "nafay-style-library",
-      "status": "text",
-      "description": "A clean debunk Short on pale grey: a white statement card with a big quote mark, then a rubber stamp slams down, red MYTH or green FACT, with distressed ink, followed by one line of proof with a check icon. Each round reads like a game, with a short thinking pause inviting a guess.",
+      "name": "Myth or Fact",
+      "family": "Shorts Format",
+      "description": "A clean debunk Short on pale grey: a white statement card with a big quote mark, then a rubber stamp slams down (red MYTH or green FACT) with distressed ink, followed by one line of proof with a check icon.",
       "best_use_cases": [
-        "Myth-versus-fact debunk Shorts",
-        "Quiz-style true-or-false rounds",
-        "Quick claim-checking videos"
+        "Myth-busting Shorts and quizzes",
+        "True-or-false games with a score",
+        "Quick fact checks with one line of proof"
       ],
-      "style": "Nafay, Shorts Format \u2014 pale grey debunk, statement card, red MYTH or green FACT stamp",
+      "style": "Pale grey debunk Short; Archivo Black title, Anton stamps (red MYTH, green FACT), white statement cards; only real, checkable claims.",
       "voice": "Kokoro af_heart",
-      "stills": [],
-      "video": ""
+      "orientation": "portrait",
+      "stills": [
+        "assets/myth-or-fact/still-1.jpg",
+        "assets/myth-or-fact/still-2.jpg",
+        "assets/myth-or-fact/still-3.jpg",
+        "assets/myth-or-fact/still-4.jpg",
+        "assets/myth-or-fact/still-5.jpg",
+        "assets/myth-or-fact/still-6.jpg"
+      ],
+      "video": "assets/myth-or-fact/demo.mp4",
+      "duration_s": 14.0,
+      "resolution": "720x1280",
+      "fps": 24,
+      "video_bytes": 806308,
+      "stills_bytes": 339593,
+      "status": "done",
+      "family_key": "nafay-style-library"
     },
     {
       "slug": "neon-line",
@@ -1226,20 +1278,33 @@
     },
     {
       "slug": "pixel-quest",
-      "name": "pixel-quest",
-      "family": "nafay-style-library",
-      "family_key": "nafay-style-library",
-      "status": "text",
-      "description": "Chunky pixel art drawn on a 180 by 320 grid and scaled up 4x: a side-scrolling level with a little hero, sky bands, pixel clouds, brick platforms and gems, under a retro HUD with hearts, an XP bar and a level number, and a dialog box for every tip. The hero walks through the level while the camera scrolls with them.",
+      "name": "Pixel Quest",
+      "family": "Retro",
+      "description": "Chunky pixel art drawn on a 180 by 320 grid and scaled up 4x: a side-scrolling level with a little hero, sky bands, pixel clouds, brick platforms and gems, under a retro HUD (hearts, XP bar, level number) with a dialog box for every tip.",
       "best_use_cases": [
-        "Tips presented as a retro game quest",
-        "Side-scrolling pixel adventures",
-        "Gamified how-to Shorts with levels and XP"
+        "Tips and how-tos as game quests",
+        "Retro gaming-style explainers",
+        "List-style advice with a level-up payoff"
       ],
-      "style": "Nafay, Retro \u2014 chunky pixel art on a 180x320 grid, side-scrolling level, retro HUD",
+      "style": "Chunky 180x320 pixel art scaled up 4x with a retro HUD",
       "voice": "Kokoro af_heart",
-      "stills": [],
-      "video": ""
+      "orientation": "portrait",
+      "stills": [
+        "assets/pixel-quest/still-1.jpg",
+        "assets/pixel-quest/still-2.jpg",
+        "assets/pixel-quest/still-3.jpg",
+        "assets/pixel-quest/still-4.jpg",
+        "assets/pixel-quest/still-5.jpg",
+        "assets/pixel-quest/still-6.jpg"
+      ],
+      "video": "assets/pixel-quest/demo.mp4",
+      "duration_s": 14.0,
+      "resolution": "720x1280",
+      "fps": 30,
+      "video_bytes": 765636,
+      "stills_bytes": 218605,
+      "status": "done",
+      "family_key": "nafay-style-library"
     },
     {
       "slug": "podcast-clip",
@@ -1566,38 +1631,64 @@
       "video": ""
     },
     {
-      "slug": "sticker-pop",
-      "name": "sticker-pop",
-      "family": "nafay-style-library",
-      "family_key": "nafay-style-library",
-      "status": "text",
-      "description": "A cosy scrapbook layer over your vlog: die-cut stickers with thick white borders, a title pill, stars, hearts and a coffee cup, striped washi tape on the corners and a lined paper note with handwriting, all popping in with a wobble. Stickers slap on in rhythm with what you say.",
       "best_use_cases": [
-        "Scrapbook-style vlog overlays",
-        "Cosy sticker layers over talking clips",
-        "Playful vlog decorations that pop in on the beat"
+        "vlog intros",
+        "study-with-me",
+        "cosy personal videos"
       ],
-      "style": "Nafay, Edit Overlay \u2014 scrapbook stickers with white borders, washi tape, handwritten note",
+      "description": "A cosy scrapbook layer over your vlog: die-cut stickers with thick white borders (a title pill, stars, hearts, a coffee cup), striped washi tape on the corners and a lined paper note with handwriting, all popping in with a wobble.",
+      "duration_s": 13.0,
+      "family": "Edit Overlay",
+      "fps": 30,
+      "name": "sticker-pop",
+      "orientation": "portrait",
+      "resolution": "720x1280",
+      "slug": "sticker-pop",
+      "stills": [
+        "assets/sticker-pop/still-1.jpg",
+        "assets/sticker-pop/still-2.jpg",
+        "assets/sticker-pop/still-3.jpg",
+        "assets/sticker-pop/still-4.jpg",
+        "assets/sticker-pop/still-5.jpg",
+        "assets/sticker-pop/still-6.jpg"
+      ],
+      "stills_bytes": 360573,
+      "style": "Cosy scrapbook: die-cut stickers with thick white borders, striped washi tape, lined paper note with handwriting, pop-in wobble",
+      "video": "assets/sticker-pop/demo.mp4",
+      "video_bytes": 847034,
       "voice": "Kokoro af_heart",
-      "stills": [],
-      "video": ""
+      "status": "done",
+      "family_key": "nafay-style-library"
     },
     {
-      "slug": "storybook",
-      "name": "storybook",
-      "family": "nafay-style-library",
-      "family_key": "nafay-style-library",
-      "status": "text",
-      "description": "A picture book on cream watercolour paper: soft washes that bloom in layer by layer, thin brown ink lines that draw the character, gold ink stars, and an italic serif storyline that appears word by word, with page-turn transitions. Each page paints itself.",
       "best_use_cases": [
-        "Picture-book stories",
-        "Gentle watercolour tales with page turns",
-        "Storytime visuals for children and fables"
+        "fables",
+        "gentle narratives",
+        "children's stories"
       ],
-      "style": "Nafay, Illustrated \u2014 cream watercolour paper, blooming washes, brown ink lines, gold stars",
+      "description": "Gentle narrative/fable-like stories, one moment per page; vertical Shorts.",
+      "duration_s": 15.0,
+      "family": "Illustrated",
+      "fps": 30,
+      "name": "storybook",
+      "orientation": "portrait",
+      "resolution": "720x1280",
+      "slug": "storybook",
+      "stills": [
+        "assets/storybook/still-1.jpg",
+        "assets/storybook/still-2.jpg",
+        "assets/storybook/still-3.jpg",
+        "assets/storybook/still-4.jpg",
+        "assets/storybook/still-5.jpg",
+        "assets/storybook/still-6.jpg"
+      ],
+      "stills_bytes": 580782,
+      "style": "Painted storybook pages, one moment per page, gentle watercolour hills and night sky",
+      "video": "assets/storybook/demo.mp4",
+      "video_bytes": 4348397,
       "voice": "Kokoro af_heart",
-      "stills": [],
-      "video": ""
+      "status": "done",
+      "family_key": "nafay-style-library"
     },
     {
       "slug": "swiss-grid",
@@ -1648,20 +1739,33 @@
     },
     {
       "slug": "tactics-board",
-      "name": "tactics-board",
-      "family": "nafay-style-library",
-      "family_key": "nafay-style-library",
-      "status": "text",
-      "description": "A top-down pitch with mown stripes and crisp white lines, red and blue numbered player tokens with soft shadows, dashed run arrows that draw themselves, a yellow ball path with numbered passes, and a running clock chip. Players move between real positions as the play unfolds.",
+      "name": "Tactics Board",
+      "family": "Data",
+      "description": "A top-down pitch with mown stripes and crisp white lines, red and blue numbered player tokens with soft shadows, dashed run arrows that draw themselves, a yellow ball path with numbered passes, and a running clock chip. Players move between real positions as a counter-attack unfolds pass by pass, defenders shift, the clock counts the seconds, and the finish gets a flash and a big word, then the takeaway.",
       "best_use_cases": [
-        "Explaining a sports play or tactic",
-        "Top-down pitch diagrams with moving players",
-        "Match analysis with passes and runs"
+        "Explaining a sports play pass by pass",
+        "Showing movement and positioning on a pitch",
+        "Data-driven match analysis in a Short"
       ],
-      "style": "Nafay, Data \u2014 top-down pitch, red and blue player tokens, dashed run arrows, clock chip",
+      "style": "Top-down pitch in real proportions with mown stripes and crisp white lines; red and blue numbered player tokens; dashed run arrows that draw themselves; yellow numbered ball path; running clock chip; Anton headline type.",
       "voice": "Kokoro af_heart",
-      "stills": [],
-      "video": ""
+      "orientation": "portrait",
+      "stills": [
+        "assets/tactics-board/still-1.jpg",
+        "assets/tactics-board/still-2.jpg",
+        "assets/tactics-board/still-3.jpg",
+        "assets/tactics-board/still-4.jpg",
+        "assets/tactics-board/still-5.jpg",
+        "assets/tactics-board/still-6.jpg"
+      ],
+      "video": "assets/tactics-board/demo.mp4",
+      "duration_s": 13.0,
+      "resolution": "720x1280",
+      "fps": 24,
+      "video_bytes": 4890639,
+      "stills_bytes": 700749,
+      "status": "done",
+      "family_key": "nafay-style-library"
     },
     {
       "slug": "tall-tale",
