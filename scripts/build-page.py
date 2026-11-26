@@ -15,6 +15,7 @@ import sys
 PROJ = os.path.expanduser("~/workspace/showcase-skills")
 ASSETS = os.path.join(PROJ, "assets")
 SKILLS = os.path.expanduser("~/workspace/custom-skills")
+TEXT_PATH = os.path.join(PROJ, "skills-text.json")
 
 # (family, directory, names to exclude)
 SOURCES = [
@@ -43,8 +44,13 @@ def enumerate_skills():
 def main():
     skills = enumerate_skills()
     assert len(skills) == 86, f"expected 86 skills, found {len(skills)}"
+    text_data = {}
+    if os.path.isfile(TEXT_PATH):
+        with open(TEXT_PATH) as f:
+            text_data = json.load(f).get("skills", {})
     entries = []
     done = 0
+    text_only = 0
     total_video = 0
     total_stills = 0
     for slug, family in skills:
@@ -73,7 +79,23 @@ def main():
                 entries.append(meta)
                 done += 1
                 continue
-            print(f"WARN {slug}: meta.json present but assets incomplete — showing placeholder")
+            print(f"WARN {slug}: meta.json present but assets incomplete — showing text-only")
+        t = text_data.get(slug)
+        if t:
+            text_only += 1
+            entries.append({
+                "slug": slug,
+                "name": slug,
+                "family": family,
+                "status": "text",
+                "description": t.get("description", ""),
+                "best_use_cases": t.get("best_use_cases", []),
+                "style": t.get("style", ""),
+                "voice": t.get("voice", ""),
+                "stills": [],
+                "video": "",
+            })
+            continue
         entries.append({
             "slug": slug,
             "name": slug,
@@ -89,7 +111,7 @@ def main():
     entries.sort(key=lambda s: s["name"].lower())
     with open(os.path.join(PROJ, "skills.json"), "w") as f:
         json.dump({"count": len(entries), "done": done, "skills": entries}, f, indent=2)
-    print(f"skills.json: {len(entries)} slots, {done} done, {len(entries)-done} pending")
+    print(f"skills.json: {len(entries)} slots, {done} done, {text_only} text-only, {len(entries)-done-text_only} pending")
     print(f"total video bytes: {total_video} ({total_video/1e9:.3f} GB)")
     print(f"total still bytes: {total_stills} ({total_stills/1e9:.3f} GB)")
     print(f"combined: {(total_video+total_stills)/1e9:.3f} GB")

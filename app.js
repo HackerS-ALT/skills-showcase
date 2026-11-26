@@ -40,14 +40,23 @@
     var fam = document.createElement('div');
     fam.className = 'family';
     fam.textContent = s.family;
-    var img = document.createElement('img');
-    img.src = s.stills[0];
-    img.alt = s.name + ' preview still';
-    img.loading = 'lazy';
-    img.className = landscapeClass(s);
     card.appendChild(h);
     card.appendChild(fam);
-    card.appendChild(img);
+    if (s.status === 'done') {
+      var img = document.createElement('img');
+      img.src = s.stills[0];
+      img.alt = s.name + ' preview still';
+      img.loading = 'lazy';
+      img.className = landscapeClass(s);
+      card.appendChild(img);
+    } else {
+      // Text-only: media still rendering — name + description, no image.
+      card.classList.add('text-only');
+      var d = document.createElement('p');
+      d.className = 'card-desc';
+      d.textContent = s.description || '';
+      card.appendChild(d);
+    }
     card.addEventListener('click', function () { openModal(s); });
     card.addEventListener('keydown', function (e) {
       if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); openModal(s); }
@@ -85,11 +94,18 @@
     });
     document.getElementById('modal-style').textContent = s.style || '';
     document.getElementById('modal-voice').textContent = s.voice || '';
-    modalVideo.src = s.video;
-    modalVideo.load();
+    var mediaSection = document.querySelector('.modal-media');
+    var mediaPending = document.getElementById('modal-media-pending');
+    var hasMedia = (s.stills && s.stills.length > 0) || !!s.video;
+    mediaSection.style.display = hasMedia ? '' : 'none';
+    if (mediaPending) mediaPending.hidden = hasMedia;
+    if (s.video) {
+      modalVideo.src = s.video;
+      modalVideo.load();
+    }
     var stills = document.getElementById('modal-stills');
     stills.innerHTML = '';
-    s.stills.slice(1, 6).forEach(function (src) {
+    (s.stills || []).slice(1, 6).forEach(function (src) {
       var img = document.createElement('img');
       img.src = src;
       img.alt = s.name + ' still';

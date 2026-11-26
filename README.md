@@ -6,17 +6,22 @@ it, generated with that skill's own code. Clicking a card opens a modal with
 the skill's description, best use cases, style, 5 extra stills and a ~10 s
 demo video with voiceover.
 
-## Theme
+## Theme — LIGHT & cute (user, 2026-11-27 ~00:36 IST; overrides the dark palette)
 
-Exact palette extracted from the Mitsuri avatar (`image-11.png`):
+Exact palette from the Mitsuri avatar (`image-11.png`), no black anywhere:
 
 | Role | Colour |
 |---|---|
-| Background | `#0a0a0e` near-black |
-| Cards / surface | `#405070` dark slate |
-| Accents | `#c07090` braid pink, `#b0c060` lime green |
-| Text | `#ebe3d0` cream |
-| Borders | `#b59299` muted mauve |
+| Background | `#f9f6fc` cream → `#ebe3d0` soft cream gradient |
+| Text / card surfaces | `#405070` dark slate, `#644d5f` deep mauve |
+| Text on dark surfaces | `#f9f6fc` cream |
+| Accents | `#c07090` braid pink, `#b0c060` lime green (headings, highlights, hover) |
+| Borders / dividers | `#b59299` muted mauve |
+
+Font: Baloo 2 (headings) + Quicksand (body), vendored locally in `fonts/`
+(`baloo-2.woff2`, `quicksand.woff2`, latin subsets) with system-font
+fallbacks — no runtime CDN. Rounded cards (18 px), soft pink-tinted shadows,
+pill inputs.
 
 ## Voices
 

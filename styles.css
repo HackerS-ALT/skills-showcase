@@ -1,51 +1,71 @@
-/* Theme: exact palette extracted from the Mitsuri avatar (image-11.png).
-   background near-black #0a0a0e, cards dark slate #405070,
-   accents braid pink #c07090 + lime #b0c060, text cream #ebe3d0,
-   borders muted mauve #b59299. */
+/* Theme: LIGHT & cute, from the Mitsuri avatar (image-11.png) — no black.
+   Background cream #f9f6fc / #ebe3d0; text + card surfaces dark slate
+   #405070 and deep mauve #644d5f; accents braid pink #c07090 and lime
+   #b0c060; borders muted mauve #b59299.
+   Fonts vendored locally (fonts/baloo-2.woff2, fonts/quicksand.woff2) —
+   no runtime CDN. */
+@font-face {
+  font-family: 'Baloo 2';
+  src: url('fonts/baloo-2.woff2') format('woff2');
+  font-weight: 400 800;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Quicksand';
+  src: url('fonts/quicksand.woff2') format('woff2');
+  font-weight: 400 700;
+  font-display: swap;
+}
+
 :root {
-  --bg: #0a0a0e;
+  --bg: #f9f6fc;
+  --bg-soft: #ebe3d0;
+  --ink: #405070;
+  --ink-soft: #644d5f;
   --surface: #405070;
-  --surface-2: #2c3850;
+  --surface-2: #644d5f;
+  --on-dark: #f9f6fc;
   --pink: #c07090;
   --lime: #b0c060;
-  --text: #ebe3d0;
-  --muted: #b59299;
   --border: #b59299;
-  --white: #f9f6fc;
 }
 
 * { box-sizing: border-box; }
 
 body {
   margin: 0;
-  background: var(--bg);
-  color: var(--text);
-  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
-  line-height: 1.5;
+  background: linear-gradient(180deg, var(--bg) 0%, var(--bg-soft) 100%);
+  background-attachment: fixed;
+  color: var(--ink);
+  font-family: 'Quicksand', 'ui-rounded', system-ui, 'Segoe UI', sans-serif;
+  font-weight: 500;
+  line-height: 1.55;
 }
 
 .site-header {
-  padding: 2rem 1.5rem 1rem;
+  padding: 2.2rem 1.5rem 1rem;
   text-align: center;
 }
 
 .site-header h1 {
   margin: 0 0 0.25rem;
-  font-size: 2rem;
-  color: var(--white);
+  font-family: 'Baloo 2', 'Quicksand', 'ui-rounded', system-ui, sans-serif;
+  font-weight: 700;
+  font-size: 2.4rem;
+  color: var(--pink);
 }
 
 .site-header h1::after {
   content: "";
   display: block;
-  width: 120px;
-  height: 4px;
+  width: 130px;
+  height: 5px;
   margin: 0.6rem auto 0;
-  border-radius: 2px;
+  border-radius: 3px;
   background: linear-gradient(90deg, var(--pink), var(--lime));
 }
 
-.subtitle { color: var(--muted); margin: 0.25rem 0 1.25rem; }
+.subtitle { color: var(--ink-soft); margin: 0.25rem 0 1.25rem; }
 
 .toolbar {
   display: flex;
@@ -57,12 +77,14 @@ body {
 
 .toolbar input,
 .toolbar select {
-  background: var(--surface-2);
-  color: var(--text);
-  border: 1px solid var(--border);
-  border-radius: 8px;
-  padding: 0.55rem 0.8rem;
+  background: #fff;
+  color: var(--ink);
+  border: 2px solid var(--border);
+  border-radius: 999px;
+  padding: 0.55rem 1rem;
   font-size: 1rem;
+  font-family: inherit;
+  font-weight: 600;
 }
 
 .toolbar input:focus,
@@ -71,12 +93,12 @@ body {
   outline-offset: 1px;
 }
 
-.count { color: var(--muted); font-size: 0.95rem; }
+.count { color: var(--ink-soft); font-size: 0.95rem; font-weight: 600; }
 
 .grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
-  gap: 1.1rem;
+  gap: 1.2rem;
   padding: 1.5rem;
   max-width: 1400px;
   margin: 0 auto;
@@ -84,31 +106,35 @@ body {
 
 .card {
   background: var(--surface);
-  border: 1px solid var(--border);
-  border-radius: 12px;
+  border: 2px solid var(--border);
+  border-radius: 18px;
   overflow: hidden;
   cursor: pointer;
+  box-shadow: 0 6px 18px rgba(100, 77, 95, 0.18);
   transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
 }
 
 .card:hover,
 .card:focus-visible {
   transform: scale(1.045) translateY(-4px);
-  box-shadow: 0 14px 32px rgba(192, 112, 144, 0.35), 0 4px 12px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 16px 34px rgba(192, 112, 144, 0.35), 0 4px 12px rgba(100, 77, 95, 0.25);
   border-color: var(--lime);
   outline: none;
 }
 
 .card h2 {
   margin: 0;
-  padding: 0.7rem 0.9rem 0.55rem;
-  font-size: 1.05rem;
-  color: var(--white);
+  padding: 0.75rem 0.95rem 0.5rem;
+  font-family: 'Baloo 2', 'Quicksand', 'ui-rounded', system-ui, sans-serif;
+  font-weight: 700;
+  font-size: 1.1rem;
+  color: var(--on-dark);
 }
 
 .card .family {
-  padding: 0 0.9rem 0.6rem;
+  padding: 0 0.95rem 0.6rem;
   font-size: 0.8rem;
+  font-weight: 600;
   color: var(--lime);
 }
 
@@ -117,16 +143,30 @@ body {
   width: 100%;
   aspect-ratio: 9 / 16;
   object-fit: cover;
-  background: #000;
+  background: var(--bg-soft);
 }
 
 .card img.landscape { aspect-ratio: 16 / 9; }
+
+/* Text-only card: media still rendering — name + description, no image. */
+.card.text-only { min-height: 220px; display: flex; flex-direction: column; }
+.card.text-only .card-desc {
+  margin: 0;
+  padding: 0 0.95rem 0.95rem;
+  font-size: 0.92rem;
+  color: var(--on-dark);
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
 
 /* Name-only placeholder: skill not finished yet — no image, no link, no modal. */
 .card.placeholder {
   cursor: default;
   border-style: dashed;
-  background: var(--surface-2);
+  background: var(--bg-soft);
+  box-shadow: none;
   min-height: 220px;
   display: flex;
   flex-direction: column;
@@ -137,22 +177,24 @@ body {
   box-shadow: none;
   border-color: var(--border);
 }
+.card.placeholder h2 { color: var(--ink-soft); }
+.card.placeholder .family { color: var(--pink); }
 .card.placeholder .coming-soon {
   margin-top: auto;
-  padding: 0 0.9rem 0.9rem;
+  padding: 0 0.95rem 0.95rem;
   font-size: 0.85rem;
-  color: var(--muted);
+  color: var(--ink-soft);
   font-style: italic;
 }
 
-.empty { text-align: center; color: var(--muted); }
+.empty { text-align: center; color: var(--ink-soft); }
 
 .site-footer {
   text-align: center;
-  color: var(--muted);
+  color: var(--ink-soft);
   font-size: 0.9rem;
   padding: 1rem 1.5rem 2rem;
-  border-top: 1px solid var(--surface);
+  border-top: 2px solid var(--border);
 }
 
 /* Modal */
@@ -160,7 +202,7 @@ body {
 .modal[hidden] { display: none; }
 .modal-backdrop {
   position: absolute; inset: 0;
-  background: rgba(0, 0, 0, 0.75);
+  background: rgba(64, 77, 95, 0.55);
 }
 .modal-panel {
   position: relative;
@@ -169,19 +211,22 @@ body {
   max-height: 92vh;
   overflow: auto;
   background: var(--surface-2);
-  border: 1px solid var(--pink);
-  border-radius: 14px;
+  color: var(--on-dark);
+  border: 2px solid var(--pink);
+  border-radius: 20px;
   padding: 1.5rem;
+  box-shadow: 0 24px 60px rgba(64, 77, 95, 0.4);
 }
 .modal-close {
   position: absolute;
   top: 0.6rem; right: 0.8rem;
   background: transparent;
-  color: var(--text);
-  border: 1px solid var(--border);
+  color: var(--on-dark);
+  border: 2px solid var(--border);
   border-radius: 50%;
   width: 2.2rem; height: 2.2rem;
   font-size: 1.3rem;
+  font-family: inherit;
   cursor: pointer;
 }
 .modal-close:hover { border-color: var(--lime); color: var(--lime); }
@@ -190,14 +235,24 @@ body {
   grid-template-columns: 1fr 1.2fr;
   gap: 1.5rem;
 }
-.modal-text h2 { margin-top: 0; color: var(--white); }
-.modal-text h3 { color: var(--lime); margin-bottom: 0.3rem; }
-.modal-family { color: var(--pink); font-size: 0.9rem; }
+.modal-text h2 {
+  margin-top: 0;
+  color: var(--on-dark);
+  font-family: 'Baloo 2', 'Quicksand', 'ui-rounded', system-ui, sans-serif;
+}
+.modal-text h3 { color: var(--lime); margin-bottom: 0.3rem; font-family: 'Baloo 2', 'Quicksand', sans-serif; }
+.modal-family { color: var(--lime); font-size: 0.9rem; font-weight: 600; }
+.media-pending {
+  grid-column: 1 / -1;
+  color: var(--bg-soft);
+  font-style: italic;
+  margin: 0.2rem 0 0;
+}
 .modal-media video {
   width: 100%;
-  border-radius: 10px;
-  border: 1px solid var(--border);
-  background: #000;
+  border-radius: 14px;
+  border: 2px solid var(--border);
+  background: var(--bg-soft);
 }
 .modal-stills {
   display: grid;
@@ -209,8 +264,8 @@ body {
   width: 100%;
   aspect-ratio: 9 / 16;
   object-fit: cover;
-  border-radius: 8px;
-  border: 1px solid var(--border);
+  border-radius: 10px;
+  border: 2px solid var(--border);
   cursor: pointer;
   transition: transform 0.2s ease, border-color 0.2s ease;
 }
