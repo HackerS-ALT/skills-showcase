@@ -62,6 +62,16 @@ printed by `scripts/build-page.py`. Rule: videos stay full quality unless
 one video exceeds 100 MB or all 86 videos combined exceed 1 GB; stills stay
 full quality unless videos + stills combined exceed 1 GB.)
 
+## Deployment — incremental, batches of 10
+
+The site deploys in batches of 10 skills: as soon as any 10 skills are
+fully done (6 stills + ~10 s video each, all verified), `scripts/deploy.sh`
+rebuilds `skills.json` and pushes. `skills.json` ALWAYS lists all 86 slots:
+finished skills get full cards + modals + media; unfinished skills are
+name-only placeholder cards (no broken images, videos or links) until their
+batch lands.
+
 ## Live site
 
-(Added on deploy — GitHub Pages URL + repository link.)
+- Site: https://hackers-alt.github.io/skills-showcase/
+- Repository: https://github.com/HackerS-ALT/skills-showcase
