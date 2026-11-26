@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Animation Skills Showcase — 86 Styles</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="site-header">
+  <h1>Animation Skills Showcase</h1>
+  <p class="subtitle">86 animation styles — every card rendered by the skill itself. Click any card for stills and a demo video.</p>
+  <div class="toolbar">
+    <input id="search" type="search" placeholder="Search styles…" aria-label="Search styles">
+    <select id="family-filter" aria-label="Filter by family">
+      <option value="">All families</option>
+      <option value="cartoon-audio-short">cartoon-audio-short</option>
+      <option value="faceless-shorts">faceless-shorts</option>
+      <option value="ai-video-editor">ai-video-editor</option>
+      <option value="nafay-style-library">nafay-style-library</option>
+      <option value="cth-animate">cth-animate</option>
+      <option value="artem-animation-skills">artem-animation-skills</option>
+    </select>
+    <span id="count" class="count"></span>
+  </div>
+</header>
+
+<main>
+  <div id="grid" class="grid" aria-live="polite"></div>
+  <p id="empty" class="empty" hidden>No styles match that search.</p>
+</main>
+
+<footer class="site-footer">
+  <p>All 86 styles rendered offline from their own code. Voices: Kokoro (af_heart) by default; cartoon-audio-short uses the channel TTS voice. No ElevenLabs anywhere.</p>
+</footer>
+
+<div id="modal" class="modal" hidden role="dialog" aria-modal="true" aria-labelledby="modal-name">
+  <div class="modal-backdrop" data-close></div>
+  <div class="modal-panel">
+    <button class="modal-close" data-close aria-label="Close">×</button>
+    <div class="modal-body">
+      <section class="modal-text">
+        <h2 id="modal-name"></h2>
+        <p id="modal-family" class="modal-family"></p>
+        <p id="modal-desc"></p>
+        <h3>Best use cases</h3>
+        <ul id="modal-uses"></ul>
+        <h3>Style</h3>
+        <p id="modal-style"></p>
+        <h3>Demo voice</h3>
+        <p id="modal-voice"></p>
+      </section>
+      <section class="modal-media">
+        <video id="modal-video" controls playsinline preload="metadata"></video>
+        <div id="modal-stills" class="modal-stills"></div>
+      </section>
+    </div>
+  </div>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
