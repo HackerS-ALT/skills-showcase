@@ -1,0 +1,28 @@
+{
+  "slug": "swiss-grid",
+  "name": "Swiss Grid",
+  "family": "Kinetic Type",
+  "description": "International Typographic Style in motion: a strict six-column grid, one huge number, solid red, black and blue geometric blocks, flush-left Inter in black, and small caps labels, all snapping into place with precise wipes. Blocks wipe in along the grid, the big number counts up digit by digit, and the statement snaps in line by line; halfway through, the composition re-arranges on the grid to introduce a second point, then settles on a one-line takeaway.",
+  "best_use_cases": [
+    "Presenting a single striking fact or number",
+    "Data-led explainers where the number is the story",
+    "Minimalist grid-based typographic Shorts"
+  ],
+  "style": "Strict six-column grid; huge Archivo Black number counting up digit by digit; red (#e1251b) and blue (#1f4fd8) blocks with black type on off-white; flush-left Inter statements; precise wipe and mask-reveal motion; source line in small type at the bottom.",
+  "voice": "Kokoro af_heart",
+  "orientation": "portrait",
+  "stills": [
+    "assets/swiss-grid/still-1.jpg",
+    "assets/swiss-grid/still-2.jpg",
+    "assets/swiss-grid/still-3.jpg",
+    "assets/swiss-grid/still-4.jpg",
+    "assets/swiss-grid/still-5.jpg",
+    "assets/swiss-grid/still-6.jpg"
+  ],
+  "video": "assets/swiss-grid/demo.mp4",
+  "duration_s": 13.0,
+  "resolution": "720x1280",
+  "fps": 24,
+  "video_bytes": 523914,
+  "stills_bytes": 274445
+}

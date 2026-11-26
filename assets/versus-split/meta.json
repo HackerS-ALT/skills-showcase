@@ -1,0 +1,28 @@
+{
+ "slug": "versus-split",
+ "name": "Versus Split",
+ "family": "nafay-style-library",
+ "description": "A head-to-head Short: the screen splits diagonally into coral and blue halves that slam in from the sides, a black VS badge with a yellow ring, two characters drawn in code, and stat bars that race toward each other row by row with a winner crown.",
+ "best_use_cases": [
+  "Head-to-head comparisons",
+  "Stat-by-stat battles with a running score",
+  "Pick-a-winner verdicts"
+ ],
+ "style": "Diagonal coral (#ff6b4a) vs blue (#2b6cff) split, black VS badge with yellow ring, big white Anton names, dark stat panel with bars racing out from the centre, counting values and a yellow crown on the winner. Fight-night beat, slams, counter ticks and a crowd cheer for the verdict.",
+ "voice": "Kokoro af_heart",
+ "orientation": "portrait",
+ "stills": [
+  "assets/versus-split/still-1.jpg",
+  "assets/versus-split/still-2.jpg",
+  "assets/versus-split/still-3.jpg",
+  "assets/versus-split/still-4.jpg",
+  "assets/versus-split/still-5.jpg",
+  "assets/versus-split/still-6.jpg"
+ ],
+ "video": "assets/versus-split/demo.mp4",
+ "duration_s": 13.0,
+ "resolution": "720x1280",
+ "fps": 30,
+ "video_bytes": 695918,
+ "stills_bytes": 456387
+}

@@ -1,0 +1,28 @@
+{
+ "slug": "paper-craft",
+ "name": "Paper Craft",
+ "family": "Illustrated",
+ "description": "Layered cut paper with real drop shadows and a fibre texture: rolling paper hills, a paper sun, flowers and a striped paper bee, all moving at 12 frames a second like stop-motion, with titles on torn white paper strips.",
+ "best_use_cases": [
+  "Gentle process and how-it-works stories",
+  "Nature and craft stories with a warm, handmade feel",
+  "Vertical Shorts"
+ ],
+ "style": "Layered cut paper, 12 fps stop-motion with paper boil",
+ "voice": "Kokoro af_heart",
+ "orientation": "portrait",
+ "stills": [
+  "assets/paper-craft/still-1.jpg",
+  "assets/paper-craft/still-2.jpg",
+  "assets/paper-craft/still-3.jpg",
+  "assets/paper-craft/still-4.jpg",
+  "assets/paper-craft/still-5.jpg",
+  "assets/paper-craft/still-6.jpg"
+ ],
+ "video": "assets/paper-craft/demo.mp4",
+ "duration_s": 14.0,
+ "resolution": "720x1280",
+ "fps": 30,
+ "video_bytes": 1776602,
+ "stills_bytes": 414299
+}

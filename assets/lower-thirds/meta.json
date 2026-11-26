@@ -1,0 +1,28 @@
+{
+  "slug": "lower-thirds",
+  "name": "Lower Thirds",
+  "family": "Edit Overlay",
+  "description": "A consistent identity kit for interviews and long videos: a name tag with an amber accent bar and dark glass panel, a serif chapter card with a progress row, a social handle bar, and a red subscribe nudge with a bell that rings.",
+  "best_use_cases": [
+    "Interview intros and guest name tags",
+    "Chapter cards in long videos",
+    "Subscribe nudges and social handle bars"
+  ],
+  "style": "Edit Overlay \u2014 amber accent on dark glass; Instrument Serif titles, Inter labels; each element has one clean entrance and exit, graphics kept in title-safe margins away from faces.",
+  "voice": "Kokoro af_heart",
+  "orientation": "portrait",
+  "stills": [
+    "assets/lower-thirds/still-1.jpg",
+    "assets/lower-thirds/still-2.jpg",
+    "assets/lower-thirds/still-3.jpg",
+    "assets/lower-thirds/still-4.jpg",
+    "assets/lower-thirds/still-5.jpg",
+    "assets/lower-thirds/still-6.jpg"
+  ],
+  "video": "assets/lower-thirds/demo.mp4",
+  "duration_s": 13.0,
+  "resolution": "720x1280",
+  "fps": 24,
+  "video_bytes": 735343,
+  "stills_bytes": 240432
+}

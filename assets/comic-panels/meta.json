@@ -1,0 +1,28 @@
+{
+ "slug": "comic-panels",
+ "name": "Comic Panels",
+ "family": "Illustrated",
+ "description": "A comic-book page drawn in code: thick black panel borders, halftone dot fills in bright flat colours, round speech balloons, yellow caption boxes, and a big spiky sound-effect burst, with Bangers lettering throughout.",
+ "best_use_cases": [
+  "Stories told panel by panel",
+  "Explainers with speech balloons and captions",
+  "Big-moment reveals with a sound-effect burst"
+ ],
+ "style": "Illustrated comic page: the camera reads the page like a reader, zooming into one panel at a time in reading order, shaking on the big sound effect, then pulling out to show the whole page with the title panel.",
+ "voice": "Kokoro af_heart",
+ "orientation": "portrait",
+ "stills": [
+  "assets/comic-panels/still-1.jpg",
+  "assets/comic-panels/still-2.jpg",
+  "assets/comic-panels/still-3.jpg",
+  "assets/comic-panels/still-4.jpg",
+  "assets/comic-panels/still-5.jpg",
+  "assets/comic-panels/still-6.jpg"
+ ],
+ "video": "assets/comic-panels/demo.mp4",
+ "duration_s": 14.0,
+ "resolution": "720x1280",
+ "fps": 30,
+ "video_bytes": 2727240,
+ "stills_bytes": 1196773
+}

@@ -1,0 +1,28 @@
+{
+  "slug": "headline-backdrop",
+  "name": "Headline Backdrop",
+  "family": "nafay-style-library",
+  "description": "Commentary layout: you, cut out with a thick white sticker edge and a soft shadow, standing in front of invented article cards that scroll and tilt behind you, with a yellow marker swipe on the line that matters and a black-and-yellow reaction chip.",
+  "best_use_cases": [
+    "Commentary and reaction videos",
+    "Headline and news explainers",
+    "Talking-head Shorts with article context"
+  ],
+  "style": "Edit Overlay",
+  "voice": "Kokoro af_heart",
+  "orientation": "portrait",
+  "stills": [
+    "assets/headline-backdrop/still-1.jpg",
+    "assets/headline-backdrop/still-2.jpg",
+    "assets/headline-backdrop/still-3.jpg",
+    "assets/headline-backdrop/still-4.jpg",
+    "assets/headline-backdrop/still-5.jpg",
+    "assets/headline-backdrop/still-6.jpg"
+  ],
+  "video": "assets/headline-backdrop/demo.mp4",
+  "duration_s": 13.0,
+  "resolution": "720x1280",
+  "fps": 24.0,
+  "video_bytes": 1198833,
+  "stills_bytes": 312564
+}

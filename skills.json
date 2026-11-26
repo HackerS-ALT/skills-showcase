@@ -1,6 +1,6 @@
 {
   "count": 86,
-  "done": 0,
+  "done": 18,
   "skills": [
     {
       "slug": "bio-glow",
@@ -20,19 +20,32 @@
     },
     {
       "slug": "blueprint",
-      "name": "blueprint",
-      "family": "nafay-style-library",
-      "status": "text",
-      "description": "A technical drawing on blueprint blue: pale line work on a fine grid, dimension lines with arrowheads, a dashed yellow reference line, mono callouts and a title block in the corner, with the mechanism actually moving. The drawing inks itself in, then the mechanism runs and every part reacts the way it really would.",
+      "name": "Blueprint",
+      "family": "Hand-Drawn",
+      "description": "A technical drawing on blueprint blue: pale line work on a fine grid, dimension lines with arrowheads, a dashed yellow reference line, mono callouts and a title block in the corner, with the mechanism actually moving.",
       "best_use_cases": [
-        "Explaining how a mechanism works",
-        "Technical drawings that move and show cause and effect",
-        "Engineering and invention explainers"
+        "How a mechanism works",
+        "Technical drawings and inventions",
+        "Engineering explainers"
       ],
-      "style": "Nafay, Hand-Drawn \u2014 blueprint blue, pale line work on a grid, dimension lines, title block",
+      "style": "Hand-drawn blueprint \u2014 pale line work on blueprint blue, fine grid, dimension lines with arrowheads, dashed yellow reference line, mono callouts",
       "voice": "Kokoro af_heart",
-      "stills": [],
-      "video": ""
+      "orientation": "portrait",
+      "stills": [
+        "assets/blueprint/still-1.jpg",
+        "assets/blueprint/still-2.jpg",
+        "assets/blueprint/still-3.jpg",
+        "assets/blueprint/still-4.jpg",
+        "assets/blueprint/still-5.jpg",
+        "assets/blueprint/still-6.jpg"
+      ],
+      "video": "assets/blueprint/demo.mp4",
+      "duration_s": 15.0,
+      "resolution": "720x1280",
+      "fps": 30,
+      "video_bytes": 1555202,
+      "stills_bytes": 1095157,
+      "status": "done"
     },
     {
       "slug": "breakdown",
@@ -164,19 +177,32 @@
     },
     {
       "slug": "comic-panels",
-      "name": "comic-panels",
-      "family": "nafay-style-library",
-      "status": "text",
-      "description": "A comic-book page drawn in code: thick black panel borders, halftone dot fills in bright flat colours, round speech balloons, yellow caption boxes, and a big spiky sound-effect burst, with Bangers lettering throughout. The camera reads the page like a reader, zooming panel by panel.",
+      "name": "Comic Panels",
+      "family": "Illustrated",
+      "description": "A comic-book page drawn in code: thick black panel borders, halftone dot fills in bright flat colours, round speech balloons, yellow caption boxes, and a big spiky sound-effect burst, with Bangers lettering throughout.",
       "best_use_cases": [
-        "Comic-book style stories",
-        "Stories told panel by panel with speech balloons",
-        "Bold, punchy visual storytelling"
+        "Stories told panel by panel",
+        "Explainers with speech balloons and captions",
+        "Big-moment reveals with a sound-effect burst"
       ],
-      "style": "Nafay, Illustrated \u2014 comic page in code, halftone fills, speech balloons, Bangers lettering",
+      "style": "Illustrated comic page: the camera reads the page like a reader, zooming into one panel at a time in reading order, shaking on the big sound effect, then pulling out to show the whole page with the title panel.",
       "voice": "Kokoro af_heart",
-      "stills": [],
-      "video": ""
+      "orientation": "portrait",
+      "stills": [
+        "assets/comic-panels/still-1.jpg",
+        "assets/comic-panels/still-2.jpg",
+        "assets/comic-panels/still-3.jpg",
+        "assets/comic-panels/still-4.jpg",
+        "assets/comic-panels/still-5.jpg",
+        "assets/comic-panels/still-6.jpg"
+      ],
+      "video": "assets/comic-panels/demo.mp4",
+      "duration_s": 14.0,
+      "resolution": "720x1280",
+      "fps": 30,
+      "video_bytes": 2727240,
+      "stills_bytes": 1196773,
+      "status": "done"
     },
     {
       "slug": "cosmic-scale",
@@ -291,6 +317,35 @@
       "video": ""
     },
     {
+      "slug": "deep-layers",
+      "name": "Deep Layers",
+      "family": "nafay-style-library",
+      "description": "A cross-section block of the ground in Three.js, with a tiny house and trees on top and stacked layers of soil, clay, rock and glowing hot rock below. A white drill line pushes down while the camera dives with it.",
+      "best_use_cases": [
+        "How deep have we dug?",
+        "Cross-sections of the ground",
+        "Layered earth, drilling and depth explainers"
+      ],
+      "style": "3D cross-section: stacked Three.js boxes in believable material colours (grass green, soil brown, sand, grey rock, dark granite, glowing orange heat), a small surface scene on top, a thin white drill with a glowing yellow tip, dark mono layer labels with real depths, Anton headlines with a yellow second line.",
+      "voice": "Kokoro af_heart",
+      "orientation": "portrait",
+      "stills": [
+        "assets/deep-layers/still-1.jpg",
+        "assets/deep-layers/still-2.jpg",
+        "assets/deep-layers/still-3.jpg",
+        "assets/deep-layers/still-4.jpg",
+        "assets/deep-layers/still-5.jpg",
+        "assets/deep-layers/still-6.jpg"
+      ],
+      "video": "assets/deep-layers/demo.mp4",
+      "duration_s": 15.0,
+      "resolution": "720x1280",
+      "fps": 20,
+      "video_bytes": 7626984,
+      "stills_bytes": 359124,
+      "status": "done"
+    },
+    {
       "slug": "deep-dive",
       "name": "deep-dive",
       "family": "faceless-shorts",
@@ -307,36 +362,33 @@
       "video": ""
     },
     {
-      "slug": "deep-layers",
-      "name": "deep-layers",
-      "family": "nafay-style-library",
-      "status": "text",
-      "description": "A cross-section block of the ground in Three.js, with a tiny house and trees on top and stacked layers of soil, clay, rock and glowing hot rock below. A white drill line pushes down while the camera dives with it, and each layer gets a label as the drill reaches it.",
-      "best_use_cases": [
-        "Cross-section explainers of what lies underground",
-        "Depth and layers, from surface to deep rock",
-        "Geology and drilling stories"
-      ],
-      "style": "Nafay, 3D \u2014 ground cross-section block, stacked soil and rock layers, diving drill line",
-      "voice": "Kokoro af_heart",
-      "stills": [],
-      "video": ""
-    },
-    {
       "slug": "doc-cinema",
-      "name": "doc-cinema",
+      "name": "Doc Cinema",
       "family": "nafay-style-library",
-      "status": "text",
-      "description": "Mini-documentary finishing: letterbox bars, heavy film grain, a warm-cool grade, slow Ken Burns push-ins, big serif chapter titles centred in the frame, and a small mono location and date stamp in the corner. Each chapter opens with a slow push-in and the title fading up letter-spaced in the centre.",
+      "description": "Mini-documentary finishing: letterbox bars, heavy film grain, a warm-cool grade, slow Ken Burns push-ins, big serif chapter titles centred in the frame, and a small mono location and date stamp in the corner.",
       "best_use_cases": [
-        "Mini-documentary finishing over footage",
-        "Chaptered documentary edits",
-        "Cinematic, reflective storytelling"
+        "Mini-documentaries",
+        "Chapter-led stories",
+        "Cinematic finishing over footage or stills"
       ],
-      "style": "Nafay, Edit Overlay \u2014 letterbox, film grain, warm-cool grade, serif chapter titles",
+      "style": "Edit overlay: letterbox bars, heavy stepped film grain, vignette and warm-highlight / cool-shadow grade, slow 4-8% push-ins, tracked chapter labels with centred Instrument Serif titles, mono location stamps typed in.",
       "voice": "Kokoro af_heart",
-      "stills": [],
-      "video": ""
+      "orientation": "portrait",
+      "stills": [
+        "assets/doc-cinema/still-1.jpg",
+        "assets/doc-cinema/still-2.jpg",
+        "assets/doc-cinema/still-3.jpg",
+        "assets/doc-cinema/still-4.jpg",
+        "assets/doc-cinema/still-5.jpg",
+        "assets/doc-cinema/still-6.jpg"
+      ],
+      "video": "assets/doc-cinema/demo.mp4",
+      "duration_s": 13.0,
+      "resolution": "720x1280",
+      "fps": 20,
+      "video_bytes": 9100011,
+      "stills_bytes": 362379,
+      "status": "done"
     },
     {
       "slug": "evidence-board",
@@ -436,19 +488,32 @@
     },
     {
       "slug": "headline-backdrop",
-      "name": "headline-backdrop",
+      "name": "Headline Backdrop",
       "family": "nafay-style-library",
-      "status": "text",
-      "description": "Commentary layout: you, cut out with a thick white sticker edge and a soft shadow, standing in front of invented article cards that scroll and tilt behind you, with a yellow marker swipe on the line that matters and a black-and-yellow reaction chip. Article cards slide in and stack behind you.",
+      "description": "Commentary layout: you, cut out with a thick white sticker edge and a soft shadow, standing in front of invented article cards that scroll and tilt behind you, with a yellow marker swipe on the line that matters and a black-and-yellow reaction chip.",
       "best_use_cases": [
-        "Commentary over article headlines",
-        "Reacting to a story with cards behind you",
-        "News-commentary Shorts"
+        "Commentary and reaction videos",
+        "Headline and news explainers",
+        "Talking-head Shorts with article context"
       ],
-      "style": "Nafay, Edit Overlay \u2014 sticker-cutout presenter, scrolling article cards, marker swipe",
+      "style": "Edit Overlay",
       "voice": "Kokoro af_heart",
-      "stills": [],
-      "video": ""
+      "orientation": "portrait",
+      "stills": [
+        "assets/headline-backdrop/still-1.jpg",
+        "assets/headline-backdrop/still-2.jpg",
+        "assets/headline-backdrop/still-3.jpg",
+        "assets/headline-backdrop/still-4.jpg",
+        "assets/headline-backdrop/still-5.jpg",
+        "assets/headline-backdrop/still-6.jpg"
+      ],
+      "video": "assets/headline-backdrop/demo.mp4",
+      "duration_s": 13.0,
+      "resolution": "720x1280",
+      "fps": 24.0,
+      "video_bytes": 1198833,
+      "stills_bytes": 312564,
+      "status": "done"
     },
     {
       "slug": "inside-out",
@@ -500,35 +565,61 @@
     },
     {
       "slug": "isotype",
-      "name": "isotype",
+      "name": "Isotype",
       "family": "nafay-style-library",
-      "status": "text",
-      "description": "Pictogram statistics in the Isotype tradition: a grid of small grey people icons that pop in row by row, then the share that matters turns coral one by one and regroups into its own block, under one huge number. The crowd fills in first so you feel the size, then the stat colours in person by person.",
+      "description": "Pictogram statistics in the Isotype tradition: a grid of small grey people icons that pop in row by row, then the share that matters turns coral one by one and regroups into its own block, under one huge number.",
       "best_use_cases": [
-        "Showing a statistic as a crowd of pictograms",
-        "Percentages and shares made visible",
-        "Simple, honest data stories"
+        "Statistics with a human scale",
+        "Ratios and shares",
+        "Survey results made visible"
       ],
-      "style": "Nafay, Data \u2014 Isotype pictogram crowd, grey icons turning coral, one huge number",
+      "style": "Data",
       "voice": "Kokoro af_heart",
-      "stills": [],
-      "video": ""
+      "orientation": "portrait",
+      "stills": [
+        "assets/isotype/still-1.jpg",
+        "assets/isotype/still-2.jpg",
+        "assets/isotype/still-3.jpg",
+        "assets/isotype/still-4.jpg",
+        "assets/isotype/still-5.jpg",
+        "assets/isotype/still-6.jpg"
+      ],
+      "video": "assets/isotype/demo.mp4",
+      "duration_s": 13.0,
+      "resolution": "720x1280",
+      "fps": 30.0,
+      "video_bytes": 723334,
+      "stills_bytes": 410008,
+      "status": "done"
     },
     {
       "slug": "karaoke-subs",
-      "name": "karaoke-subs",
+      "name": "Karaoke Subs",
       "family": "nafay-style-library",
-      "status": "text",
-      "description": "Clean, readable subtitles for any talking video: a rounded dark glass box in the lower third holding two lines, where the word being spoken sits on a bright green pill, spoken words stay white and upcoming words wait at half opacity. The green pill glides from word to word exactly as each is spoken.",
+      "description": "Clean, readable subtitles for any talking video: a rounded dark glass box in the lower third holding two lines, where the word being spoken sits on a bright green pill, spoken words stay white and upcoming words wait at half opacity.",
       "best_use_cases": [
-        "Adding word-by-word subtitles to a talking video",
-        "Making speech easy to follow without sound",
-        "Clean caption overlays for any edit"
+        "Talking-head videos",
+        "Accessibility-first subtitles",
+        "Any edit needing word-synced captions"
       ],
-      "style": "Nafay, Edit Overlay \u2014 dark glass subtitle box, green pill tracking the spoken word",
+      "style": "Edit Overlay",
       "voice": "Kokoro af_heart",
-      "stills": [],
-      "video": ""
+      "orientation": "portrait",
+      "stills": [
+        "assets/karaoke-subs/still-1.jpg",
+        "assets/karaoke-subs/still-2.jpg",
+        "assets/karaoke-subs/still-3.jpg",
+        "assets/karaoke-subs/still-4.jpg",
+        "assets/karaoke-subs/still-5.jpg",
+        "assets/karaoke-subs/still-6.jpg"
+      ],
+      "video": "assets/karaoke-subs/demo.mp4",
+      "duration_s": 11.5,
+      "resolution": "720x1280",
+      "fps": 24.0,
+      "video_bytes": 593501,
+      "stills_bytes": 222974,
+      "status": "done"
     },
     {
       "slug": "kurzgesagt",
@@ -580,19 +671,32 @@
     },
     {
       "slug": "lower-thirds",
-      "name": "lower-thirds",
-      "family": "nafay-style-library",
-      "status": "text",
-      "description": "A consistent identity kit for interviews and long videos: a name tag with an amber accent bar and dark glass panel, a serif chapter card with a progress row, a social handle bar, and a red subscribe nudge with a bell that rings. Each element has one clean entrance and exit.",
+      "name": "Lower Thirds",
+      "family": "Edit Overlay",
+      "description": "A consistent identity kit for interviews and long videos: a name tag with an amber accent bar and dark glass panel, a serif chapter card with a progress row, a social handle bar, and a red subscribe nudge with a bell that rings.",
       "best_use_cases": [
-        "Name tags and chapter cards for interviews",
-        "Consistent identity graphics for long videos",
-        "Subscribe nudges and handle bars"
+        "Interview intros and guest name tags",
+        "Chapter cards in long videos",
+        "Subscribe nudges and social handle bars"
       ],
-      "style": "Nafay, Edit Overlay \u2014 name tag, serif chapter card, handle bar, subscribe nudge",
+      "style": "Edit Overlay \u2014 amber accent on dark glass; Instrument Serif titles, Inter labels; each element has one clean entrance and exit, graphics kept in title-safe margins away from faces.",
       "voice": "Kokoro af_heart",
-      "stills": [],
-      "video": ""
+      "orientation": "portrait",
+      "stills": [
+        "assets/lower-thirds/still-1.jpg",
+        "assets/lower-thirds/still-2.jpg",
+        "assets/lower-thirds/still-3.jpg",
+        "assets/lower-thirds/still-4.jpg",
+        "assets/lower-thirds/still-5.jpg",
+        "assets/lower-thirds/still-6.jpg"
+      ],
+      "video": "assets/lower-thirds/demo.mp4",
+      "duration_s": 13.0,
+      "resolution": "720x1280",
+      "fps": 24,
+      "video_bytes": 735343,
+      "stills_bytes": 240432,
+      "status": "done"
     },
     {
       "slug": "map-route",
@@ -612,19 +716,32 @@
     },
     {
       "slug": "marker-board",
-      "name": "marker-board",
-      "family": "nafay-style-library",
-      "status": "text",
-      "description": "A clean whiteboard in a grey frame: black, blue, red and green marker doodles that draw themselves stroke by stroke, a visible marker pen following the tip, hand-drawn boxes, arrows, a red circle on the key idea and Caveat side notes. Everything appears by being drawn.",
+      "name": "Marker Board",
+      "family": "Hand-Drawn",
+      "description": "A clean whiteboard in a grey frame: black, blue, red and green marker doodles that draw themselves stroke by stroke, a visible marker pen following the tip, hand-drawn boxes, arrows, a red circle on the key idea and Caveat side notes.",
       "best_use_cases": [
-        "Whiteboard lessons drawn live",
-        "Diagrams and frameworks sketched stroke by stroke",
-        "Classroom-style explanations"
+        "Step-by-step explanations drawn on a whiteboard",
+        "Funnels, processes and frameworks",
+        "Teaching an idea in order, one stroke at a time"
       ],
-      "style": "Nafay, Hand-Drawn \u2014 whiteboard, self-drawing marker doodles, pen following the tip",
+      "style": "Hand-drawn marker on whiteboard; Permanent Marker titles, Caveat side notes; colour means things \u2014 black structure, blue labels, red key idea, green payoff.",
       "voice": "Kokoro af_heart",
-      "stills": [],
-      "video": ""
+      "orientation": "portrait",
+      "stills": [
+        "assets/marker-board/still-1.jpg",
+        "assets/marker-board/still-2.jpg",
+        "assets/marker-board/still-3.jpg",
+        "assets/marker-board/still-4.jpg",
+        "assets/marker-board/still-5.jpg",
+        "assets/marker-board/still-6.jpg"
+      ],
+      "video": "assets/marker-board/demo.mp4",
+      "duration_s": 14.0,
+      "resolution": "720x1280",
+      "fps": 24,
+      "video_bytes": 661195,
+      "stills_bytes": 375115,
+      "status": "done"
     },
     {
       "slug": "market-tape",
@@ -724,19 +841,32 @@
     },
     {
       "slug": "neon-line",
-      "name": "neon-line",
-      "family": "nafay-style-library",
-      "status": "text",
-      "description": "Characters drawn as single continuous glowing neon lines on a deep night-blue wall: one pink, one cyan, with a soft bloom, a flicker when they switch on, neon-script captions, and small glowing props in the same line style. Each character draws itself in one stroke as if a neon tube is lighting up.",
+      "name": "Neon Line",
+      "family": "Character Story",
+      "description": "Characters drawn as single continuous glowing neon lines on a deep night-blue wall: one pink, one cyan, with a soft bloom, a flicker when they switch on, neon-script captions, and small glowing props (phones, clocks, a skyline) in the same line style.",
       "best_use_cases": [
-        "Neon-line character stories",
-        "Two-character stories about connection and distance",
-        "Romantic or emotional tales in glowing line art"
+        "Character-driven stories and relationships",
+        "Long-distance and reunion stories",
+        "Stories where two sides come together for the ending"
       ],
-      "style": "Nafay, Character Story \u2014 single continuous neon lines, pink and cyan on night blue",
+      "style": "Glowing neon line characters on a deep night-blue wall",
       "voice": "Kokoro af_heart",
-      "stills": [],
-      "video": ""
+      "orientation": "portrait",
+      "stills": [
+        "assets/neon-line/still-1.jpg",
+        "assets/neon-line/still-2.jpg",
+        "assets/neon-line/still-3.jpg",
+        "assets/neon-line/still-4.jpg",
+        "assets/neon-line/still-5.jpg",
+        "assets/neon-line/still-6.jpg"
+      ],
+      "video": "assets/neon-line/demo.mp4",
+      "duration_s": 14.0,
+      "resolution": "720x1280",
+      "fps": 30,
+      "video_bytes": 1009034,
+      "stills_bytes": 526924,
+      "status": "done"
     },
     {
       "slug": "night-file",
@@ -755,6 +885,35 @@
       "video": ""
     },
     {
+      "slug": "paper-craft",
+      "name": "Paper Craft",
+      "family": "Illustrated",
+      "description": "Layered cut paper with real drop shadows and a fibre texture: rolling paper hills, a paper sun, flowers and a striped paper bee, all moving at 12 frames a second like stop-motion, with titles on torn white paper strips.",
+      "best_use_cases": [
+        "Gentle process and how-it-works stories",
+        "Nature and craft stories with a warm, handmade feel",
+        "Vertical Shorts"
+      ],
+      "style": "Layered cut paper, 12 fps stop-motion with paper boil",
+      "voice": "Kokoro af_heart",
+      "orientation": "portrait",
+      "stills": [
+        "assets/paper-craft/still-1.jpg",
+        "assets/paper-craft/still-2.jpg",
+        "assets/paper-craft/still-3.jpg",
+        "assets/paper-craft/still-4.jpg",
+        "assets/paper-craft/still-5.jpg",
+        "assets/paper-craft/still-6.jpg"
+      ],
+      "video": "assets/paper-craft/demo.mp4",
+      "duration_s": 14.0,
+      "resolution": "720x1280",
+      "fps": 30,
+      "video_bytes": 1776602,
+      "stills_bytes": 414299,
+      "status": "done"
+    },
+    {
       "slug": "paper-atlas",
       "name": "paper-atlas",
       "family": "faceless-shorts",
@@ -771,36 +930,33 @@
       "video": ""
     },
     {
-      "slug": "paper-craft",
-      "name": "paper-craft",
-      "family": "nafay-style-library",
-      "status": "text",
-      "description": "Layered cut paper with real drop shadows and a fibre texture: rolling paper hills, a paper sun, flowers and a striped paper bee, all moving at 12 frames a second like stop-motion, with titles on torn white paper strips. The scene builds itself layer by layer, then a little character travels through it beat by beat.",
-      "best_use_cases": [
-        "Stop-motion style paper stories",
-        "Gentle, craft-like journeys with numbered steps",
-        "Children's-story and nature tales in paper"
-      ],
-      "style": "Nafay, Illustrated \u2014 layered cut paper, drop shadows, fibre texture, 12 fps stop-motion feel",
-      "voice": "Kokoro af_heart",
-      "stills": [],
-      "video": ""
-    },
-    {
       "slug": "parchment-map",
-      "name": "parchment-map",
-      "family": "nafay-style-library",
-      "status": "text",
-      "description": "An aged ink map on stained parchment: hand-inked coastlines with a second faint outline, a graticule, burnt edges, a compass rose, a little sailing ship and a red dashed route that draws itself as the camera follows it across the map. At each key place a typewriter date stamp drops in.",
+      "name": "Parchment Map",
+      "family": "Illustrated",
+      "description": "An aged ink map on stained parchment: hand-inked coastlines with a second faint outline, a graticule, burnt edges, a compass rose, a little sailing ship and a red dashed route that draws itself as the camera follows it across the map.",
       "best_use_cases": [
-        "Journeys and voyages on an old map",
-        "Exploration and expedition stories",
-        "History told through a travelling route"
+        "Journeys and voyages across a map",
+        "Exploration and travel history",
+        "Stories told place by place, with dates"
       ],
-      "style": "Nafay, Illustrated \u2014 aged parchment map, hand-inked coastlines, red dashed route, compass rose",
+      "style": "Aged ink map on stained parchment with a red dashed route",
       "voice": "Kokoro af_heart",
-      "stills": [],
-      "video": ""
+      "orientation": "portrait",
+      "stills": [
+        "assets/parchment-map/still-1.jpg",
+        "assets/parchment-map/still-2.jpg",
+        "assets/parchment-map/still-3.jpg",
+        "assets/parchment-map/still-4.jpg",
+        "assets/parchment-map/still-5.jpg",
+        "assets/parchment-map/still-6.jpg"
+      ],
+      "video": "assets/parchment-map/demo.mp4",
+      "duration_s": 15.0,
+      "resolution": "720x1280",
+      "fps": 30,
+      "video_bytes": 22291459,
+      "stills_bytes": 1232326,
+      "status": "done"
     },
     {
       "slug": "physics-toybox",
@@ -868,35 +1024,61 @@
     },
     {
       "slug": "pop-info",
-      "name": "pop-info",
-      "family": "nafay-style-library",
-      "status": "text",
-      "description": "A flat-vector animated infographic, drawn entirely in code: a cosy cartoon scene, one small character with a big feeling, a teal thought bubble that carries the idea, a counter, a dotted path and an iris wipe in and out. Muted room colours, warm product colours and rounded Fredoka type.",
+      "name": "Pop Info",
+      "family": "Illustrated",
+      "description": "A flat-vector animated infographic, drawn entirely in code: a cosy cartoon scene, one small character with a big feeling, a teal thought bubble that carries the idea, a counter, a dotted path and an iris wipe in and out.",
       "best_use_cases": [
-        "Flat-vector infographic explainers",
-        "Everyday ideas shown in a cosy cartoon scene",
-        "Friendly fact videos with a thought bubble"
+        "One surprising 'why' question with a character reacting",
+        "Everyday curiosities explained with a counting number",
+        "Playful explainers with a friendly mascot and a takeaway"
       ],
-      "style": "Nafay, Illustrated \u2014 flat-vector infographic, cosy scene, teal thought bubble, Fredoka type",
+      "style": "Flat vector infographic: muted sage room, teal idea bubble, coral and yellow accents, rounded Fredoka type, springy pops and a slow camera push.",
       "voice": "Kokoro af_heart",
-      "stills": [],
-      "video": ""
+      "orientation": "landscape",
+      "stills": [
+        "assets/pop-info/still-1.jpg",
+        "assets/pop-info/still-2.jpg",
+        "assets/pop-info/still-3.jpg",
+        "assets/pop-info/still-4.jpg",
+        "assets/pop-info/still-5.jpg",
+        "assets/pop-info/still-6.jpg"
+      ],
+      "video": "assets/pop-info/demo.mp4",
+      "duration_s": 12.0,
+      "resolution": "1280x720",
+      "fps": 30,
+      "video_bytes": 3036223,
+      "stills_bytes": 667488,
+      "status": "done"
     },
     {
       "slug": "product-turntable",
-      "name": "product-turntable",
-      "family": "nafay-style-library",
-      "status": "text",
-      "description": "A premium product shot in Three.js: an invented product turning on a glossy dark pedestal with a glowing amber rim, a warm key light and a cool rim light, with thin spec callouts and a big italic serif name. The camera eases in as the product turns and spec callouts pop out one at a time on thin leader lines.",
+      "name": "Product Turntable",
+      "family": "3D",
+      "description": "A premium product shot in Three.js: an invented product turning on a glossy dark pedestal with a glowing amber rim, a warm key light and a cool rim light, with thin spec callouts and a big italic serif name.",
       "best_use_cases": [
         "Premium product showcases",
-        "Presenting a product with spec callouts",
-        "Hero product shots with a turning pedestal"
+        "Spec callouts for an invented product",
+        "Hero-frame product reveals"
       ],
-      "style": "Nafay, 3D \u2014 product on a glossy dark pedestal, amber rim glow, spec callouts",
+      "style": "Three.js studio product shot: near-black studio, warm spot key, cool rim light, glossy pedestal with amber ring, Instrument Serif italic hero name.",
       "voice": "Kokoro af_heart",
-      "stills": [],
-      "video": ""
+      "orientation": "portrait",
+      "stills": [
+        "assets/product-turntable/still-1.jpg",
+        "assets/product-turntable/still-2.jpg",
+        "assets/product-turntable/still-3.jpg",
+        "assets/product-turntable/still-4.jpg",
+        "assets/product-turntable/still-5.jpg",
+        "assets/product-turntable/still-6.jpg"
+      ],
+      "video": "assets/product-turntable/demo.mp4",
+      "duration_s": 13.0,
+      "resolution": "720x1280",
+      "fps": 30,
+      "video_bytes": 2086662,
+      "stills_bytes": 421034,
+      "status": "done"
     },
     {
       "slug": "punch-captions",
@@ -1059,20 +1241,33 @@
       "video": ""
     },
     {
-      "slug": "stack-split",
-      "name": "stack-split",
-      "family": "nafay-style-library",
-      "status": "text",
-      "description": "The retention split: your clip on the top half, a satisfying loop drawn in code on the bottom half, kinetic sand being sliced into rainbow layers, and a white caption bar in the seam that carries the story line by line. The top half plays your storytime clip while the bottom loops something calm and satisfying.",
       "best_use_cases": [
-        "Storytime clips with a satisfying loop below",
-        "Retention-split Shorts",
-        "Talking stories paired with calming visuals"
+        "storytime videos",
+        "retention split-screen",
+        "satisfying-loop explainers"
       ],
-      "style": "Nafay, Edit Overlay \u2014 split screen, story clip on top, kinetic sand loop below, seam captions",
+      "description": "The retention split: your clip on the top half, a satisfying loop drawn in code on the bottom half (kinetic sand being sliced into rainbow layers), and a white caption bar in the seam that carries the story line by line.",
+      "duration_s": 12.5,
+      "family": "Edit Overlay",
+      "fps": 30,
+      "name": "stack-split",
+      "orientation": "portrait",
+      "resolution": "720x1280",
+      "slug": "stack-split",
+      "stills": [
+        "assets/stack-split/still-1.jpg",
+        "assets/stack-split/still-2.jpg",
+        "assets/stack-split/still-3.jpg",
+        "assets/stack-split/still-4.jpg",
+        "assets/stack-split/still-5.jpg",
+        "assets/stack-split/still-6.jpg"
+      ],
+      "stills_bytes": 350951,
+      "style": "Split-screen: story clip on top, satisfying kinetic-sand loop below, caption bar in the seam",
+      "video": "assets/stack-split/demo.mp4",
+      "video_bytes": 1120193,
       "voice": "Kokoro af_heart",
-      "stills": [],
-      "video": ""
+      "status": "done"
     },
     {
       "slug": "stick-figure",
@@ -1140,19 +1335,32 @@
     },
     {
       "slug": "swiss-grid",
-      "name": "swiss-grid",
-      "family": "nafay-style-library",
-      "status": "text",
-      "description": "International Typographic Style in motion: a strict six-column grid, one huge number, solid red, black and blue geometric blocks, flush-left Inter in black, and small caps labels, all snapping into place with precise wipes. Blocks wipe in along the grid and the big number counts up digit by digit.",
+      "name": "Swiss Grid",
+      "family": "Kinetic Type",
+      "description": "International Typographic Style in motion: a strict six-column grid, one huge number, solid red, black and blue geometric blocks, flush-left Inter in black, and small caps labels, all snapping into place with precise wipes. Blocks wipe in along the grid, the big number counts up digit by digit, and the statement snaps in line by line; halfway through, the composition re-arranges on the grid to introduce a second point, then settles on a one-line takeaway.",
       "best_use_cases": [
-        "Bold typographic data statements",
-        "Swiss-style poster explainers",
-        "Precise, graphic number-led Shorts"
+        "Presenting a single striking fact or number",
+        "Data-led explainers where the number is the story",
+        "Minimalist grid-based typographic Shorts"
       ],
-      "style": "Nafay, Kinetic Type \u2014 Swiss grid, six columns, huge number, red black and blue blocks",
+      "style": "Strict six-column grid; huge Archivo Black number counting up digit by digit; red (#e1251b) and blue (#1f4fd8) blocks with black type on off-white; flush-left Inter statements; precise wipe and mask-reveal motion; source line in small type at the bottom.",
       "voice": "Kokoro af_heart",
-      "stills": [],
-      "video": ""
+      "orientation": "portrait",
+      "stills": [
+        "assets/swiss-grid/still-1.jpg",
+        "assets/swiss-grid/still-2.jpg",
+        "assets/swiss-grid/still-3.jpg",
+        "assets/swiss-grid/still-4.jpg",
+        "assets/swiss-grid/still-5.jpg",
+        "assets/swiss-grid/still-6.jpg"
+      ],
+      "video": "assets/swiss-grid/demo.mp4",
+      "duration_s": 13.0,
+      "resolution": "720x1280",
+      "fps": 24,
+      "video_bytes": 523914,
+      "stills_bytes": 274445,
+      "status": "done"
     },
     {
       "slug": "synth-grid",
@@ -1268,35 +1476,61 @@
     },
     {
       "slug": "versus-split",
-      "name": "versus-split",
+      "name": "Versus Split",
       "family": "nafay-style-library",
-      "status": "text",
-      "description": "A head-to-head Short: the screen splits diagonally into coral and blue halves that slam in from the sides, a black VS badge with a yellow ring, two characters drawn in code, and stat bars that race toward each other row by row with a winner crown. Both sides slide in and collide, then each stat row runs.",
+      "description": "A head-to-head Short: the screen splits diagonally into coral and blue halves that slam in from the sides, a black VS badge with a yellow ring, two characters drawn in code, and stat bars that race toward each other row by row with a winner crown.",
       "best_use_cases": [
-        "Versus and head-to-head comparisons",
-        "X versus Y stat battles",
-        "Competitive comparison Shorts"
+        "Head-to-head comparisons",
+        "Stat-by-stat battles with a running score",
+        "Pick-a-winner verdicts"
       ],
-      "style": "Nafay, Shorts Format \u2014 diagonal coral and blue split, VS badge, racing stat bars",
+      "style": "Diagonal coral (#ff6b4a) vs blue (#2b6cff) split, black VS badge with yellow ring, big white Anton names, dark stat panel with bars racing out from the centre, counting values and a yellow crown on the winner. Fight-night beat, slams, counter ticks and a crowd cheer for the verdict.",
       "voice": "Kokoro af_heart",
-      "stills": [],
-      "video": ""
+      "orientation": "portrait",
+      "stills": [
+        "assets/versus-split/still-1.jpg",
+        "assets/versus-split/still-2.jpg",
+        "assets/versus-split/still-3.jpg",
+        "assets/versus-split/still-4.jpg",
+        "assets/versus-split/still-5.jpg",
+        "assets/versus-split/still-6.jpg"
+      ],
+      "video": "assets/versus-split/demo.mp4",
+      "duration_s": 13.0,
+      "resolution": "720x1280",
+      "fps": 30,
+      "video_bytes": 695918,
+      "stills_bytes": 456387,
+      "status": "done"
     },
     {
       "slug": "vhs-camcorder",
-      "name": "vhs-camcorder",
+      "name": "VHS Camcorder",
       "family": "nafay-style-library",
-      "status": "text",
-      "description": "A home-video camcorder overlay on your footage: a blocky white PLAY or REC readout, a blinking red dot, a battery icon, a date and time stamp, a tracking-noise band that rolls through, chroma bleed, a warm faded grade and scanlines. Your clip plays as if recorded on tape.",
+      "description": "A home-video camcorder overlay on your footage: a blocky white PLAY or REC readout, a blinking red dot, a battery icon, a date and time stamp, a tracking-noise band that rolls through, chroma bleed, a warm faded grade and scanlines.",
       "best_use_cases": [
-        "Home-video VHS overlays",
-        "Nostalgic camcorder-style clips",
-        "Retro tape aesthetics over footage"
+        "Summer nostalgia edits",
+        "Home-video looks over your own footage",
+        "Rewind jumps between scenes"
       ],
-      "style": "Nafay, Edit Overlay \u2014 VHS camcorder overlay, REC readout, tracking band, chroma bleed",
+      "style": "Warm faded grade with red/cyan chroma bleed and scanlines, VT323 on-screen display (PLAY/REC/REW, battery, date, running clock), a rolling tracking band with a horizontal tear, and a REW rewind with streaks and a backwards clock. Tape hiss and motor hum underneath.",
       "voice": "Kokoro af_heart",
-      "stills": [],
-      "video": ""
+      "orientation": "portrait",
+      "stills": [
+        "assets/vhs-camcorder/still-1.jpg",
+        "assets/vhs-camcorder/still-2.jpg",
+        "assets/vhs-camcorder/still-3.jpg",
+        "assets/vhs-camcorder/still-4.jpg",
+        "assets/vhs-camcorder/still-5.jpg",
+        "assets/vhs-camcorder/still-6.jpg"
+      ],
+      "video": "assets/vhs-camcorder/demo.mp4",
+      "duration_s": 12.0,
+      "resolution": "720x1280",
+      "fps": 30,
+      "video_bytes": 12122019,
+      "stills_bytes": 1272120,
+      "status": "done"
     },
     {
       "slug": "visual-novel",

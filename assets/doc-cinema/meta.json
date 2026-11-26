@@ -1,0 +1,28 @@
+{
+ "slug": "doc-cinema",
+ "name": "Doc Cinema",
+ "family": "nafay-style-library",
+ "description": "Mini-documentary finishing: letterbox bars, heavy film grain, a warm-cool grade, slow Ken Burns push-ins, big serif chapter titles centred in the frame, and a small mono location and date stamp in the corner.",
+ "best_use_cases": [
+  "Mini-documentaries",
+  "Chapter-led stories",
+  "Cinematic finishing over footage or stills"
+ ],
+ "style": "Edit overlay: letterbox bars, heavy stepped film grain, vignette and warm-highlight / cool-shadow grade, slow 4-8% push-ins, tracked chapter labels with centred Instrument Serif titles, mono location stamps typed in.",
+ "voice": "Kokoro af_heart",
+ "orientation": "portrait",
+ "stills": [
+  "assets/doc-cinema/still-1.jpg",
+  "assets/doc-cinema/still-2.jpg",
+  "assets/doc-cinema/still-3.jpg",
+  "assets/doc-cinema/still-4.jpg",
+  "assets/doc-cinema/still-5.jpg",
+  "assets/doc-cinema/still-6.jpg"
+ ],
+ "video": "assets/doc-cinema/demo.mp4",
+ "duration_s": 13.0,
+ "resolution": "720x1280",
+ "fps": 20,
+ "video_bytes": 9100011,
+ "stills_bytes": 362379
+}

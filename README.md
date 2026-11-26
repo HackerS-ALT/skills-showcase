@@ -55,10 +55,13 @@ was verified with ffprobe/file checks before the skill was marked done.
 
 ## Sequencing note
 
-Showcase rendering pauses during the Sunday long-form render window
-(Fri 27 Nov 07:00 → Sun 29 Nov 18:00 IST) so the long-form upload stays on
-track; light work (voiceovers, page code, repo setup) continued in that
-window and full rendering resumed after the Sunday upload.
+Channel work is PAUSED (user, 27 Nov ~01:29 IST) until all 516 showcase
+stills are complete — no YouTube video is created or uploaded, so there is
+no long-form render window to protect. The showcase has the whole machine
+until the stills are done; the watchdog pause gate is disabled
+(`PAUSE_AT` far-future). When the stills complete, channel work resumes.
+(The earlier plan — pause showcase rendering Fri 18:45 for a Fri 19:00
+long-form start — was superseded by the pause.)
 
 ## Media sizes & compression decision
 
@@ -71,7 +74,10 @@ full quality unless videos + stills combined exceed 1 GB.)
 
 The site deploys in batches of 10 skills: as soon as any 10 skills are
 fully done (6 stills + ~10 s video each, all verified), `scripts/deploy.sh`
-rebuilds `skills.json` and pushes. `skills.json` ALWAYS lists all 86 slots:
+rebuilds `skills.json` and pushes. **Each skill's video goes live TOGETHER
+WITH its stills — never a video without its stills, never stills without
+the video. A batch deploys only when all 10 skills in it are fully done.**
+`skills.json` ALWAYS lists all 86 slots:
 finished skills get full cards + modals + media; unfinished skills are
 name-only placeholder cards (no broken images, videos or links) until their
 batch lands.

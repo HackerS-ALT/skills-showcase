@@ -1,0 +1,28 @@
+{
+ "slug": "deep-layers",
+ "name": "Deep Layers",
+ "family": "nafay-style-library",
+ "description": "A cross-section block of the ground in Three.js, with a tiny house and trees on top and stacked layers of soil, clay, rock and glowing hot rock below. A white drill line pushes down while the camera dives with it.",
+ "best_use_cases": [
+  "How deep have we dug?",
+  "Cross-sections of the ground",
+  "Layered earth, drilling and depth explainers"
+ ],
+ "style": "3D cross-section: stacked Three.js boxes in believable material colours (grass green, soil brown, sand, grey rock, dark granite, glowing orange heat), a small surface scene on top, a thin white drill with a glowing yellow tip, dark mono layer labels with real depths, Anton headlines with a yellow second line.",
+ "voice": "Kokoro af_heart",
+ "orientation": "portrait",
+ "stills": [
+  "assets/deep-layers/still-1.jpg",
+  "assets/deep-layers/still-2.jpg",
+  "assets/deep-layers/still-3.jpg",
+  "assets/deep-layers/still-4.jpg",
+  "assets/deep-layers/still-5.jpg",
+  "assets/deep-layers/still-6.jpg"
+ ],
+ "video": "assets/deep-layers/demo.mp4",
+ "duration_s": 15.0,
+ "resolution": "720x1280",
+ "fps": 20,
+ "video_bytes": 7626984,
+ "stills_bytes": 359124
+}

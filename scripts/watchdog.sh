@@ -3,14 +3,16 @@
 # - Every 5 min: checks each skill's status/<skill>.json heartbeat; a skill
 #   whose heartbeat is older than 45 min and is not marked done is STALLED:
 #   logs it and touches status/<skill>.stalled for the coordinator to respawn.
-# - At 06:45 IST on Fri 27 Nov 2026 it writes logs/PAUSE and stops showcase
-#   render processes so the Sunday long-form render (starts 07:00) gets the
-#   whole machine. It never touches anything under ~/shorts (channel work).
+# - PAUSE GATE DISABLED (user, 27 Nov 2026 ~01:29 IST): all channel work is
+#   paused until the 86 showcase stills are complete, so there is no
+#   long-form render to protect — the showcase keeps rendering past Fri
+#   19:00. PAUSE_AT is set far in the future; re-enable a real pause time
+#   when channel work resumes.
 # - Logs to logs/watchdog.log. Run detached: nohup bash scripts/watchdog.sh &
 set -u
 PROJ="$HOME/workspace/showcase-skills"
 LOG="$PROJ/logs/watchdog.log"
-PAUSE_AT="2026-11-27 06:45:00"
+PAUSE_AT="2099-01-01 00:00:00"
 STALL_SECS=2700  # 45 min without a heartbeat
 
 log() { echo "[$(date '+%Y-%m-%d %H:%M:%S %Z')] $*" >> "$LOG"; }
@@ -19,7 +21,7 @@ log "watchdog started (pid $$). Pause scheduled at $PAUSE_AT IST."
 paused=0
 while true; do
   now=$(date +%s)
-  # --- pause gate: 06:45 IST Fri 27 Nov ---
+  # --- pause gate: DISABLED (PAUSE_AT is far-future until channel work resumes) ---
   if [ "$paused" -eq 0 ]; then
     pause_epoch=$(TZ=Asia/Calcutta date -d "$PAUSE_AT" +%s 2>/dev/null || echo 0)
     if [ "$now" -ge "$pause_epoch" ] && [ "$pause_epoch" -gt 0 ]; then

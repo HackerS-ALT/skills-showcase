@@ -1,0 +1,28 @@
+{
+  "slug": "isotype",
+  "name": "Isotype",
+  "family": "nafay-style-library",
+  "description": "Pictogram statistics in the Isotype tradition: a grid of small grey people icons that pop in row by row, then the share that matters turns coral one by one and regroups into its own block, under one huge number.",
+  "best_use_cases": [
+    "Statistics with a human scale",
+    "Ratios and shares",
+    "Survey results made visible"
+  ],
+  "style": "Data",
+  "voice": "Kokoro af_heart",
+  "orientation": "portrait",
+  "stills": [
+    "assets/isotype/still-1.jpg",
+    "assets/isotype/still-2.jpg",
+    "assets/isotype/still-3.jpg",
+    "assets/isotype/still-4.jpg",
+    "assets/isotype/still-5.jpg",
+    "assets/isotype/still-6.jpg"
+  ],
+  "video": "assets/isotype/demo.mp4",
+  "duration_s": 13.0,
+  "resolution": "720x1280",
+  "fps": 30.0,
+  "video_bytes": 723334,
+  "stills_bytes": 410008
+}

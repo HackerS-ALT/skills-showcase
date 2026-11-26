@@ -1,0 +1,28 @@
+{
+ "slug": "blueprint",
+ "name": "Blueprint",
+ "family": "Hand-Drawn",
+ "description": "A technical drawing on blueprint blue: pale line work on a fine grid, dimension lines with arrowheads, a dashed yellow reference line, mono callouts and a title block in the corner, with the mechanism actually moving.",
+ "best_use_cases": [
+  "How a mechanism works",
+  "Technical drawings and inventions",
+  "Engineering explainers"
+ ],
+ "style": "Hand-drawn blueprint \u2014 pale line work on blueprint blue, fine grid, dimension lines with arrowheads, dashed yellow reference line, mono callouts",
+ "voice": "Kokoro af_heart",
+ "orientation": "portrait",
+ "stills": [
+  "assets/blueprint/still-1.jpg",
+  "assets/blueprint/still-2.jpg",
+  "assets/blueprint/still-3.jpg",
+  "assets/blueprint/still-4.jpg",
+  "assets/blueprint/still-5.jpg",
+  "assets/blueprint/still-6.jpg"
+ ],
+ "video": "assets/blueprint/demo.mp4",
+ "duration_s": 15.0,
+ "resolution": "720x1280",
+ "fps": 30,
+ "video_bytes": 1555202,
+ "stills_bytes": 1095157
+}

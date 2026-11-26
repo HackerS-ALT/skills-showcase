@@ -1,0 +1,28 @@
+{
+  "slug": "marker-board",
+  "name": "Marker Board",
+  "family": "Hand-Drawn",
+  "description": "A clean whiteboard in a grey frame: black, blue, red and green marker doodles that draw themselves stroke by stroke, a visible marker pen following the tip, hand-drawn boxes, arrows, a red circle on the key idea and Caveat side notes.",
+  "best_use_cases": [
+    "Step-by-step explanations drawn on a whiteboard",
+    "Funnels, processes and frameworks",
+    "Teaching an idea in order, one stroke at a time"
+  ],
+  "style": "Hand-drawn marker on whiteboard; Permanent Marker titles, Caveat side notes; colour means things \u2014 black structure, blue labels, red key idea, green payoff.",
+  "voice": "Kokoro af_heart",
+  "orientation": "portrait",
+  "stills": [
+    "assets/marker-board/still-1.jpg",
+    "assets/marker-board/still-2.jpg",
+    "assets/marker-board/still-3.jpg",
+    "assets/marker-board/still-4.jpg",
+    "assets/marker-board/still-5.jpg",
+    "assets/marker-board/still-6.jpg"
+  ],
+  "video": "assets/marker-board/demo.mp4",
+  "duration_s": 14.0,
+  "resolution": "720x1280",
+  "fps": 24,
+  "video_bytes": 661195,
+  "stills_bytes": 375115
+}

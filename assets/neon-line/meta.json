@@ -1,0 +1,28 @@
+{
+ "slug": "neon-line",
+ "name": "Neon Line",
+ "family": "Character Story",
+ "description": "Characters drawn as single continuous glowing neon lines on a deep night-blue wall: one pink, one cyan, with a soft bloom, a flicker when they switch on, neon-script captions, and small glowing props (phones, clocks, a skyline) in the same line style.",
+ "best_use_cases": [
+  "Character-driven stories and relationships",
+  "Long-distance and reunion stories",
+  "Stories where two sides come together for the ending"
+ ],
+ "style": "Glowing neon line characters on a deep night-blue wall",
+ "voice": "Kokoro af_heart",
+ "orientation": "portrait",
+ "stills": [
+  "assets/neon-line/still-1.jpg",
+  "assets/neon-line/still-2.jpg",
+  "assets/neon-line/still-3.jpg",
+  "assets/neon-line/still-4.jpg",
+  "assets/neon-line/still-5.jpg",
+  "assets/neon-line/still-6.jpg"
+ ],
+ "video": "assets/neon-line/demo.mp4",
+ "duration_s": 14.0,
+ "resolution": "720x1280",
+ "fps": 30,
+ "video_bytes": 1009034,
+ "stills_bytes": 526924
+}

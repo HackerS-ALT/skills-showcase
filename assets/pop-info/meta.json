@@ -1,0 +1,28 @@
+{
+  "slug": "pop-info",
+  "name": "Pop Info",
+  "family": "Illustrated",
+  "description": "A flat-vector animated infographic, drawn entirely in code: a cosy cartoon scene, one small character with a big feeling, a teal thought bubble that carries the idea, a counter, a dotted path and an iris wipe in and out.",
+  "best_use_cases": [
+    "One surprising 'why' question with a character reacting",
+    "Everyday curiosities explained with a counting number",
+    "Playful explainers with a friendly mascot and a takeaway"
+  ],
+  "style": "Flat vector infographic: muted sage room, teal idea bubble, coral and yellow accents, rounded Fredoka type, springy pops and a slow camera push.",
+  "voice": "Kokoro af_heart",
+  "orientation": "landscape",
+  "stills": [
+    "assets/pop-info/still-1.jpg",
+    "assets/pop-info/still-2.jpg",
+    "assets/pop-info/still-3.jpg",
+    "assets/pop-info/still-4.jpg",
+    "assets/pop-info/still-5.jpg",
+    "assets/pop-info/still-6.jpg"
+  ],
+  "video": "assets/pop-info/demo.mp4",
+  "duration_s": 12.0,
+  "resolution": "1280x720",
+  "fps": 30,
+  "video_bytes": 3036223,
+  "stills_bytes": 667488
+}

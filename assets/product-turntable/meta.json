@@ -1,0 +1,28 @@
+{
+  "slug": "product-turntable",
+  "name": "Product Turntable",
+  "family": "3D",
+  "description": "A premium product shot in Three.js: an invented product turning on a glossy dark pedestal with a glowing amber rim, a warm key light and a cool rim light, with thin spec callouts and a big italic serif name.",
+  "best_use_cases": [
+    "Premium product showcases",
+    "Spec callouts for an invented product",
+    "Hero-frame product reveals"
+  ],
+  "style": "Three.js studio product shot: near-black studio, warm spot key, cool rim light, glossy pedestal with amber ring, Instrument Serif italic hero name.",
+  "voice": "Kokoro af_heart",
+  "orientation": "portrait",
+  "stills": [
+    "assets/product-turntable/still-1.jpg",
+    "assets/product-turntable/still-2.jpg",
+    "assets/product-turntable/still-3.jpg",
+    "assets/product-turntable/still-4.jpg",
+    "assets/product-turntable/still-5.jpg",
+    "assets/product-turntable/still-6.jpg"
+  ],
+  "video": "assets/product-turntable/demo.mp4",
+  "duration_s": 13.0,
+  "resolution": "720x1280",
+  "fps": 30,
+  "video_bytes": 2086662,
+  "stills_bytes": 421034
+}

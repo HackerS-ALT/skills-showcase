@@ -1,0 +1,28 @@
+{
+ "slug": "vhs-camcorder",
+ "name": "VHS Camcorder",
+ "family": "nafay-style-library",
+ "description": "A home-video camcorder overlay on your footage: a blocky white PLAY or REC readout, a blinking red dot, a battery icon, a date and time stamp, a tracking-noise band that rolls through, chroma bleed, a warm faded grade and scanlines.",
+ "best_use_cases": [
+  "Summer nostalgia edits",
+  "Home-video looks over your own footage",
+  "Rewind jumps between scenes"
+ ],
+ "style": "Warm faded grade with red/cyan chroma bleed and scanlines, VT323 on-screen display (PLAY/REC/REW, battery, date, running clock), a rolling tracking band with a horizontal tear, and a REW rewind with streaks and a backwards clock. Tape hiss and motor hum underneath.",
+ "voice": "Kokoro af_heart",
+ "orientation": "portrait",
+ "stills": [
+  "assets/vhs-camcorder/still-1.jpg",
+  "assets/vhs-camcorder/still-2.jpg",
+  "assets/vhs-camcorder/still-3.jpg",
+  "assets/vhs-camcorder/still-4.jpg",
+  "assets/vhs-camcorder/still-5.jpg",
+  "assets/vhs-camcorder/still-6.jpg"
+ ],
+ "video": "assets/vhs-camcorder/demo.mp4",
+ "duration_s": 12.0,
+ "resolution": "720x1280",
+ "fps": 30,
+ "video_bytes": 12122019,
+ "stills_bytes": 1272120
+}

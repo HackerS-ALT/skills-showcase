@@ -1,0 +1,28 @@
+{
+ "slug": "parchment-map",
+ "name": "Parchment Map",
+ "family": "Illustrated",
+ "description": "An aged ink map on stained parchment: hand-inked coastlines with a second faint outline, a graticule, burnt edges, a compass rose, a little sailing ship and a red dashed route that draws itself as the camera follows it across the map.",
+ "best_use_cases": [
+  "Journeys and voyages across a map",
+  "Exploration and travel history",
+  "Stories told place by place, with dates"
+ ],
+ "style": "Aged ink map on stained parchment with a red dashed route",
+ "voice": "Kokoro af_heart",
+ "orientation": "portrait",
+ "stills": [
+  "assets/parchment-map/still-1.jpg",
+  "assets/parchment-map/still-2.jpg",
+  "assets/parchment-map/still-3.jpg",
+  "assets/parchment-map/still-4.jpg",
+  "assets/parchment-map/still-5.jpg",
+  "assets/parchment-map/still-6.jpg"
+ ],
+ "video": "assets/parchment-map/demo.mp4",
+ "duration_s": 15.0,
+ "resolution": "720x1280",
+ "fps": 30,
+ "video_bytes": 22291459,
+ "stills_bytes": 1232326
+}

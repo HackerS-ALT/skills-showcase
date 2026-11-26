@@ -1,0 +1,28 @@
+{
+  "slug": "karaoke-subs",
+  "name": "Karaoke Subs",
+  "family": "nafay-style-library",
+  "description": "Clean, readable subtitles for any talking video: a rounded dark glass box in the lower third holding two lines, where the word being spoken sits on a bright green pill, spoken words stay white and upcoming words wait at half opacity.",
+  "best_use_cases": [
+    "Talking-head videos",
+    "Accessibility-first subtitles",
+    "Any edit needing word-synced captions"
+  ],
+  "style": "Edit Overlay",
+  "voice": "Kokoro af_heart",
+  "orientation": "portrait",
+  "stills": [
+    "assets/karaoke-subs/still-1.jpg",
+    "assets/karaoke-subs/still-2.jpg",
+    "assets/karaoke-subs/still-3.jpg",
+    "assets/karaoke-subs/still-4.jpg",
+    "assets/karaoke-subs/still-5.jpg",
+    "assets/karaoke-subs/still-6.jpg"
+  ],
+  "video": "assets/karaoke-subs/demo.mp4",
+  "duration_s": 11.5,
+  "resolution": "720x1280",
+  "fps": 24.0,
+  "video_bytes": 593501,
+  "stills_bytes": 222974
+}
