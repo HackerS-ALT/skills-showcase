@@ -1,6 +1,6 @@
 {
   "count": 86,
-  "done": 71,
+  "done": 73,
   "skills": [
     {
       "slug": "bio-glow",
@@ -64,20 +64,33 @@
     },
     {
       "slug": "breakdown",
-      "name": "breakdown",
+      "name": "Breakdown",
       "family": "artem-animation-skills",
-      "family_key": "artem-animation-skills",
-      "status": "text",
-      "description": "A 3D exploded-view animation for a reel: a phone floats on a dark studio backdrop and comes apart layer by layer, glass, screen, frame, board, battery and back, with each part getting a thin leader line and a label. Use for an exploded view, a what-is-inside teardown or a labelled 3D breakdown of a device.",
+      "description": "Makes a 3D exploded-view animation for a reel. A phone floats on a dark studio backdrop, comes apart layer by layer (glass, screen, frame, board and battery, back), and each part gets a thin leader line and a label.",
       "best_use_cases": [
-        "Exploded-view teardowns of a phone or device",
-        "What is inside explainers with labelled parts",
-        "Labelled 3D breakdowns"
+        "Exploded views of a device",
+        "What's-inside teardowns",
+        "Labelled 3D breakdowns of a product"
       ],
-      "style": "Artem \u2014 3D exploded view, dark studio backdrop, leader lines and labels",
+      "style": "3D",
       "voice": "Kokoro af_heart",
-      "stills": [],
-      "video": ""
+      "orientation": "portrait",
+      "stills": [
+        "assets/breakdown/still-1.jpg",
+        "assets/breakdown/still-2.jpg",
+        "assets/breakdown/still-3.jpg",
+        "assets/breakdown/still-4.jpg",
+        "assets/breakdown/still-5.jpg",
+        "assets/breakdown/still-6.jpg"
+      ],
+      "video": "assets/breakdown/demo.mp4",
+      "duration_s": 10.2,
+      "resolution": "1080x1920",
+      "fps": 30.0,
+      "video_bytes": 6119515,
+      "stills_bytes": 574506,
+      "status": "done",
+      "family_key": "artem-animation-skills"
     },
     {
       "slug": "breaking-desk",
@@ -1212,20 +1225,33 @@
     },
     {
       "slug": "minecraft",
-      "name": "minecraft",
+      "name": "Minecraft",
       "family": "artem-animation-skills",
-      "family_key": "artem-animation-skills",
-      "status": "text",
-      "description": "A Minecraft-style blocky voxel animation: a cottage builds itself block by block on a grassy hill, about 165 blocks dropping in with a bounce, then the chimney slams in with a puff of dust, the windows light up warm, smoke rises and a big pixel-font word lands. Procedural 16x16 pixel textures, blocky trees and flat blocky clouds, rendered with three.js.",
+      "description": "Makes a Minecraft-style blocky voxel animation for a reel. A cottage builds itself block by block on a grassy hill, about 165 blocks dropping in with a bounce, then the chimney slams in with a puff of dust, the windows light up warm, smoke rises and a big pixel-font word lands. Procedural 16x16 pixel textures, blocky trees and flat blocky clouds, rendered with three.js.",
       "best_use_cases": [
-        "Minecraft-style block-by-block builds",
-        "Voxel building visuals",
-        "Cosy blocky scenes with a payoff word"
+        "Minecraft-style and voxel build-it visuals",
+        "Block-by-block construction reveals",
+        "Cozy cottage and gaming-themed reels"
       ],
-      "style": "Artem \u2014 Minecraft voxel, procedural pixel textures, block-by-block cottage build",
+      "style": "Minecraft-style blocky voxel animation: a cottage builds itself block by block on a grassy hill, about 165 blocks dropping in with a bounce, then the chimney slams in with a puff of dust, the windows light up warm, smoke rises and a big pixel-font word lands. Procedural 16x16 pixel textures, blocky trees and flat blocky clouds, rendered with three.js. Lowercase pixel-font captions; the build line drops in letter by letter and the one-word payoff slams in with the chimney.",
       "voice": "Kokoro af_heart",
-      "stills": [],
-      "video": ""
+      "orientation": "portrait",
+      "stills": [
+        "assets/minecraft/still-1.jpg",
+        "assets/minecraft/still-2.jpg",
+        "assets/minecraft/still-3.jpg",
+        "assets/minecraft/still-4.jpg",
+        "assets/minecraft/still-5.jpg",
+        "assets/minecraft/still-6.jpg"
+      ],
+      "video": "assets/minecraft/demo.mp4",
+      "duration_s": 8.1,
+      "resolution": "540x960",
+      "fps": 30,
+      "video_bytes": 7521423,
+      "stills_bytes": 933056,
+      "status": "done",
+      "family_key": "artem-animation-skills"
     },
     {
       "slug": "minimalistic-graphics",

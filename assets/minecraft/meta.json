@@ -1,0 +1,28 @@
+{
+ "slug": "minecraft",
+ "name": "Minecraft",
+ "family": "artem-animation-skills",
+ "description": "Makes a Minecraft-style blocky voxel animation for a reel. A cottage builds itself block by block on a grassy hill, about 165 blocks dropping in with a bounce, then the chimney slams in with a puff of dust, the windows light up warm, smoke rises and a big pixel-font word lands. Procedural 16x16 pixel textures, blocky trees and flat blocky clouds, rendered with three.js.",
+ "best_use_cases": [
+  "Minecraft-style and voxel build-it visuals",
+  "Block-by-block construction reveals",
+  "Cozy cottage and gaming-themed reels"
+ ],
+ "style": "Minecraft-style blocky voxel animation: a cottage builds itself block by block on a grassy hill, about 165 blocks dropping in with a bounce, then the chimney slams in with a puff of dust, the windows light up warm, smoke rises and a big pixel-font word lands. Procedural 16x16 pixel textures, blocky trees and flat blocky clouds, rendered with three.js. Lowercase pixel-font captions; the build line drops in letter by letter and the one-word payoff slams in with the chimney.",
+ "voice": "Kokoro af_heart",
+ "orientation": "portrait",
+ "stills": [
+  "assets/minecraft/still-1.jpg",
+  "assets/minecraft/still-2.jpg",
+  "assets/minecraft/still-3.jpg",
+  "assets/minecraft/still-4.jpg",
+  "assets/minecraft/still-5.jpg",
+  "assets/minecraft/still-6.jpg"
+ ],
+ "video": "assets/minecraft/demo.mp4",
+ "duration_s": 8.1,
+ "resolution": "540x960",
+ "fps": 30,
+ "video_bytes": 7521423,
+ "stills_bytes": 933056
+}

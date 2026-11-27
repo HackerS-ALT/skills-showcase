@@ -1,0 +1,28 @@
+{
+  "slug": "breakdown",
+  "name": "Breakdown",
+  "family": "artem-animation-skills",
+  "description": "Makes a 3D exploded-view animation for a reel. A phone floats on a dark studio backdrop, comes apart layer by layer (glass, screen, frame, board and battery, back), and each part gets a thin leader line and a label.",
+  "best_use_cases": [
+    "Exploded views of a device",
+    "What's-inside teardowns",
+    "Labelled 3D breakdowns of a product"
+  ],
+  "style": "3D",
+  "voice": "Kokoro af_heart",
+  "orientation": "portrait",
+  "stills": [
+    "assets/breakdown/still-1.jpg",
+    "assets/breakdown/still-2.jpg",
+    "assets/breakdown/still-3.jpg",
+    "assets/breakdown/still-4.jpg",
+    "assets/breakdown/still-5.jpg",
+    "assets/breakdown/still-6.jpg"
+  ],
+  "video": "assets/breakdown/demo.mp4",
+  "duration_s": 10.2,
+  "resolution": "1080x1920",
+  "fps": 30.0,
+  "video_bytes": 6119515,
+  "stills_bytes": 574506
+}
