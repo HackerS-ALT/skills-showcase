@@ -1,6 +1,6 @@
 {
   "count": 86,
-  "done": 83,
+  "done": 84,
   "skills": [
     {
       "slug": "bio-glow",
@@ -1838,20 +1838,33 @@
     },
     {
       "slug": "shadow-puppets",
-      "name": "shadow-puppets",
-      "family": "nafay-style-library",
-      "family_key": "nafay-style-library",
-      "status": "text",
-      "description": "A shadow-puppet theatre: jointed black silhouette puppets on visible rods, pressed against a warm backlit paper screen that glows and flickers like a flame, with cut-out scenery, a wooden stage frame and fable lines in an elegant serif. Puppets slide in on their rods and act with simple jointed moves.",
+      "name": "Shadow Puppets",
+      "family": "Character Story",
+      "description": "A shadow-puppet theatre: jointed black silhouette puppets on visible rods, pressed against a warm backlit paper screen that glows and flickers like a flame, with cut-out scenery, a wooden stage frame and fable lines in an elegant serif. Puppets slide in on their rods and act with simple jointed moves (a beak that opens, a jaw that talks, a head that tilts, legs that step). Scenery pieces slide behind them, the light flickers and breathes, and each beat of the story is narrated in a serif line at the bottom before the moral closes the curtain.",
       "best_use_cases": [
-        "Fables told as shadow-puppet theatre",
-        "Moral stories with silhouette puppets",
-        "Warm, theatrical storytelling"
+        "Telling a fable with shadow puppets",
+        "Silhouette theatre storytelling",
+        "Warm, storybook-style moral tales"
       ],
-      "style": "Nafay, Character Story \u2014 black silhouette puppets on rods, backlit paper screen, serif fable lines",
+      "style": "Shadow-puppet theatre; jointed black silhouette puppets on visible rods; warm backlit paper screen glowing and flickering like a flame; cut-out scenery; wooden stage frame; fable lines in elegant serif.",
       "voice": "Kokoro af_heart",
-      "stills": [],
-      "video": ""
+      "orientation": "portrait",
+      "stills": [
+        "assets/shadow-puppets/still-1.jpg",
+        "assets/shadow-puppets/still-2.jpg",
+        "assets/shadow-puppets/still-3.jpg",
+        "assets/shadow-puppets/still-4.jpg",
+        "assets/shadow-puppets/still-5.jpg",
+        "assets/shadow-puppets/still-6.jpg"
+      ],
+      "video": "assets/shadow-puppets/demo.mp4",
+      "duration_s": 15.0,
+      "resolution": "720x1280",
+      "fps": 24,
+      "video_bytes": 7896783,
+      "stills_bytes": 703845,
+      "status": "done",
+      "family_key": "nafay-style-library"
     },
     {
       "best_use_cases": [
