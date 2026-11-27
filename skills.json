@@ -1,6 +1,6 @@
 {
   "count": 86,
-  "done": 79,
+  "done": 81,
   "skills": [
     {
       "slug": "bio-glow",
@@ -530,6 +530,36 @@
       "family_key": "nafay-style-library"
     },
     {
+      "slug": "deep-dive",
+      "name": "Deep Dive",
+      "family": "faceless-shorts",
+      "description": "Stylized 3D \"What happens if...?\" explainers in 9:16. Sculpted people in warm sunlit sets, glowing x-ray cutaways, camera journeys through blood vessels, shallow focus, and a camera that never stops moving. The video moves between three worlds: the real world, the x-ray, and inside the body.",
+      "best_use_cases": [
+        "What happens if...? explainers",
+        "Inside-the-body stories",
+        "Curious, shocking, satisfying science"
+      ],
+      "style": "Real 3D in three.js: warm low sun outside, cyan x-ray glass inside the body, deep red macro shots with bloom. Shallow focus always, camera always moving. No gore \u2014 danger shown as x-ray, glow or warning colour.",
+      "voice": "Kokoro af_heart",
+      "orientation": "portrait",
+      "stills": [
+        "assets/deep-dive/still-1.jpg",
+        "assets/deep-dive/still-2.jpg",
+        "assets/deep-dive/still-3.jpg",
+        "assets/deep-dive/still-4.jpg",
+        "assets/deep-dive/still-5.jpg",
+        "assets/deep-dive/still-6.jpg"
+      ],
+      "video": "assets/deep-dive/demo.mp4",
+      "duration_s": 10.6,
+      "resolution": "1080x1920",
+      "fps": 30,
+      "video_bytes": 7612894,
+      "stills_bytes": 1358101,
+      "status": "done",
+      "family_key": "faceless-shorts"
+    },
+    {
       "slug": "deep-layers",
       "name": "Deep Layers",
       "family": "nafay-style-library",
@@ -558,23 +588,6 @@
       "stills_bytes": 359124,
       "status": "done",
       "family_key": "nafay-style-library"
-    },
-    {
-      "slug": "deep-dive",
-      "name": "deep-dive",
-      "family": "faceless-shorts",
-      "family_key": "faceless-shorts",
-      "status": "text",
-      "description": "Real stylized 3D explainers rendered in three.js: sculpted people in warm sunlit sets, glowing x-ray cutaways and camera journeys through blood vessels, with shallow focus and a camera that never stops moving. Curious, shocking and satisfying.",
-      "best_use_cases": [
-        "What happens if...? explainers about the human body",
-        "Showing what happens inside the body with x-ray cutaways",
-        "Stylized 3D science explainers"
-      ],
-      "style": "Faceless-shorts \u2014 real 3D three.js, warm sunlit sets, cyan x-ray cutaways, deep-red macro body interiors",
-      "voice": "Kokoro af_heart",
-      "stills": [],
-      "video": ""
     },
     {
       "slug": "doc-cinema",
@@ -758,20 +771,33 @@
     },
     {
       "slug": "graph",
-      "name": "graph",
+      "name": "Graph",
       "family": "artem-animation-skills",
-      "family_key": "artem-animation-skills",
-      "status": "text",
-      "description": "A minimal line-graph animation for a reel: a smooth black line draws itself on white, or white on black, while one big number counts up with the tip, then lands on the final value. Use for a growth chart, a 0 to 100K number animation or an animated stat.",
+      "description": "A minimal line-graph animation for a reel. A smooth black line draws itself on white while one big number counts up with the tip, then lands on the final value.",
       "best_use_cases": [
-        "Growth charts and animated stats",
-        "0 to 100K style number animations",
-        "Simple follower or revenue count-up reels"
+        "Growth charts",
+        "0 to 100K number animations",
+        "Animated stats with one number and one line"
       ],
-      "style": "Artem \u2014 minimal line graph, counting number riding the line tip, black on white",
+      "style": "Minimal: one smooth line, one big counting number, plain noun label, month ticks under the axis. No callouts, no marketing words on the graphic.",
       "voice": "Kokoro af_heart",
-      "stills": [],
-      "video": ""
+      "orientation": "portrait",
+      "stills": [
+        "assets/graph/still-1.jpg",
+        "assets/graph/still-2.jpg",
+        "assets/graph/still-3.jpg",
+        "assets/graph/still-4.jpg",
+        "assets/graph/still-5.jpg",
+        "assets/graph/still-6.jpg"
+      ],
+      "video": "assets/graph/demo.mp4",
+      "duration_s": 10.53,
+      "resolution": "1080x1920",
+      "fps": 30,
+      "video_bytes": 491792,
+      "stills_bytes": 266851,
+      "status": "done",
+      "family_key": "artem-animation-skills"
     },
     {
       "slug": "headline-backdrop",

@@ -1,0 +1,28 @@
+{
+ "slug": "deep-dive",
+ "name": "Deep Dive",
+ "family": "faceless-shorts",
+ "description": "Stylized 3D \"What happens if...?\" explainers in 9:16. Sculpted people in warm sunlit sets, glowing x-ray cutaways, camera journeys through blood vessels, shallow focus, and a camera that never stops moving. The video moves between three worlds: the real world, the x-ray, and inside the body.",
+ "best_use_cases": [
+  "What happens if...? explainers",
+  "Inside-the-body stories",
+  "Curious, shocking, satisfying science"
+ ],
+ "style": "Real 3D in three.js: warm low sun outside, cyan x-ray glass inside the body, deep red macro shots with bloom. Shallow focus always, camera always moving. No gore \u2014 danger shown as x-ray, glow or warning colour.",
+ "voice": "Kokoro af_heart",
+ "orientation": "portrait",
+ "stills": [
+  "assets/deep-dive/still-1.jpg",
+  "assets/deep-dive/still-2.jpg",
+  "assets/deep-dive/still-3.jpg",
+  "assets/deep-dive/still-4.jpg",
+  "assets/deep-dive/still-5.jpg",
+  "assets/deep-dive/still-6.jpg"
+ ],
+ "video": "assets/deep-dive/demo.mp4",
+ "duration_s": 10.6,
+ "resolution": "1080x1920",
+ "fps": 30,
+ "video_bytes": 7612894,
+ "stills_bytes": 1358101
+}
