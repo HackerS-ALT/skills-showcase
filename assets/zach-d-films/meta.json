@@ -1,0 +1,28 @@
+{
+ "slug": "zach-d-films",
+ "name": "Zach D. Films",
+ "family": "artem-animation-skills",
+ "description": "A 3D cartoon \u201cwhat if\u201d explainer short in the style of Zack D. Films-type videos, entirely in code with three.js: procedural cartoon people, props and effects, a blue studio sky, slow-motion impacts, a red force-ripple overlay, quick whip cuts and 1 to 3 word captions timed to the voiceover.",
+ "best_use_cases": [
+  "Could X stop Y / what-if explainers",
+  "Myth-busting with building examples",
+  "Slow-motion impact moments"
+ ],
+ "style": "Bright blue studio sky, soft daylight, cartoon people as simple shapes with big expressive faces, metal that reads as metal. Slow motion on the impact, a short camera shake, sparks, bloom on hot things, a red ripple showing force spreading, quick cuts on caption beats and one dip to black on the \u201cBut\u201d turn. White bold 1-3 word captions in the lower third.",
+ "voice": "Kokoro af_heart",
+ "orientation": "portrait",
+ "stills": [
+  "assets/zach-d-films/still-1.jpg",
+  "assets/zach-d-films/still-2.jpg",
+  "assets/zach-d-films/still-3.jpg",
+  "assets/zach-d-films/still-4.jpg",
+  "assets/zach-d-films/still-5.jpg",
+  "assets/zach-d-films/still-6.jpg"
+ ],
+ "video": "assets/zach-d-films/demo.mp4",
+ "duration_s": 13.0,
+ "resolution": "540x960",
+ "fps": 8,
+ "video_bytes": 5943104,
+ "stills_bytes": 545092
+}

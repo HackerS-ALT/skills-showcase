@@ -1,0 +1,28 @@
+{
+  "slug": "minimalistic-graphics",
+  "name": "minimalistic-graphics",
+  "family": "Line art",
+  "description": "Minimal black-and-white line-art animation \u2014 thin outlined steps rise one by one, a white dot hops up them, and at the top an orbit draws around it and a short second line swaps in; one quiet lowercase line of text on top.",
+  "best_use_cases": [
+    "Calm self-improvement visuals (habits, patience, compounding)",
+    "Simple black-and-white motion graphics",
+    "Quiet progress and step-by-step ideas"
+  ],
+  "style": "Pure black-and-white line art; hairline steps, one solid white dot, lowercase text; no bold, no colour.",
+  "voice": "Kokoro af_heart",
+  "orientation": "portrait",
+  "stills": [
+    "assets/minimalistic-graphics/still-1.jpg",
+    "assets/minimalistic-graphics/still-2.jpg",
+    "assets/minimalistic-graphics/still-3.jpg",
+    "assets/minimalistic-graphics/still-4.jpg",
+    "assets/minimalistic-graphics/still-5.jpg",
+    "assets/minimalistic-graphics/still-6.jpg"
+  ],
+  "video": "assets/minimalistic-graphics/demo.mp4",
+  "duration_s": 8.1,
+  "resolution": "1080x1920",
+  "fps": 30,
+  "video_bytes": 239427,
+  "stills_bytes": 281614
+}

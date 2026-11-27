@@ -1,28 +1,28 @@
 {
- "slug": "math",
- "name": "Math",
- "family": "cth-animate",
- "description": "A manim-style math explainer look: coloured math on a near-black stage, with serif type written on, axes and graphs swept-drawn, equations transforming into each other and a tracking dot with a live decimal readout. Clean vector strokes where the colour coding does the work.",
- "best_use_cases": [
-  "Math explainers: formulas, proofs, functions and rates",
-  "Ideas with a picture, like a geometric fact",
-  "Rigorous explainers where the math on screen must be true"
- ],
- "style": "cth-animate \u2014 manim-style, coloured math on near-black, written serif type, swept graphs",
- "voice": "Kokoro af_heart",
- "orientation": "portrait",
- "stills": [
-  "assets/math/still-1.jpg",
-  "assets/math/still-2.jpg",
-  "assets/math/still-3.jpg",
-  "assets/math/still-4.jpg",
-  "assets/math/still-5.jpg",
-  "assets/math/still-6.jpg"
- ],
- "video": "assets/math/demo.mp4",
- "duration_s": 10.0,
- "resolution": "1080x1920",
- "fps": 30,
- "video_bytes": 1225452,
- "stills_bytes": 580635
+  "slug": "math",
+  "name": "Math",
+  "family": "cth-animate",
+  "description": "A manim-style math explainer look: coloured math on a near-black stage, with serif type written on, axes and graphs swept-drawn, equations transforming into each other and a tracking dot with a live decimal readout. Clean vector strokes where the colour coding does the work.",
+  "best_use_cases": [
+    "Math explainers: formulas, proofs, functions and rates",
+    "Ideas with a picture, like a geometric fact",
+    "Rigorous explainers where the math on screen must be true"
+  ],
+  "style": "cth-animate \u2014 manim-style, coloured math on near-black, written serif type, swept graphs",
+  "voice": "Kokoro af_heart",
+  "orientation": "portrait",
+  "stills": [
+    "assets/math/still-1.jpg",
+    "assets/math/still-2.jpg",
+    "assets/math/still-3.jpg",
+    "assets/math/still-4.jpg",
+    "assets/math/still-5.jpg",
+    "assets/math/still-6.jpg"
+  ],
+  "video": "assets/math/demo.mp4",
+  "duration_s": 10.0,
+  "resolution": "1080x1920",
+  "fps": 30,
+  "video_bytes": 1225452,
+  "stills_bytes": 480050
 }

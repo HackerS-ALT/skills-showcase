@@ -1,6 +1,6 @@
 {
   "count": 86,
-  "done": 57,
+  "done": 62,
   "skills": [
     {
       "slug": "bio-glow",
@@ -389,20 +389,33 @@
     },
     {
       "slug": "dan-koe",
-      "name": "dan-koe",
-      "family": "artem-animation-skills",
-      "family_key": "artem-animation-skills",
-      "status": "text",
-      "description": "Dan Koe style minimal black-and-white line art for a reel: one white dot on pure black grows into a hairline tree that splits in two at every step, the tips light up, a pulse ring and sparks go off, and one quiet lowercase line swaps to a second. Use for calm black-and-white motion graphics about choices, habits or compounding.",
+      "name": "Dan Koe",
+      "family": "Minimal",
+      "description": "Minimal black-and-white line art for a reel. One white dot on pure black grows into a hairline tree that splits in two at every step, the tips light up, a pulse ring and sparks go off, and one quiet lowercase line swaps to a second.",
       "best_use_cases": [
-        "Calm black-and-white motion graphics about choices and habits",
-        "Compounding and decision-tree visuals",
-        "Minimal line-art reels with one moving dot"
+        "Choices, habits and compounding",
+        "Calm black-and-white reels",
+        "One idea turning into many"
       ],
-      "style": "Artem \u2014 minimal black-and-white line art, hairline branching tree, one white dot",
+      "style": "Minimal line art: pure black, hairline white strokes, solid white dots, one lowercase line of text; quiet and plain, no bold, no exclamation marks.",
       "voice": "Kokoro af_heart",
-      "stills": [],
-      "video": ""
+      "orientation": "portrait",
+      "stills": [
+        "assets/dan-koe/still-1.jpg",
+        "assets/dan-koe/still-2.jpg",
+        "assets/dan-koe/still-3.jpg",
+        "assets/dan-koe/still-4.jpg",
+        "assets/dan-koe/still-5.jpg",
+        "assets/dan-koe/still-6.jpg"
+      ],
+      "video": "assets/dan-koe/demo.mp4",
+      "duration_s": 10.0,
+      "resolution": "1080x1920",
+      "fps": 30,
+      "video_bytes": 7947038,
+      "stills_bytes": 534416,
+      "status": "done",
+      "family_key": "artem-animation-skills"
     },
     {
       "slug": "data-city",
@@ -985,19 +998,32 @@
     {
       "slug": "map-route",
       "name": "map-route",
-      "family": "artem-animation-skills",
-      "family_key": "artem-animation-skills",
-      "status": "text",
-      "description": "A 3D map animation for a reel: a clean white city with parks and a river, a coloured route that draws itself from start to destination while the camera follows, a red pin that drops with a bounce, an ETA card that counts down and a destination card. Use for an animated route, a from-A-to-B map, a journey or a commute.",
+      "family": "3D",
+      "description": "A 3D map animation for a reel \u2014 a clean white city with parks and a river, a coloured route that draws itself from start to destination while the camera follows, a red pin that drops with a bounce, an ETA card that counts down and a destination card.",
       "best_use_cases": [
-        "Animated routes and journeys on a map",
-        "From A to B and commute animations",
-        "Travel and directions explainers"
+        "Animated routes and journeys (e.g. home to gym, commutes)",
+        "From-A-to-B explainers",
+        "Travel and directions reels"
       ],
-      "style": "Artem \u2014 3D white city map, self-drawing coloured route, bouncing red pin, ETA card",
+      "style": "Clean white 3D city; coloured route draws itself, camera rides along; red pin drop with bounce; ETA countdown card.",
       "voice": "Kokoro af_heart",
-      "stills": [],
-      "video": ""
+      "orientation": "portrait",
+      "stills": [
+        "assets/map-route/still-1.jpg",
+        "assets/map-route/still-2.jpg",
+        "assets/map-route/still-3.jpg",
+        "assets/map-route/still-4.jpg",
+        "assets/map-route/still-5.jpg",
+        "assets/map-route/still-6.jpg"
+      ],
+      "video": "assets/map-route/demo.mp4",
+      "duration_s": 8.1,
+      "resolution": "540x960",
+      "fps": 30,
+      "video_bytes": 1759967,
+      "stills_bytes": 448619,
+      "status": "done",
+      "family_key": "artem-animation-skills"
     },
     {
       "slug": "marker-board",
@@ -1085,7 +1111,7 @@
       "resolution": "1080x1920",
       "fps": 30,
       "video_bytes": 1225452,
-      "stills_bytes": 580635,
+      "stills_bytes": 480050,
       "status": "done",
       "family_key": "cth-animate"
     },
@@ -1139,19 +1165,32 @@
     {
       "slug": "minimalistic-graphics",
       "name": "minimalistic-graphics",
-      "family": "artem-animation-skills",
-      "family_key": "artem-animation-skills",
-      "status": "text",
-      "description": "A minimal black-and-white line-art animation: thin outlined steps rise one by one, a white dot hops up them, and at the top an orbit draws around it and a short second line swaps in. One quiet lowercase line of text sits on top.",
+      "family": "Line art",
+      "description": "Minimal black-and-white line-art animation \u2014 thin outlined steps rise one by one, a white dot hops up them, and at the top an orbit draws around it and a short second line swaps in; one quiet lowercase line of text on top.",
       "best_use_cases": [
-        "Calm self-improvement visuals",
-        "Simple black-and-white motion graphics about progress",
-        "Minimal line-art reels with one moving dot"
+        "Calm self-improvement visuals (habits, patience, compounding)",
+        "Simple black-and-white motion graphics",
+        "Quiet progress and step-by-step ideas"
       ],
-      "style": "Artem \u2014 minimal black-and-white line art, rising outlined steps, hopping white dot",
+      "style": "Pure black-and-white line art; hairline steps, one solid white dot, lowercase text; no bold, no colour.",
       "voice": "Kokoro af_heart",
-      "stills": [],
-      "video": ""
+      "orientation": "portrait",
+      "stills": [
+        "assets/minimalistic-graphics/still-1.jpg",
+        "assets/minimalistic-graphics/still-2.jpg",
+        "assets/minimalistic-graphics/still-3.jpg",
+        "assets/minimalistic-graphics/still-4.jpg",
+        "assets/minimalistic-graphics/still-5.jpg",
+        "assets/minimalistic-graphics/still-6.jpg"
+      ],
+      "video": "assets/minimalistic-graphics/demo.mp4",
+      "duration_s": 8.1,
+      "resolution": "1080x1920",
+      "fps": 30,
+      "video_bytes": 239427,
+      "stills_bytes": 281614,
+      "status": "done",
+      "family_key": "artem-animation-skills"
     },
     {
       "slug": "myth-or-fact",
@@ -1476,20 +1515,33 @@
     },
     {
       "slug": "punch-captions",
-      "name": "punch-captions",
+      "name": "Punch Captions",
       "family": "nafay-style-library",
-      "family_key": "nafay-style-library",
-      "status": "text",
-      "description": "High-retention captions over your talking-head clip: one to three words at a time in huge white Anton with a thick black outline, the key word swapped to yellow and tilted, little sticker pops drawn in code, and punch-in zooms on the hits. Captions follow the speech in tiny chunks, each word slamming in.",
+      "description": "High-retention captions over your talking-head clip: one to three words at a time in huge white Anton with a thick black outline, the key word swapped to yellow and tilted, little sticker pops (bolts, sparks, arrows) drawn in code, and punch-in zooms on the hits.",
       "best_use_cases": [
-        "High-retention captions over talking-head clips",
-        "Punchy caption-led Shorts",
-        "Making speech hit harder with zoom and stickers"
+        "Talking-head hooks for Shorts, Reels and TikTok",
+        "High-retention caption overlays on spoken clips",
+        "Emphasising key words with punch zooms and sticker pops"
       ],
-      "style": "Nafay, Edit Overlay \u2014 huge Anton captions, yellow key word, sticker pops, punch zooms",
+      "style": "Edit Overlay",
       "voice": "Kokoro af_heart",
-      "stills": [],
-      "video": ""
+      "orientation": "portrait",
+      "stills": [
+        "assets/punch-captions/still-1.jpg",
+        "assets/punch-captions/still-2.jpg",
+        "assets/punch-captions/still-3.jpg",
+        "assets/punch-captions/still-4.jpg",
+        "assets/punch-captions/still-5.jpg",
+        "assets/punch-captions/still-6.jpg"
+      ],
+      "video": "assets/punch-captions/demo.mp4",
+      "duration_s": 12.5,
+      "resolution": "720x1280",
+      "fps": 30.0,
+      "video_bytes": 1482550,
+      "stills_bytes": 348605,
+      "status": "done",
+      "family_key": "nafay-style-library"
     },
     {
       "slug": "quiz-countdown",
@@ -2160,20 +2212,33 @@
     },
     {
       "slug": "zach-d-films",
-      "name": "zach-d-films",
+      "name": "Zach D. Films",
       "family": "artem-animation-skills",
-      "family_key": "artem-animation-skills",
-      "status": "text",
-      "description": "A 3D cartoon what-if explainer short in the style of Zack D. Films-type videos, entirely in code with three.js: procedural cartoon people, props and effects, a blue studio sky, slow-motion impacts, a red force-ripple overlay, quick whip cuts and 1 to 3 word captions timed to the voiceover.",
+      "description": "A 3D cartoon \u201cwhat if\u201d explainer short in the style of Zack D. Films-type videos, entirely in code with three.js: procedural cartoon people, props and effects, a blue studio sky, slow-motion impacts, a red force-ripple overlay, quick whip cuts and 1 to 3 word captions timed to the voiceover.",
       "best_use_cases": [
-        "3D cartoon what-if explainers",
-        "Could X stop Y style shorts with characters and props",
-        "Slow-motion impact explainers"
+        "Could X stop Y / what-if explainers",
+        "Myth-busting with building examples",
+        "Slow-motion impact moments"
       ],
-      "style": "Artem \u2014 3D cartoon, three.js, blue studio sky, slow-motion impacts, red force ripple",
+      "style": "Bright blue studio sky, soft daylight, cartoon people as simple shapes with big expressive faces, metal that reads as metal. Slow motion on the impact, a short camera shake, sparks, bloom on hot things, a red ripple showing force spreading, quick cuts on caption beats and one dip to black on the \u201cBut\u201d turn. White bold 1-3 word captions in the lower third.",
       "voice": "Kokoro af_heart",
-      "stills": [],
-      "video": ""
+      "orientation": "portrait",
+      "stills": [
+        "assets/zach-d-films/still-1.jpg",
+        "assets/zach-d-films/still-2.jpg",
+        "assets/zach-d-films/still-3.jpg",
+        "assets/zach-d-films/still-4.jpg",
+        "assets/zach-d-films/still-5.jpg",
+        "assets/zach-d-films/still-6.jpg"
+      ],
+      "video": "assets/zach-d-films/demo.mp4",
+      "duration_s": 13.0,
+      "resolution": "540x960",
+      "fps": 8,
+      "video_bytes": 5943104,
+      "stills_bytes": 545092,
+      "status": "done",
+      "family_key": "artem-animation-skills"
     },
     {
       "slug": "zine-collage",

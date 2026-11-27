@@ -1,0 +1,28 @@
+{
+ "slug": "dan-koe",
+ "name": "Dan Koe",
+ "family": "Minimal",
+ "description": "Minimal black-and-white line art for a reel. One white dot on pure black grows into a hairline tree that splits in two at every step, the tips light up, a pulse ring and sparks go off, and one quiet lowercase line swaps to a second.",
+ "best_use_cases": [
+  "Choices, habits and compounding",
+  "Calm black-and-white reels",
+  "One idea turning into many"
+ ],
+ "style": "Minimal line art: pure black, hairline white strokes, solid white dots, one lowercase line of text; quiet and plain, no bold, no exclamation marks.",
+ "voice": "Kokoro af_heart",
+ "orientation": "portrait",
+ "stills": [
+  "assets/dan-koe/still-1.jpg",
+  "assets/dan-koe/still-2.jpg",
+  "assets/dan-koe/still-3.jpg",
+  "assets/dan-koe/still-4.jpg",
+  "assets/dan-koe/still-5.jpg",
+  "assets/dan-koe/still-6.jpg"
+ ],
+ "video": "assets/dan-koe/demo.mp4",
+ "duration_s": 10.0,
+ "resolution": "1080x1920",
+ "fps": 30,
+ "video_bytes": 7947038,
+ "stills_bytes": 534416
+}

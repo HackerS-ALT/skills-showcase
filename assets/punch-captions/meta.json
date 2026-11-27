@@ -1,0 +1,28 @@
+{
+  "slug": "punch-captions",
+  "name": "Punch Captions",
+  "family": "nafay-style-library",
+  "description": "High-retention captions over your talking-head clip: one to three words at a time in huge white Anton with a thick black outline, the key word swapped to yellow and tilted, little sticker pops (bolts, sparks, arrows) drawn in code, and punch-in zooms on the hits.",
+  "best_use_cases": [
+    "Talking-head hooks for Shorts, Reels and TikTok",
+    "High-retention caption overlays on spoken clips",
+    "Emphasising key words with punch zooms and sticker pops"
+  ],
+  "style": "Edit Overlay",
+  "voice": "Kokoro af_heart",
+  "orientation": "portrait",
+  "stills": [
+    "assets/punch-captions/still-1.jpg",
+    "assets/punch-captions/still-2.jpg",
+    "assets/punch-captions/still-3.jpg",
+    "assets/punch-captions/still-4.jpg",
+    "assets/punch-captions/still-5.jpg",
+    "assets/punch-captions/still-6.jpg"
+  ],
+  "video": "assets/punch-captions/demo.mp4",
+  "duration_s": 12.5,
+  "resolution": "720x1280",
+  "fps": 30.0,
+  "video_bytes": 1482550,
+  "stills_bytes": 348605
+}

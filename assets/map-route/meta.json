@@ -1,0 +1,28 @@
+{
+  "slug": "map-route",
+  "name": "map-route",
+  "family": "3D",
+  "description": "A 3D map animation for a reel \u2014 a clean white city with parks and a river, a coloured route that draws itself from start to destination while the camera follows, a red pin that drops with a bounce, an ETA card that counts down and a destination card.",
+  "best_use_cases": [
+    "Animated routes and journeys (e.g. home to gym, commutes)",
+    "From-A-to-B explainers",
+    "Travel and directions reels"
+  ],
+  "style": "Clean white 3D city; coloured route draws itself, camera rides along; red pin drop with bounce; ETA countdown card.",
+  "voice": "Kokoro af_heart",
+  "orientation": "portrait",
+  "stills": [
+    "assets/map-route/still-1.jpg",
+    "assets/map-route/still-2.jpg",
+    "assets/map-route/still-3.jpg",
+    "assets/map-route/still-4.jpg",
+    "assets/map-route/still-5.jpg",
+    "assets/map-route/still-6.jpg"
+  ],
+  "video": "assets/map-route/demo.mp4",
+  "duration_s": 8.1,
+  "resolution": "540x960",
+  "fps": 30,
+  "video_bytes": 1759967,
+  "stills_bytes": 448619
+}
