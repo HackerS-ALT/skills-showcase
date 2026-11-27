@@ -1,0 +1,28 @@
+{
+ "slug": "chalk-talk",
+ "name": "Chalk Talk",
+ "family": "nafay-style-library",
+ "description": "A teacher at a long green slate: grainy chalk strokes that skip over the board's tooth, colored chalk for emphasis, dust falling from the stick as it writes, faint ghosts of old lessons, a wooden frame and a dusty chalk tray. One continuous lesson along the board: a visible chalk stick writes every word and draws every line, the camera tracks to the next stretch of slate, numbers are re-chalked as they count, pink chalk rings the key moments, and a felt eraser wipes a section clean for the takeaway.",
+ "best_use_cases": [
+  "Step-by-step lessons and derivations",
+  "Numbers and curves explained on a board",
+  "Habits and compounding ideas"
+ ],
+ "style": "One long green slate (1280x720) with a wooden frame and chalk tray, grainy chalk strokes with tooth skips, white chalk for content, yellow for the main idea and curves, pink for emphasis and key numbers, blue for side notes. Cabin Sketch titles, Kalam equations. A visible chalk stick writes everything in order with dust falling; the camera tracks along the board to each new idea with no cuts; pink rings mark key moments and a felt eraser wipes a section clean for the takeaway. Quiet room tone, chalk scratches timed to each word.",
+ "voice": "Kokoro af_heart",
+ "orientation": "landscape",
+ "stills": [
+  "assets/chalk-talk/still-1.jpg",
+  "assets/chalk-talk/still-2.jpg",
+  "assets/chalk-talk/still-3.jpg",
+  "assets/chalk-talk/still-4.jpg",
+  "assets/chalk-talk/still-5.jpg",
+  "assets/chalk-talk/still-6.jpg"
+ ],
+ "video": "assets/chalk-talk/demo.mp4",
+ "duration_s": 20.8,
+ "resolution": "1280x720",
+ "fps": 30,
+ "video_bytes": 7917748,
+ "stills_bytes": 714843
+}

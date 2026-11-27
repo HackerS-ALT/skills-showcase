@@ -1,0 +1,28 @@
+{
+  "slug": "quiz-countdown",
+  "name": "Quiz Countdown",
+  "family": "Shorts Format",
+  "description": "A loud trivia Short on a bright orange striped background: a white question card, four answer pills with letter badges, a white timer ring that drains around a big countdown number, then a green reveal with confetti. The question card pops in, the four answers slide in one by one, the ring drains while the number counts down with a tick each second, then the right answer flashes green with confetti while the others fade. A one-line fact explains the answer and the next question is teased.",
+  "best_use_cases": [
+    "Trivia questions with a countdown timer",
+    "Quiz Shorts with a reveal and a fact",
+    "Interactive question-and-answer videos"
+  ],
+  "style": "Loud trivia Short on bright orange striped background; white question card; four answer pills with letter badges; white timer ring draining around a big countdown number; green reveal with confetti.",
+  "voice": "Kokoro af_heart",
+  "orientation": "portrait",
+  "stills": [
+    "assets/quiz-countdown/still-1.jpg",
+    "assets/quiz-countdown/still-2.jpg",
+    "assets/quiz-countdown/still-3.jpg",
+    "assets/quiz-countdown/still-4.jpg",
+    "assets/quiz-countdown/still-5.jpg",
+    "assets/quiz-countdown/still-6.jpg"
+  ],
+  "video": "assets/quiz-countdown/demo.mp4",
+  "duration_s": 13.0,
+  "resolution": "720x1280",
+  "fps": 24,
+  "video_bytes": 1334980,
+  "stills_bytes": 568909
+}
