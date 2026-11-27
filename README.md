@@ -116,10 +116,12 @@ long-form start — was superseded by the pause.)
 
 ## Media sizes & compression decision
 
-(Updated by the coordinator when the build completes — see the size totals
-printed by `scripts/build-page.py`. Rule: videos stay full quality unless
-one video exceeds 100 MB or all 86 videos combined exceed 1 GB; stills stay
-full quality unless videos + stills combined exceed 1 GB.)
+**FINAL (build complete, 27 Nov 2026 ~09:30 IST; verified by independent ffprobe audit — 86/86 OK):**
+- Videos: 491,354,885 B (0.491 GB) for all 86 demos. Stills: 57,686,278 B (0.058 GB) for all 516 stills (86 × 6). Combined: 549,041,163 B (0.549 GB).
+- Largest single video: riso, 56,637,379 B (~54 MB).
+- **Decision: NO compression anywhere.** No single video exceeds 100 MB; all videos combined (0.491 GB) are under 1 GB; videos + stills combined (0.549 GB) are under 1 GB. All assets stay full original quality.
+- GitHub note: the push warned that `assets/riso/demo.mp4` (54 MB) exceeds GitHub's 50 MB recommended maximum. It was accepted (under the 100 MB hard limit); no LFS migration needed.
+- All 516 stills are complete, so the channel-work pause trigger is met (see Sequencing note) — re-enabling the channel crons is the main agent's call.
 
 ## Deployment — incremental, batches of 10
 
