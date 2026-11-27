@@ -1,6 +1,6 @@
 {
   "count": 86,
-  "done": 81,
+  "done": 82,
   "skills": [
     {
       "slug": "bio-glow",
@@ -154,10 +154,8 @@
     },
     {
       "slug": "cartoon-audio-short",
-      "name": "cartoon-audio-short",
+      "name": "Cartoon Audio Short",
       "family": "cartoon-audio-short",
-      "family_key": "cartoon-audio-short",
-      "status": "text",
       "description": "Flat 2D bean-head cartoon characters with plum outlines in a colourful 3D world with black ink outlines, painted textures, depth-of-field and gliding cameras. The output is a vertical 1080x1920 cartoon short at 30 fps, exactly as long as the voiceover, with music and SFX at half the voice level.",
       "best_use_cases": [
         "Animated cartoon Shorts and story videos",
@@ -165,9 +163,24 @@
         "Voiceover-driven shorts where the picture is timed to the voice"
       ],
       "style": "Cartoon-audio-short \u2014 flat 2D bean-head characters in a colourful 3D world, ink outlines, painted textures",
-      "voice": "Channel TTS avocado_v2:MAI_03 (speed 105)",
-      "stills": [],
-      "video": ""
+      "voice": "channel TTS avocado_v2:MAI_03 (speed 105)",
+      "orientation": "portrait",
+      "stills": [
+        "assets/cartoon-audio-short/still-1.jpg",
+        "assets/cartoon-audio-short/still-2.jpg",
+        "assets/cartoon-audio-short/still-3.jpg",
+        "assets/cartoon-audio-short/still-4.jpg",
+        "assets/cartoon-audio-short/still-5.jpg",
+        "assets/cartoon-audio-short/still-6.jpg"
+      ],
+      "video": "assets/cartoon-audio-short/demo.mp4",
+      "duration_s": 15.5,
+      "resolution": "540x960",
+      "fps": 30,
+      "video_bytes": 4494609,
+      "stills_bytes": 275151,
+      "status": "done",
+      "family_key": "cartoon-audio-short"
     },
     {
       "slug": "chalk-talk",
