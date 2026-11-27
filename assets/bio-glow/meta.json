@@ -1,0 +1,28 @@
+{
+ "slug": "bio-glow",
+ "name": "Bio Glow",
+ "family": "3D",
+ "description": "Inside the body, built in Three.js: glossy red cells drift down a glowing red vessel toward the camera, with fog for depth, a warm bloom, and clean white labels on thin leader lines.",
+ "best_use_cases": [
+  "Inside the body: blood, cells and organs",
+  "Science explainers with real, checked figures",
+  "Medical and biology Shorts"
+ ],
+ "style": "3D Three.js \u2014 glossy red cells in a glowing vessel, travelling camera, fog for depth, warm bloom, white labels on thin leader lines",
+ "voice": "Kokoro af_heart",
+ "orientation": "portrait",
+ "stills": [
+  "assets/bio-glow/still-1.jpg",
+  "assets/bio-glow/still-2.jpg",
+  "assets/bio-glow/still-3.jpg",
+  "assets/bio-glow/still-4.jpg",
+  "assets/bio-glow/still-5.jpg",
+  "assets/bio-glow/still-6.jpg"
+ ],
+ "video": "assets/bio-glow/demo.mp4",
+ "duration_s": 14.0,
+ "resolution": "720x1280",
+ "fps": 20,
+ "video_bytes": 4947381,
+ "stills_bytes": 330000
+}

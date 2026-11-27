@@ -1,0 +1,28 @@
+{
+ "slug": "clay-diorama",
+ "name": "Clay Diorama",
+ "family": "nafay-style-library",
+ "description": "A soft clay miniature world on a round base, built in Three.js: chunky rounded shapes, warm studio light, a slow orbiting camera and a tilt-shift blur, with cream Fredoka cards explaining each beat. The diorama pops up piece by piece, then the camera orbits while the idea plays out on the little world.",
+ "best_use_cases": [
+  "Science processes played out on a miniature world",
+  "How-it-works explainers with a physical model",
+  "Toy-like diorama stories"
+ ],
+ "style": "Warm peach background (#f5d5c0), clay browns, soft greens, cream cards (#fffaf5), dark brown text (#5b3424) and one hot accent (#e2561e). Chunky rounded Three.js primitives with soft shadows, tilt-shift blur top and bottom, Fredoka cards with 44px corners, toy-like pop/wobble/splat motion, slow orbiting camera that pulls back for the takeaway. Bright pad bed with bloops, thuds and one big boom.",
+ "voice": "Kokoro af_heart",
+ "orientation": "portrait",
+ "stills": [
+  "assets/clay-diorama/still-1.jpg",
+  "assets/clay-diorama/still-2.jpg",
+  "assets/clay-diorama/still-3.jpg",
+  "assets/clay-diorama/still-4.jpg",
+  "assets/clay-diorama/still-5.jpg",
+  "assets/clay-diorama/still-6.jpg"
+ ],
+ "video": "assets/clay-diorama/demo.mp4",
+ "duration_s": 12.0,
+ "resolution": "720x1280",
+ "fps": 15,
+ "video_bytes": 5483547,
+ "stills_bytes": 532370
+}

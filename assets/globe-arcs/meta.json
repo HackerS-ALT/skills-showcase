@@ -1,0 +1,28 @@
+{
+ "slug": "globe-arcs",
+ "name": "Globe Arcs",
+ "family": "nafay-style-library",
+ "description": "A dark navy globe made of glowing cyan dots in Three.js, turning slowly in a starfield, with warm amber route arcs that draw themselves between pins and a soft blue atmosphere glow.",
+ "best_use_cases": [
+  "Routes between real places",
+  "Journeys, trade and travel flows",
+  "Distances that add up"
+ ],
+ "style": "3D dotted globe: dark sphere with thousands of cyan land points, near-black navy space with a fixed starfield, amber great-circle route tubes that grow with setDrawRange, glowing pins, amber place chips and a distance counter.",
+ "voice": "Kokoro af_heart",
+ "orientation": "portrait",
+ "stills": [
+  "assets/globe-arcs/still-1.jpg",
+  "assets/globe-arcs/still-2.jpg",
+  "assets/globe-arcs/still-3.jpg",
+  "assets/globe-arcs/still-4.jpg",
+  "assets/globe-arcs/still-5.jpg",
+  "assets/globe-arcs/still-6.jpg"
+ ],
+ "video": "assets/globe-arcs/demo.mp4",
+ "duration_s": 14.0,
+ "resolution": "720x1280",
+ "fps": 20,
+ "video_bytes": 7656881,
+ "stills_bytes": 698777
+}

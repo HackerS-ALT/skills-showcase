@@ -1,23 +1,36 @@
 {
   "count": 86,
-  "done": 63,
+  "done": 69,
   "skills": [
     {
       "slug": "bio-glow",
-      "name": "bio-glow",
-      "family": "nafay-style-library",
-      "family_key": "nafay-style-library",
-      "status": "text",
-      "description": "Inside the body, built in Three.js: glossy red cells drift down a glowing red vessel toward the camera, with fog for depth, a warm bloom, and clean white labels on thin leader lines. The camera travels down the vessel the whole time while one hero cell gets a label and a big glowing counter climbs.",
+      "name": "Bio Glow",
+      "family": "3D",
+      "description": "Inside the body, built in Three.js: glossy red cells drift down a glowing red vessel toward the camera, with fog for depth, a warm bloom, and clean white labels on thin leader lines.",
       "best_use_cases": [
-        "Explaining processes inside the human body",
-        "Blood, cells and oxygen explainers",
-        "Science visuals that travel inside a vessel"
+        "Inside the body: blood, cells and organs",
+        "Science explainers with real, checked figures",
+        "Medical and biology Shorts"
       ],
-      "style": "Nafay, 3D \u2014 glossy red cells in a glowing vessel, fog depth, warm bloom",
+      "style": "3D Three.js \u2014 glossy red cells in a glowing vessel, travelling camera, fog for depth, warm bloom, white labels on thin leader lines",
       "voice": "Kokoro af_heart",
-      "stills": [],
-      "video": ""
+      "orientation": "portrait",
+      "stills": [
+        "assets/bio-glow/still-1.jpg",
+        "assets/bio-glow/still-2.jpg",
+        "assets/bio-glow/still-3.jpg",
+        "assets/bio-glow/still-4.jpg",
+        "assets/bio-glow/still-5.jpg",
+        "assets/bio-glow/still-6.jpg"
+      ],
+      "video": "assets/bio-glow/demo.mp4",
+      "duration_s": 14.0,
+      "resolution": "720x1280",
+      "fps": 20,
+      "video_bytes": 4947381,
+      "stills_bytes": 330000,
+      "status": "done",
+      "family_key": "nafay-style-library"
     },
     {
       "slug": "blueprint",
@@ -192,20 +205,33 @@
     },
     {
       "slug": "clay-diorama",
-      "name": "clay-diorama",
+      "name": "Clay Diorama",
       "family": "nafay-style-library",
-      "family_key": "nafay-style-library",
-      "status": "text",
-      "description": "A soft clay miniature world on a round base, built in Three.js: chunky rounded shapes, warm studio light, a slow orbiting camera and a tilt-shift blur, with cream cards explaining each beat. The diorama pops up piece by piece, then the camera orbits while the idea plays out on the little world.",
+      "description": "A soft clay miniature world on a round base, built in Three.js: chunky rounded shapes, warm studio light, a slow orbiting camera and a tilt-shift blur, with cream Fredoka cards explaining each beat. The diorama pops up piece by piece, then the camera orbits while the idea plays out on the little world.",
       "best_use_cases": [
-        "Miniature-world explainers",
-        "Showing a process play out on a tiny clay scene",
-        "Warm, tactile diorama stories"
+        "Science processes played out on a miniature world",
+        "How-it-works explainers with a physical model",
+        "Toy-like diorama stories"
       ],
-      "style": "Nafay, 3D \u2014 soft clay miniature on a round base, warm studio light, tilt-shift blur",
+      "style": "Warm peach background (#f5d5c0), clay browns, soft greens, cream cards (#fffaf5), dark brown text (#5b3424) and one hot accent (#e2561e). Chunky rounded Three.js primitives with soft shadows, tilt-shift blur top and bottom, Fredoka cards with 44px corners, toy-like pop/wobble/splat motion, slow orbiting camera that pulls back for the takeaway. Bright pad bed with bloops, thuds and one big boom.",
       "voice": "Kokoro af_heart",
-      "stills": [],
-      "video": ""
+      "orientation": "portrait",
+      "stills": [
+        "assets/clay-diorama/still-1.jpg",
+        "assets/clay-diorama/still-2.jpg",
+        "assets/clay-diorama/still-3.jpg",
+        "assets/clay-diorama/still-4.jpg",
+        "assets/clay-diorama/still-5.jpg",
+        "assets/clay-diorama/still-6.jpg"
+      ],
+      "video": "assets/clay-diorama/demo.mp4",
+      "duration_s": 12.0,
+      "resolution": "720x1280",
+      "fps": 15,
+      "video_bytes": 5483547,
+      "stills_bytes": 532370,
+      "status": "done",
+      "family_key": "nafay-style-library"
     },
     {
       "slug": "clean-tech",
@@ -646,37 +672,63 @@
     },
     {
       "slug": "glitch-pack",
-      "name": "glitch-pack",
+      "name": "Glitch Pack",
       "family": "nafay-style-library",
-      "family_key": "nafay-style-library",
-      "status": "text",
-      "description": "A digital-glitch toolkit: RGB-split titles in Anton, horizontal slice displacement, block noise in red and cyan, scanlines, a SYSTEM REBOOT terminal tag and glitch transitions that tear your footage apart and put it back together. The intro title glitches on and resolves crisp.",
+      "description": "A digital-glitch toolkit: RGB-split titles in Anton, horizontal slice displacement, block noise in red and cyan, scanlines, a \"SYSTEM REBOOT\" terminal tag and glitch transitions that tear your footage apart and put it back together.",
       "best_use_cases": [
-        "Glitchy intros and transitions over footage",
-        "Tech and system-themed edits",
-        "High-energy digital-distortion Shorts"
+        "Tech-channel intros",
+        "Glitch transitions",
+        "High-energy accent moments over footage"
       ],
-      "style": "Nafay, Edit Overlay \u2014 RGB-split glitch titles, slice displacement, scanlines, terminal tag",
+      "style": "Edit overlay: RGB-split titles (red and cyan offsets), horizontal slice displacement, red/cyan/white block noise, scanlines every 3 px, dark vignette, mono system tags. Glitch is a seasoning \u2014 intense for intros and transitions, clean footage otherwise.",
       "voice": "Kokoro af_heart",
-      "stills": [],
-      "video": ""
+      "orientation": "portrait",
+      "stills": [
+        "assets/glitch-pack/still-1.jpg",
+        "assets/glitch-pack/still-2.jpg",
+        "assets/glitch-pack/still-3.jpg",
+        "assets/glitch-pack/still-4.jpg",
+        "assets/glitch-pack/still-5.jpg",
+        "assets/glitch-pack/still-6.jpg"
+      ],
+      "video": "assets/glitch-pack/demo.mp4",
+      "duration_s": 12.0,
+      "resolution": "720x1280",
+      "fps": 20,
+      "video_bytes": 1142617,
+      "stills_bytes": 508064,
+      "status": "done",
+      "family_key": "nafay-style-library"
     },
     {
       "slug": "globe-arcs",
-      "name": "globe-arcs",
+      "name": "Globe Arcs",
       "family": "nafay-style-library",
-      "family_key": "nafay-style-library",
-      "status": "text",
-      "description": "A dark navy globe made of glowing cyan dots in Three.js, turning slowly in a starfield, with warm amber route arcs that draw themselves between pins and a soft blue atmosphere glow. The globe turns into view, a pin drops at the start, then each route arcs up off the surface and lands on its destination.",
+      "description": "A dark navy globe made of glowing cyan dots in Three.js, turning slowly in a starfield, with warm amber route arcs that draw themselves between pins and a soft blue atmosphere glow.",
       "best_use_cases": [
-        "Showing routes and journeys around the world",
-        "Travel and flight-path explainers",
-        "Global connections and distances"
+        "Routes between real places",
+        "Journeys, trade and travel flows",
+        "Distances that add up"
       ],
-      "style": "Nafay, 3D \u2014 navy dot globe in a starfield, amber route arcs, atmosphere glow",
+      "style": "3D dotted globe: dark sphere with thousands of cyan land points, near-black navy space with a fixed starfield, amber great-circle route tubes that grow with setDrawRange, glowing pins, amber place chips and a distance counter.",
       "voice": "Kokoro af_heart",
-      "stills": [],
-      "video": ""
+      "orientation": "portrait",
+      "stills": [
+        "assets/globe-arcs/still-1.jpg",
+        "assets/globe-arcs/still-2.jpg",
+        "assets/globe-arcs/still-3.jpg",
+        "assets/globe-arcs/still-4.jpg",
+        "assets/globe-arcs/still-5.jpg",
+        "assets/globe-arcs/still-6.jpg"
+      ],
+      "video": "assets/globe-arcs/demo.mp4",
+      "duration_s": 14.0,
+      "resolution": "720x1280",
+      "fps": 20,
+      "video_bytes": 7656881,
+      "stills_bytes": 698777,
+      "status": "done",
+      "family_key": "nafay-style-library"
     },
     {
       "slug": "graph",
@@ -1783,21 +1835,34 @@
       "video": ""
     },
     {
-      "slug": "stick-story",
-      "name": "stick-story",
-      "family": "faceless-shorts",
-      "family_key": "faceless-shorts",
-      "status": "text",
-      "description": "Black stick people whose big white eyes do the acting, in flat illustrated rooms in day and night versions, with gold numbered step cards and one picture per clause. Tense, clever and a little funny.",
       "best_use_cases": [
-        "What would you do if...? survival-step Shorts",
-        "Practical safety advice in clear numbered steps",
-        "Scenario explainers with a light, funny tone"
+        "survival \"what would you do\" steps",
+        "safety advice",
+        "scenario explainers"
       ],
-      "style": "Faceless-shorts \u2014 black stick figures with big white eyes, flat illustrated rooms, gold step cards",
+      "description": "Tense, clever, a little funny. Black stick people whose big white eyes do the acting, flat illustrated rooms in day and night versions, gold numbered step cards, one picture per clause.",
+      "duration_s": 10.0,
+      "family": "faceless-shorts",
+      "fps": 30,
+      "name": "stick-story",
+      "orientation": "portrait",
+      "resolution": "1080x1920",
+      "slug": "stick-story",
+      "stills": [
+        "assets/stick-story/still-1.jpg",
+        "assets/stick-story/still-2.jpg",
+        "assets/stick-story/still-3.jpg",
+        "assets/stick-story/still-4.jpg",
+        "assets/stick-story/still-5.jpg",
+        "assets/stick-story/still-6.jpg"
+      ],
+      "stills_bytes": 587753,
+      "style": "Black stick people with big white eyes, flat illustrated rooms in day and night versions, gold numbered step cards, one picture per clause",
+      "video": "assets/stick-story/demo.mp4",
+      "video_bytes": 1343515,
       "voice": "Kokoro af_heart",
-      "stills": [],
-      "video": ""
+      "status": "done",
+      "family_key": "faceless-shorts"
     },
     {
       "best_use_cases": [
@@ -2028,20 +2093,33 @@
     },
     {
       "slug": "timeline-rail",
-      "name": "timeline-rail",
-      "family": "nafay-style-library",
-      "family_key": "nafay-style-library",
-      "status": "text",
-      "description": "A deep green page with a cream vertical rail: glowing year nodes, cream event cards with a big gold year and a small drawn icon, and a running year odometer in the corner, as the camera scrolls down through time. As it reaches each year the node lights up and the card drops in.",
+      "name": "Timeline Rail",
+      "family": "Data",
+      "description": "A deep green page with a cream vertical rail: glowing year nodes, cream event cards with a big gold year and a small drawn icon, and a running year odometer in the corner, as the camera scrolls down through time. As it reaches each year the node lights up, the odometer rolls to that year and the card drops in with its icon. The last card is the present, and the takeaway closes the story.",
       "best_use_cases": [
-        "Timelines and chronologies",
-        "History told year by year down a rail",
-        "Scrolling through events in order"
+        "Telling a story as a journey through time",
+        "History explainers with dated events",
+        "Showing how something evolved step by step"
       ],
-      "style": "Nafay, Data \u2014 deep green page, cream vertical rail, glowing year nodes, odometer",
+      "style": "Deep green page with cream vertical rail; glowing year nodes; cream event cards with big gold year and small drawn icon; running year odometer; camera scrolls down through time.",
       "voice": "Kokoro af_heart",
-      "stills": [],
-      "video": ""
+      "orientation": "portrait",
+      "stills": [
+        "assets/timeline-rail/still-1.jpg",
+        "assets/timeline-rail/still-2.jpg",
+        "assets/timeline-rail/still-3.jpg",
+        "assets/timeline-rail/still-4.jpg",
+        "assets/timeline-rail/still-5.jpg",
+        "assets/timeline-rail/still-6.jpg"
+      ],
+      "video": "assets/timeline-rail/demo.mp4",
+      "duration_s": 14.0,
+      "resolution": "720x1280",
+      "fps": 24,
+      "video_bytes": 4647571,
+      "stills_bytes": 338918,
+      "status": "done",
+      "family_key": "nafay-style-library"
     },
     {
       "slug": "top-5-countdown",

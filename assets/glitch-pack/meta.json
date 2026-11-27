@@ -1,0 +1,28 @@
+{
+ "slug": "glitch-pack",
+ "name": "Glitch Pack",
+ "family": "nafay-style-library",
+ "description": "A digital-glitch toolkit: RGB-split titles in Anton, horizontal slice displacement, block noise in red and cyan, scanlines, a \"SYSTEM REBOOT\" terminal tag and glitch transitions that tear your footage apart and put it back together.",
+ "best_use_cases": [
+  "Tech-channel intros",
+  "Glitch transitions",
+  "High-energy accent moments over footage"
+ ],
+ "style": "Edit overlay: RGB-split titles (red and cyan offsets), horizontal slice displacement, red/cyan/white block noise, scanlines every 3 px, dark vignette, mono system tags. Glitch is a seasoning \u2014 intense for intros and transitions, clean footage otherwise.",
+ "voice": "Kokoro af_heart",
+ "orientation": "portrait",
+ "stills": [
+  "assets/glitch-pack/still-1.jpg",
+  "assets/glitch-pack/still-2.jpg",
+  "assets/glitch-pack/still-3.jpg",
+  "assets/glitch-pack/still-4.jpg",
+  "assets/glitch-pack/still-5.jpg",
+  "assets/glitch-pack/still-6.jpg"
+ ],
+ "video": "assets/glitch-pack/demo.mp4",
+ "duration_s": 12.0,
+ "resolution": "720x1280",
+ "fps": 20,
+ "video_bytes": 1142617,
+ "stills_bytes": 508064
+}

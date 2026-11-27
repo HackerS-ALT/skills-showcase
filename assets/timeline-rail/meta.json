@@ -1,0 +1,28 @@
+{
+  "slug": "timeline-rail",
+  "name": "Timeline Rail",
+  "family": "Data",
+  "description": "A deep green page with a cream vertical rail: glowing year nodes, cream event cards with a big gold year and a small drawn icon, and a running year odometer in the corner, as the camera scrolls down through time. As it reaches each year the node lights up, the odometer rolls to that year and the card drops in with its icon. The last card is the present, and the takeaway closes the story.",
+  "best_use_cases": [
+    "Telling a story as a journey through time",
+    "History explainers with dated events",
+    "Showing how something evolved step by step"
+  ],
+  "style": "Deep green page with cream vertical rail; glowing year nodes; cream event cards with big gold year and small drawn icon; running year odometer; camera scrolls down through time.",
+  "voice": "Kokoro af_heart",
+  "orientation": "portrait",
+  "stills": [
+    "assets/timeline-rail/still-1.jpg",
+    "assets/timeline-rail/still-2.jpg",
+    "assets/timeline-rail/still-3.jpg",
+    "assets/timeline-rail/still-4.jpg",
+    "assets/timeline-rail/still-5.jpg",
+    "assets/timeline-rail/still-6.jpg"
+  ],
+  "video": "assets/timeline-rail/demo.mp4",
+  "duration_s": 14.0,
+  "resolution": "720x1280",
+  "fps": 24,
+  "video_bytes": 4647571,
+  "stills_bytes": 338918
+}
