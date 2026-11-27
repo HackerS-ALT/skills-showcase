@@ -1,6 +1,6 @@
 {
   "count": 86,
-  "done": 75,
+  "done": 79,
   "skills": [
     {
       "slug": "bio-glow",
@@ -1361,6 +1361,36 @@
       "video": ""
     },
     {
+      "slug": "paper-atlas",
+      "name": "Paper Atlas",
+      "family": "Faceless Shorts",
+      "description": "Storybook, curious, grand. Every shape is cut paper on aged parchment (a light paper edge and a soft drop shadow), maps with crimson routes, gold date ribbons, wax seals, simple period figures, captions on torn paper strips.",
+      "best_use_cases": [
+        "History told through maps and places",
+        "Grand historical events: fires, voyages, cities",
+        "Storybook history for all ages"
+      ],
+      "style": "Cut paper on aged parchment with crimson routes and gold ribbons",
+      "voice": "Kokoro af_heart",
+      "orientation": "portrait",
+      "stills": [
+        "assets/paper-atlas/still-1.jpg",
+        "assets/paper-atlas/still-2.jpg",
+        "assets/paper-atlas/still-3.jpg",
+        "assets/paper-atlas/still-4.jpg",
+        "assets/paper-atlas/still-5.jpg",
+        "assets/paper-atlas/still-6.jpg"
+      ],
+      "video": "assets/paper-atlas/demo.mp4",
+      "duration_s": 10.27,
+      "resolution": "1080x1920",
+      "fps": 30,
+      "video_bytes": 2235519,
+      "stills_bytes": 649574,
+      "status": "done",
+      "family_key": "faceless-shorts"
+    },
+    {
       "slug": "paper-craft",
       "name": "Paper Craft",
       "family": "Illustrated",
@@ -1389,23 +1419,6 @@
       "stills_bytes": 414299,
       "status": "done",
       "family_key": "nafay-style-library"
-    },
-    {
-      "slug": "paper-atlas",
-      "name": "paper-atlas",
-      "family": "faceless-shorts",
-      "family_key": "faceless-shorts",
-      "status": "text",
-      "description": "History told in cut paper: every shape is cut paper on aged parchment with a light paper edge and soft drop shadow, maps with crimson routes, gold date ribbons, wax seals and simple period figures. Storybook, curious and grand.",
-      "best_use_cases": [
-        "History stories told through maps and places",
-        "Documented events like fires and disasters, told with objects and consequences",
-        "Storybook history Shorts"
-      ],
-      "style": "Faceless-shorts \u2014 cut paper on aged parchment, crimson routes, gold date ribbons, wax seals",
-      "voice": "Kokoro af_heart",
-      "stills": [],
-      "video": ""
     },
     {
       "slug": "parchment-map",
@@ -1709,20 +1722,33 @@
     },
     {
       "slug": "recipe-steps",
-      "name": "recipe-steps",
-      "family": "nafay-style-library",
-      "family_key": "nafay-style-library",
-      "status": "text",
-      "description": "A top-down cooking Short on a warm wooden table: food and tools drawn in code from above, bowl, pan and plate, ingredient chips that drop in, a dark step card with a big step number, and a timer ring that drains for each step. The ingredients drop onto the table first, then each step swaps the scene from above.",
+      "name": "Recipe Steps",
+      "family": "Shorts Format",
+      "description": "A top-down cooking Short on a warm wooden table: food and tools drawn in code from above (bowl, pan, plate), ingredient chips that drop in, a dark step card with a big step number, and a timer ring that drains for each step. The ingredients drop onto the table first, then each step swaps the scene from above: the whisk spins in the bowl, the egg spreads in the pan, the omelette folds onto the plate. The step card and its timer track progress, and the finished dish gets a steam curl and a serve line.",
       "best_use_cases": [
-        "Top-down cooking Shorts",
-        "Step-by-step recipes with timers",
-        "Food explainers drawn from above"
+        "Step-by-step cooking Shorts",
+        "Recipe explainers with a timer per step",
+        "Top-down food videos"
       ],
-      "style": "Nafay, Shorts Format \u2014 top-down cooking on wood, ingredient chips, step card, timer ring",
+      "style": "Top-down cooking Short on a warm wooden table; food and tools drawn in code from above; ingredient chips drop in; dark step card with big step number; timer ring drains per step.",
       "voice": "Kokoro af_heart",
-      "stills": [],
-      "video": ""
+      "orientation": "portrait",
+      "stills": [
+        "assets/recipe-steps/still-1.jpg",
+        "assets/recipe-steps/still-2.jpg",
+        "assets/recipe-steps/still-3.jpg",
+        "assets/recipe-steps/still-4.jpg",
+        "assets/recipe-steps/still-5.jpg",
+        "assets/recipe-steps/still-6.jpg"
+      ],
+      "video": "assets/recipe-steps/demo.mp4",
+      "duration_s": 14.0,
+      "resolution": "720x1280",
+      "fps": 24,
+      "video_bytes": 1406363,
+      "stills_bytes": 582060,
+      "status": "done",
+      "family_key": "nafay-style-library"
     },
     {
       "slug": "riso",
@@ -1896,21 +1922,34 @@
       "family_key": "nafay-style-library"
     },
     {
-      "slug": "stick-figure",
-      "name": "stick-figure",
-      "family": "artem-animation-skills",
-      "family_key": "artem-animation-skills",
-      "status": "text",
-      "description": "A code-animated stick-figure explainer reel, 9:16 and 30 to 45 seconds, from a question or topic: a bright cartoon world with thick outlines, stick people with big white heads and faces, constant camera motion, whip transitions, 1 to 2 word captions and cartoon sound effects, all timed to the voiceover word by word.",
       "best_use_cases": [
         "Stick-figure what-if explainers",
         "Bright cartoon question-led reels",
         "Playful explainer Shorts timed to the voiceover"
       ],
+      "description": "A code-animated stick-figure explainer reel, 9:16 and 30 to 45 seconds, from a question or topic: a bright cartoon world with thick outlines, stick people with big white heads and faces, constant camera motion, whip transitions, 1 to 2 word captions and cartoon sound effects, all timed to the voiceover word by word.",
+      "duration_s": 9.97,
+      "family": "artem-animation-skills",
+      "fps": 30,
+      "name": "stick-figure",
+      "orientation": "portrait",
+      "resolution": "1080x1920",
+      "slug": "stick-figure",
+      "stills": [
+        "assets/stick-figure/still-1.jpg",
+        "assets/stick-figure/still-2.jpg",
+        "assets/stick-figure/still-3.jpg",
+        "assets/stick-figure/still-4.jpg",
+        "assets/stick-figure/still-5.jpg",
+        "assets/stick-figure/still-6.jpg"
+      ],
+      "stills_bytes": 1374875,
       "style": "Artem \u2014 stick figures with big white heads, bright cartoon world, thick outlines, whip cuts",
+      "video": "assets/stick-figure/demo.mp4",
+      "video_bytes": 17789626,
       "voice": "Kokoro af_heart",
-      "stills": [],
-      "video": ""
+      "status": "done",
+      "family_key": "artem-animation-skills"
     },
     {
       "best_use_cases": [
@@ -2094,10 +2133,8 @@
     },
     {
       "slug": "tall-tale",
-      "name": "tall-tale",
+      "name": "Tall Tale",
       "family": "faceless-shorts",
-      "family_key": "faceless-shorts",
-      "status": "text",
       "description": "Flat 2D cartoon people with thick ink outlines, big round white heads and bean bodies acting inside a sunny, saturated 3D world of small-town streets, shops, meadows and trains. Playful, clever and a little cheeky, with the camera moving in every shot.",
       "best_use_cases": [
         "Funny true stories from history",
@@ -2106,8 +2143,23 @@
       ],
       "style": "Faceless-shorts \u2014 flat 2D toon people in a sunny saturated 3D world, thick ink outlines",
       "voice": "Kokoro af_heart",
-      "stills": [],
-      "video": ""
+      "orientation": "portrait",
+      "stills": [
+        "assets/tall-tale/still-1.jpg",
+        "assets/tall-tale/still-2.jpg",
+        "assets/tall-tale/still-3.jpg",
+        "assets/tall-tale/still-4.jpg",
+        "assets/tall-tale/still-5.jpg",
+        "assets/tall-tale/still-6.jpg"
+      ],
+      "video": "assets/tall-tale/demo.mp4",
+      "duration_s": 12.0,
+      "resolution": "1080x1920",
+      "fps": 30,
+      "video_bytes": 8033003,
+      "stills_bytes": 1238174,
+      "status": "done",
+      "family_key": "faceless-shorts"
     },
     {
       "slug": "terminal",

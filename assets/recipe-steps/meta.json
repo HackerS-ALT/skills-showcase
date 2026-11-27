@@ -1,0 +1,28 @@
+{
+  "slug": "recipe-steps",
+  "name": "Recipe Steps",
+  "family": "Shorts Format",
+  "description": "A top-down cooking Short on a warm wooden table: food and tools drawn in code from above (bowl, pan, plate), ingredient chips that drop in, a dark step card with a big step number, and a timer ring that drains for each step. The ingredients drop onto the table first, then each step swaps the scene from above: the whisk spins in the bowl, the egg spreads in the pan, the omelette folds onto the plate. The step card and its timer track progress, and the finished dish gets a steam curl and a serve line.",
+  "best_use_cases": [
+    "Step-by-step cooking Shorts",
+    "Recipe explainers with a timer per step",
+    "Top-down food videos"
+  ],
+  "style": "Top-down cooking Short on a warm wooden table; food and tools drawn in code from above; ingredient chips drop in; dark step card with big step number; timer ring drains per step.",
+  "voice": "Kokoro af_heart",
+  "orientation": "portrait",
+  "stills": [
+    "assets/recipe-steps/still-1.jpg",
+    "assets/recipe-steps/still-2.jpg",
+    "assets/recipe-steps/still-3.jpg",
+    "assets/recipe-steps/still-4.jpg",
+    "assets/recipe-steps/still-5.jpg",
+    "assets/recipe-steps/still-6.jpg"
+  ],
+  "video": "assets/recipe-steps/demo.mp4",
+  "duration_s": 14.0,
+  "resolution": "720x1280",
+  "fps": 24,
+  "video_bytes": 1406363,
+  "stills_bytes": 582060
+}

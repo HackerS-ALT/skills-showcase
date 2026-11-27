@@ -1,0 +1,28 @@
+{
+ "slug": "paper-atlas",
+ "name": "Paper Atlas",
+ "family": "Faceless Shorts",
+ "description": "Storybook, curious, grand. Every shape is cut paper on aged parchment (a light paper edge and a soft drop shadow), maps with crimson routes, gold date ribbons, wax seals, simple period figures, captions on torn paper strips.",
+ "best_use_cases": [
+  "History told through maps and places",
+  "Grand historical events: fires, voyages, cities",
+  "Storybook history for all ages"
+ ],
+ "style": "Cut paper on aged parchment with crimson routes and gold ribbons",
+ "voice": "Kokoro af_heart",
+ "orientation": "portrait",
+ "stills": [
+  "assets/paper-atlas/still-1.jpg",
+  "assets/paper-atlas/still-2.jpg",
+  "assets/paper-atlas/still-3.jpg",
+  "assets/paper-atlas/still-4.jpg",
+  "assets/paper-atlas/still-5.jpg",
+  "assets/paper-atlas/still-6.jpg"
+ ],
+ "video": "assets/paper-atlas/demo.mp4",
+ "duration_s": 10.27,
+ "resolution": "1080x1920",
+ "fps": 30,
+ "video_bytes": 2235519,
+ "stills_bytes": 649574
+}

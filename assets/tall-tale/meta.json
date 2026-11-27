@@ -1,0 +1,28 @@
+{
+ "slug": "tall-tale",
+ "name": "Tall Tale",
+ "family": "faceless-shorts",
+ "description": "Flat 2D cartoon people with thick ink outlines, big round white heads and bean bodies acting inside a sunny, saturated 3D world of small-town streets, shops, meadows and trains. Playful, clever and a little cheeky, with the camera moving in every shot.",
+ "best_use_cases": [
+  "Funny true stories from history",
+  "Light-hearted documented anecdotes with expressive characters",
+  "Playful cartoon Shorts with word-by-word captions"
+ ],
+ "style": "Faceless-shorts \u2014 flat 2D toon people in a sunny saturated 3D world, thick ink outlines",
+ "voice": "Kokoro af_heart",
+ "orientation": "portrait",
+ "stills": [
+  "assets/tall-tale/still-1.jpg",
+  "assets/tall-tale/still-2.jpg",
+  "assets/tall-tale/still-3.jpg",
+  "assets/tall-tale/still-4.jpg",
+  "assets/tall-tale/still-5.jpg",
+  "assets/tall-tale/still-6.jpg"
+ ],
+ "video": "assets/tall-tale/demo.mp4",
+ "duration_s": 12.0,
+ "resolution": "1080x1920",
+ "fps": 30,
+ "video_bytes": 8033003,
+ "stills_bytes": 1238174
+}
