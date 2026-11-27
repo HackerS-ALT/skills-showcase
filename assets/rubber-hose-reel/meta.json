@@ -1,0 +1,28 @@
+{
+  "slug": "rubber-hose-reel",
+  "name": "Rubber Hose Reel",
+  "family": "Character Story",
+  "description": "A 1930s black-and-white cartoon: an original rubber-hose character with noodle limbs, pie-cut eyes and white gloves bouncing on the beat, on a grey painted set, with film flicker, dust, scratches, a gate weave and art-deco title cards. The whole short bounces to the music: the character and even the props squash and stretch on every beat. Title cards in an art-deco frame open each act, the gag builds in three beats with exaggerated takes, and an iris closes on THE END.",
+  "best_use_cases": [
+    "Vintage 1930s cartoon-style storytelling",
+    "Character comedy with squash-and-stretch gags",
+    "Music-driven bouncy animation"
+  ],
+  "style": "1930s black-and-white cartoon; original rubber-hose character with noodle limbs, pie-cut eyes and white gloves; grey painted set; film flicker, dust, scratches, gate weave; art-deco title cards.",
+  "voice": "Kokoro af_heart",
+  "orientation": "portrait",
+  "stills": [
+    "assets/rubber-hose-reel/still-1.jpg",
+    "assets/rubber-hose-reel/still-2.jpg",
+    "assets/rubber-hose-reel/still-3.jpg",
+    "assets/rubber-hose-reel/still-4.jpg",
+    "assets/rubber-hose-reel/still-5.jpg",
+    "assets/rubber-hose-reel/still-6.jpg"
+  ],
+  "video": "assets/rubber-hose-reel/demo.mp4",
+  "duration_s": 14.0,
+  "resolution": "720x1280",
+  "fps": 24,
+  "video_bytes": 16180726,
+  "stills_bytes": 777431
+}
