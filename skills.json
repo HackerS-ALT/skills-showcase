@@ -1,6 +1,6 @@
 {
   "count": 86,
-  "done": 84,
+  "done": 85,
   "skills": [
     {
       "slug": "bio-glow",
@@ -1791,20 +1791,33 @@
     },
     {
       "slug": "riso",
-      "name": "riso",
-      "family": "cth-animate",
-      "family_key": "cth-animate",
-      "status": "text",
-      "description": "A three-ink risograph print on cream paper: halftone screens at their own angles, overprints instead of mixed colours, plates a few pixels off register and ink dropouts that sparkle in the darks. Flat, bright and a little worn.",
+      "name": "Riso",
+      "family": "Print",
+      "description": "A three-ink risograph print on cream paper: halftone screens at their own angles, overprints instead of mixed colours, plates a few pixels off register, ink dropouts that sparkle in the darks. Flat, bright, a little worn, on 2s. A spark gains a ray each era and ends as the answer: a market stall where a small blueberry character picks a fresh orange under a striped awning.",
       "best_use_cases": [
-        "Bold print-style posters in motion",
-        "Bright, textured explainers with a risograph feel",
-        "Art-led stories with flat colour and halftone"
+        "Risograph-style print animation",
+        "Retro zine and poster looks",
+        "Warm, textured explainer stories"
       ],
-      "style": "cth-animate \u2014 three-ink risograph on cream, halftone screens, off-register overprints",
+      "style": "Three-ink risograph print on cream paper; halftone screens at their own angles; overprints instead of mixed colours; plates a few pixels off register; ink dropouts; flat, bright, a little worn, on 2s.",
       "voice": "Kokoro af_heart",
-      "stills": [],
-      "video": ""
+      "orientation": "portrait",
+      "stills": [
+        "assets/riso/still-1.jpg",
+        "assets/riso/still-2.jpg",
+        "assets/riso/still-3.jpg",
+        "assets/riso/still-4.jpg",
+        "assets/riso/still-5.jpg",
+        "assets/riso/still-6.jpg"
+      ],
+      "video": "assets/riso/demo.mp4",
+      "duration_s": 10.0,
+      "resolution": "1080x1920",
+      "fps": 30,
+      "video_bytes": 56637379,
+      "stills_bytes": 5685989,
+      "status": "done",
+      "family_key": "cth-animate"
     },
     {
       "slug": "rubber-hose-reel",
