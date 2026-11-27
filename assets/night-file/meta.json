@@ -1,0 +1,28 @@
+{
+ "slug": "night-file",
+ "name": "Night File",
+ "family": "Faceless Shorts",
+ "description": "Quiet, uneasy, investigative. Dark 3D places with ONE light source, faceless people: witnesses are near-black with a thin red rim light, the person the story is about glows solid red. Typewriter dates and captions, evidence inserts (case files, tickets, polaroids, red circles), film grain, slow camera.",
+ "best_use_cases": [
+  "Unsolved mysteries and true crime",
+  "Investigative stories built on evidence",
+  "Dark, slow, atmospheric storytelling"
+ ],
+ "style": "Dark 3D scenes, one light source, red-glowing subject",
+ "voice": "Kokoro af_heart",
+ "orientation": "portrait",
+ "stills": [
+  "assets/night-file/still-1.jpg",
+  "assets/night-file/still-2.jpg",
+  "assets/night-file/still-3.jpg",
+  "assets/night-file/still-4.jpg",
+  "assets/night-file/still-5.jpg",
+  "assets/night-file/still-6.jpg"
+ ],
+ "video": "assets/night-file/demo.mp4",
+ "duration_s": 12.0,
+ "resolution": "1080x1920",
+ "fps": 30,
+ "video_bytes": 6866590,
+ "stills_bytes": 671253
+}
