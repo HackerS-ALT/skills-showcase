@@ -1,6 +1,6 @@
 {
   "count": 86,
-  "done": 74,
+  "done": 75,
   "skills": [
     {
       "slug": "bio-glow",
@@ -1529,20 +1529,33 @@
     },
     {
       "slug": "podcast-clip",
-      "name": "podcast-clip",
-      "family": "nafay-style-library",
-      "family_key": "nafay-style-library",
-      "status": "text",
-      "description": "A vertical podcast clip: two stacked rounded speaker panels on black, host on top and guest below, a green ring on whoever is talking, bold captions in the seam with the key words in yellow, an episode tag and a live waveform at the bottom. Captions appear two to four words at a time in the seam.",
+      "name": "Podcast Clip",
+      "family": "Shorts Format",
+      "description": "A vertical podcast clip: two stacked rounded speaker panels on black (host on top, guest below), a green ring on whoever is talking, bold captions in the seam with the key words in yellow, an episode tag and a live waveform at the bottom.",
       "best_use_cases": [
-        "Vertical podcast clips",
-        "Two-speaker conversation Shorts",
-        "Caption-led clips from a podcast"
+        "Clips from a podcast or interview",
+        "Two-speaker conversations",
+        "Advice or story clips for Shorts and Reels"
       ],
-      "style": "Nafay, Shorts Format \u2014 stacked speaker panels, active-speaker green ring, seam captions, waveform",
+      "style": "Two stacked speaker panels on black with a live waveform",
       "voice": "Kokoro af_heart",
-      "stills": [],
-      "video": ""
+      "orientation": "portrait",
+      "stills": [
+        "assets/podcast-clip/still-1.jpg",
+        "assets/podcast-clip/still-2.jpg",
+        "assets/podcast-clip/still-3.jpg",
+        "assets/podcast-clip/still-4.jpg",
+        "assets/podcast-clip/still-5.jpg",
+        "assets/podcast-clip/still-6.jpg"
+      ],
+      "video": "assets/podcast-clip/demo.mp4",
+      "duration_s": 13.0,
+      "resolution": "720x1280",
+      "fps": 30,
+      "video_bytes": 1876262,
+      "stills_bytes": 377558,
+      "status": "done",
+      "family_key": "nafay-style-library"
     },
     {
       "slug": "pop-info",

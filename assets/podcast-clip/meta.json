@@ -1,0 +1,28 @@
+{
+ "slug": "podcast-clip",
+ "name": "Podcast Clip",
+ "family": "Shorts Format",
+ "description": "A vertical podcast clip: two stacked rounded speaker panels on black (host on top, guest below), a green ring on whoever is talking, bold captions in the seam with the key words in yellow, an episode tag and a live waveform at the bottom.",
+ "best_use_cases": [
+  "Clips from a podcast or interview",
+  "Two-speaker conversations",
+  "Advice or story clips for Shorts and Reels"
+ ],
+ "style": "Two stacked speaker panels on black with a live waveform",
+ "voice": "Kokoro af_heart",
+ "orientation": "portrait",
+ "stills": [
+  "assets/podcast-clip/still-1.jpg",
+  "assets/podcast-clip/still-2.jpg",
+  "assets/podcast-clip/still-3.jpg",
+  "assets/podcast-clip/still-4.jpg",
+  "assets/podcast-clip/still-5.jpg",
+  "assets/podcast-clip/still-6.jpg"
+ ],
+ "video": "assets/podcast-clip/demo.mp4",
+ "duration_s": 13.0,
+ "resolution": "720x1280",
+ "fps": 30,
+ "video_bytes": 1876262,
+ "stills_bytes": 377558
+}
