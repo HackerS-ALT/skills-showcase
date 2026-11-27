@@ -1,6 +1,6 @@
 {
   "count": 86,
-  "done": 62,
+  "done": 63,
   "skills": [
     {
       "slug": "bio-glow",
@@ -2045,20 +2045,33 @@
     },
     {
       "slug": "top-5-countdown",
-      "name": "top-5-countdown",
-      "family": "nafay-style-library",
-      "family_key": "nafay-style-library",
-      "status": "text",
-      "description": "A countdown Short on deep navy: a huge outlined rank number slams in beside an illustrated card drawn in code, with the name in tall Anton caps, a mono detail line, and a ladder of rank dots on the side that tracks where you are. Each rank gets its own beat, and number one gets a bigger hit and a glow.",
+      "name": "Top 5 Countdown",
+      "family": "Shorts Format",
+      "description": "A countdown Short on deep navy: a huge outlined rank number slams in beside an illustrated card drawn in code, with the name in tall Anton caps, a mono detail line, and a ladder of rank dots on the side that tracks where you are. Each rank gets its own beat: a whip cut, the big number slams with a punch zoom, the card slides up with its illustration and the name, the detail line counts up, and the ladder dot moves. Number one gets a bigger hit and a glow.",
       "best_use_cases": [
-        "Top 5 countdown Shorts",
-        "Ranked lists with a punch per rank",
-        "Listicles with a ladder tracker"
+        "Ranking the best of anything in countdown form",
+        "List videos with a big number-one reveal",
+        "Quick ranked explainers"
       ],
-      "style": "Nafay, Shorts Format \u2014 deep navy countdown, huge outlined rank number, Anton caps",
+      "style": "Countdown Short on deep navy; huge outlined rank number slams in beside an illustrated card drawn in code; name in tall Anton caps; mono detail line; ladder of rank dots tracking progress.",
       "voice": "Kokoro af_heart",
-      "stills": [],
-      "video": ""
+      "orientation": "portrait",
+      "stills": [
+        "assets/top-5-countdown/still-1.jpg",
+        "assets/top-5-countdown/still-2.jpg",
+        "assets/top-5-countdown/still-3.jpg",
+        "assets/top-5-countdown/still-4.jpg",
+        "assets/top-5-countdown/still-5.jpg",
+        "assets/top-5-countdown/still-6.jpg"
+      ],
+      "video": "assets/top-5-countdown/demo.mp4",
+      "duration_s": 14.0,
+      "resolution": "720x1280",
+      "fps": 24,
+      "video_bytes": 4029529,
+      "stills_bytes": 573319,
+      "status": "done",
+      "family_key": "nafay-style-library"
     },
     {
       "slug": "versus-split",

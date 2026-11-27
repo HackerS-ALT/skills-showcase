@@ -1,0 +1,28 @@
+{
+  "slug": "top-5-countdown",
+  "name": "Top 5 Countdown",
+  "family": "Shorts Format",
+  "description": "A countdown Short on deep navy: a huge outlined rank number slams in beside an illustrated card drawn in code, with the name in tall Anton caps, a mono detail line, and a ladder of rank dots on the side that tracks where you are. Each rank gets its own beat: a whip cut, the big number slams with a punch zoom, the card slides up with its illustration and the name, the detail line counts up, and the ladder dot moves. Number one gets a bigger hit and a glow.",
+  "best_use_cases": [
+    "Ranking the best of anything in countdown form",
+    "List videos with a big number-one reveal",
+    "Quick ranked explainers"
+  ],
+  "style": "Countdown Short on deep navy; huge outlined rank number slams in beside an illustrated card drawn in code; name in tall Anton caps; mono detail line; ladder of rank dots tracking progress.",
+  "voice": "Kokoro af_heart",
+  "orientation": "portrait",
+  "stills": [
+    "assets/top-5-countdown/still-1.jpg",
+    "assets/top-5-countdown/still-2.jpg",
+    "assets/top-5-countdown/still-3.jpg",
+    "assets/top-5-countdown/still-4.jpg",
+    "assets/top-5-countdown/still-5.jpg",
+    "assets/top-5-countdown/still-6.jpg"
+  ],
+  "video": "assets/top-5-countdown/demo.mp4",
+  "duration_s": 14.0,
+  "resolution": "720x1280",
+  "fps": 24,
+  "video_bytes": 4029529,
+  "stills_bytes": 573319
+}
