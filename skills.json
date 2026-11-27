@@ -1,6 +1,6 @@
 {
   "count": 86,
-  "done": 73,
+  "done": 74,
   "skills": [
     {
       "slug": "bio-glow",
@@ -1666,20 +1666,33 @@
     },
     {
       "slug": "quote-cinema",
-      "name": "quote-cinema",
-      "family": "nafay-style-library",
-      "family_key": "nafay-style-library",
-      "status": "text",
-      "description": "A quiet cinematic quote card: deep warm black, a slow drifting light leak, heavy film grain and a slow push-in, with a quote that sets word by word in a large serif, one key word in warm italic, and a tracked author line. The frame breathes as the quote fades up one word at a time.",
+      "name": "Quote Cinema",
+      "family": "Shorts Format",
+      "description": "A quiet cinematic quote card: deep warm black, a slow drifting light leak, heavy film grain and a slow push-in, with a quote that sets word by word in a large serif, one key word in warm italic, and a tracked author line. The frame breathes: the light leak drifts across, the camera pushes in slowly, and the quote fades up one word at a time in rhythm with the reading. The key word turns warm italic, the author line slides in, and a soft 'save this' note closes it.",
       "best_use_cases": [
-        "Cinematic quote cards",
-        "Slow, reflective quote Shorts",
-        "Words of wisdom with a filmic feel"
+        "Sharing a favourite quote as a cinematic card",
+        "Inspirational quote Shorts",
+        "Slow, moody text-led videos"
       ],
-      "style": "Nafay, Shorts Format \u2014 deep warm black, drifting light leak, film grain, large serif quote",
+      "style": "Quiet cinematic quote card on deep warm black; slow drifting light leak; heavy film grain and slow push-in; quote sets word by word in large serif with one key word in warm italic; tracked author line.",
       "voice": "Kokoro af_heart",
-      "stills": [],
-      "video": ""
+      "orientation": "portrait",
+      "stills": [
+        "assets/quote-cinema/still-1.jpg",
+        "assets/quote-cinema/still-2.jpg",
+        "assets/quote-cinema/still-3.jpg",
+        "assets/quote-cinema/still-4.jpg",
+        "assets/quote-cinema/still-5.jpg",
+        "assets/quote-cinema/still-6.jpg"
+      ],
+      "video": "assets/quote-cinema/demo.mp4",
+      "duration_s": 13.0,
+      "resolution": "720x1280",
+      "fps": 24,
+      "video_bytes": 7952271,
+      "stills_bytes": 553037,
+      "status": "done",
+      "family_key": "nafay-style-library"
     },
     {
       "slug": "recipe-steps",
